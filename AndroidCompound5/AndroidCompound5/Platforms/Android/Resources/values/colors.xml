@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#512BD4</color>
+    <color name="colorPrimaryDark">#2B0B98</color>
+    <color name="colorAccent">#2B0B98</color>
+	<color name="transparent">#00000000</color>
+	<color name="black">#000000</color>
+	<color name="lightgrey">#bbbbbb</color>
+	<color name="grey">#333333</color>
+	<color name="white">#ffffff</color>
+
+	<color name="yellow">#FFD800</color>
+
+	<color name="red">#ff0000</color>
+
+	<color name="listseparator">#2A3748</color>
+	<color name="lawngreen">#7CFC00</color>
+	<color name="green1">#00B900</color>
+	<color name="greensubtitle">#00D51B</color>
+	<color name="blue">#4295DD</color>
+	<color name="bluebutton">#1200FF</color>
+	<color name="signaturecapture_white">#FFFFFFFF</color>
+	<color name="signaturecapture_black">#FF000000</color>
+
+	<!-- New Design -->
+	<color name="bg_login">#26ae90</color>
+	<color name="bg_register">#2e3237</color>
+	<color name="bg_main">#428bca</color>
+	<color name="input_login">#222222</color>
+	<color name="input_login_hint">#999999</color>
+	<color name="input_register">#888888</color>
+	<color name="input_register_bg">#3b4148</color>
+	<color name="input_register_hint">#5e6266</color>
+	<color name="btn_login">#26ae90</color>
+	<color name="btn_login_bg">#eceef1</color>
+	<color name="lbl_name">#333333</color>
+	<color name="btn_logut_bg">#ff6861</color>
+
+	<color name="btn_login_click">#C9CED5</color>
+	<color name="action_bar_colour">#232323</color>
+
+	<color name="edittext">#ffffff</color>
+	<color name="edittext_disable">#C9CED5</color>
+
+	<color name="button_search">#ffffff</color>
+	<color name="button_search_disable">#C9CED5</color>
+
+	<color name="tab_active">#26ae90</color>
+	<color name="tab">#13604e</color>
+
+	<color name="label_color">#428bca</color>
+	<color name="bg_form">#ffffff</color>
+	<color name="input_enable">#eceef1</color>
+	<color name="input_disable">#C9CED5</color>
+	<color name="bg_button">#428bca</color>
+	<color name="bg_button_disable">#C9CED5</color>
+</resources>

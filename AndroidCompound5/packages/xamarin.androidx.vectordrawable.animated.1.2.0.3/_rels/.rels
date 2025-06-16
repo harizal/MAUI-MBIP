@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+  <Relationship Type="http://schemas.microsoft.com/packaging/2010/07/manifest" Target="/Xamarin.AndroidX.VectorDrawable.Animated.nuspec" Id="RC7863873E17F37C1" />
+  <Relationship Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties" Target="/package/services/metadata/core-properties/5e035988875a49a59940d5819ab81e34.psmdcp" Id="RCD3908DCC239C888" />
+</Relationships>
