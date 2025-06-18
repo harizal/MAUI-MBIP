@@ -7,6 +7,7 @@ using Java.Lang;
 using Exception = System.Exception;
 using AndroidCompound5.BusinessObject.DTOs;
 using AndroidCompound5.BusinessObject.DTOs.Responses;
+using AndroidCompound5.AimforceUtils;
 
 namespace AndroidCompound5
 {

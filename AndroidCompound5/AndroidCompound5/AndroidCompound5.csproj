@@ -60,6 +60,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Remove="AimforceUtils\BarcodeImage.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
@@ -69,15 +73,6 @@
 	<ItemGroup>
 	  <Reference Include="WoosimLib257">
 	    <HintPath>..\references\WoosimLib257.dll</HintPath>
-	  </Reference>
-	  <Reference Include="ZXing.Net.Mobile.Core">
-	    <HintPath>..\packages\ZXing.Net.Mobile.2.4.1\lib\MonoAndroid71\ZXing.Net.Mobile.Core.dll</HintPath>
-	  </Reference>
-	  <Reference Include="zxing.portable">
-	    <HintPath>..\packages\ZXing.Net.Mobile.2.4.1\lib\MonoAndroid71\zxing.portable.dll</HintPath>
-	  </Reference>
-	  <Reference Include="ZXingNetMobile">
-	    <HintPath>..\packages\ZXing.Net.Mobile.2.4.1\lib\MonoAndroid71\ZXingNetMobile.dll</HintPath>
 	  </Reference>
 	</ItemGroup>
 

@@ -11,6 +11,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using AndroidCompound5.AimforceUtils;
 using Java.Lang;
 using Java.Util;
 
@@ -188,7 +189,7 @@ namespace AndroidCompound5
         /// with a device. It runs straight through; the connection either
         /// succeeds or fails.
         /// </summary>
-        protected class ConnectThread : Thread
+        protected class ConnectThread : Java.Lang.Thread
         {
             private BluetoothSocket socket;
             private readonly BluetoothDevice device;
@@ -266,7 +267,7 @@ namespace AndroidCompound5
         /// This thread runs during a connection with a remote device.
         /// It handles all incoming and outgoing transmissions.
         /// </summary>
-        private class ConnectedThread : Thread
+        private class ConnectedThread : Java.Lang.Thread
         {
             private BluetoothSocket socket;
             private Stream inStream;

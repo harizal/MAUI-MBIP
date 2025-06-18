@@ -1,6 +1,4 @@
 ﻿using Android.Graphics;
-using ZXing.Common;
-
 namespace AndroidCompound5.AimforceUtils
 {
 	public static class BarcodeImage

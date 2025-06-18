@@ -9,8 +9,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using ZXing;
-using ZXing.Common;
 using Application = Android.App.Application;
 using Color = Android.Graphics.Color;
 using Paint = Android.Graphics.Paint;
@@ -3569,9 +3567,11 @@ namespace AndroidCompound5
 
         private PrintImageDto CreateBarcodeImage(int positionX, int positionY, string sValue, int size, BarcodeAlign align = BarcodeAlign.Left)
         {
-            var bitmap = BarcodeImage.CreateBitmapBarcode2(sValue, size);
+            //TODO
+            //var bitmap = BarcodeImage.CreateBitmapBarcode2(sValue, size);
+            var bitmap = Bitmap.CreateBitmap(50, 20, Bitmap.Config.Argb8888);
 
-            var printImage = new PrintImageDto
+			var printImage = new PrintImageDto
             {
                 IsLogo = true,
                 Bitmap = bitmap
@@ -3608,9 +3608,11 @@ namespace AndroidCompound5
         {
             //            var bitmap = BarcodeImage.CreateBitmapBarcodePDF417(sValue, size, 200, 5);
             align = BarcodeAlign.Left;
-            var bitmap = BarcodeImage.CreateBitmapBarcodePDF417(sValue, 2000, 200, 5);
+			//TODO
+			//var bitmap = BarcodeImage.CreateBitmapBarcodePDF417(sValue, 2000, 200, 5);
+			var bitmap = Bitmap.CreateBitmap(50, 20, Bitmap.Config.Argb8888);
 
-            var printImage = new PrintImageDto
+			var printImage = new PrintImageDto
             {
                 IsLogo = true,
                 Bitmap = bitmap
@@ -3652,9 +3654,10 @@ namespace AndroidCompound5
         {
             //var bitmap = BarcodeImage.CreateBitmapBarcodePDF417(sValue, size, 200, 5);
             align = BarcodeAlign.Left;
-            var bitmap = BarcodeImage.CreateBitmapBarcodeQRCode(sValue, 125, 125, 5);
+			//var bitmap = BarcodeImage.CreateBitmapBarcodeQRCode(sValue, 125, 125, 5);
+			var bitmap = Bitmap.CreateBitmap(50, 20, Bitmap.Config.Argb8888);
 
-            var printImage = new PrintImageDto
+			var printImage = new PrintImageDto
             {
                 IsLogo = true,
                 Bitmap = bitmap
@@ -3690,26 +3693,28 @@ namespace AndroidCompound5
         {
             try
             {
-                ZXing.OneD.Code128Writer code128Writer = new ZXing.OneD.Code128Writer();
-                BitMatrix bitMatrix = new MultiFormatWriter().encode(noKompaun, BarcodeFormat.CODE_128, 660, 264); //code128Writer.encode(noKompaun, ZXing.BarcodeFormat.CODE_128, 1, 1);
-                var width = bitMatrix.Width;
-                var height = bitMatrix.Height;
-                int[] pixelsImage = new int[width * height];
-                for (int i = 0; i < height; i++)
-                {
-                    for (int j = 0; j < width; j++)
-                    {
-                        if (bitMatrix[j, i])
-                            pixelsImage[i * width + j] = (int)Convert.ToInt64(0xff000000);
-                        else
-                            pixelsImage[i * width + j] = (int)Convert.ToInt64(0xffffffff);
-
-                    }
-                }
-                Bitmap bitmap = Bitmap.CreateBitmap(width, height, Bitmap.Config.Argb8888);
-                bitmap.SetPixels(pixelsImage, 0, width, 0, 0, width, height);
-
-                return bitmap;
+                //TODO
+                return null;
+                // ZXing.OneD.Code128Writer code128Writer = new ZXing.OneD.Code128Writer();
+                // BitMatrix bitMatrix = new MultiFormatWriter().encode(noKompaun, BarcodeFormat.CODE_128, 660, 264); //code128Writer.encode(noKompaun, ZXing.BarcodeFormat.CODE_128, 1, 1);
+                // var width = bitMatrix.Width;
+                // var height = bitMatrix.Height;
+                // int[] pixelsImage = new int[width * height];
+                // for (int i = 0; i < height; i++)
+                // {
+                //     for (int j = 0; j < width; j++)
+                //     {
+                //         if (bitMatrix[j, i])
+                //             pixelsImage[i * width + j] = (int)Convert.ToInt64(0xff000000);
+                //         else
+                //             pixelsImage[i * width + j] = (int)Convert.ToInt64(0xffffffff);
+                // 
+                //     }
+                // }
+                // Bitmap bitmap = Bitmap.CreateBitmap(width, height, Bitmap.Config.Argb8888);
+                // bitmap.SetPixels(pixelsImage, 0, width, 0, 0, width, height);
+                // 
+                // return bitmap;
             }
             catch (System.Exception)
             {
