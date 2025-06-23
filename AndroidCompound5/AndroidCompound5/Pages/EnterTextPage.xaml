@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AndroidCompound5.Pages.EnterTextPage"
+             Title="Masuk Data">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="saveMenu" IconImageSource="iconsave.png" Clicked="saveMenu_Clicked"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <VerticalStackLayout Padding="10">
+        <Border Stroke="{StaticResource White}" BackgroundColor="{StaticResource White}" HorizontalOptions="FillAndExpand">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+            </Border.StrokeShape>
+            <Editor 
+             x:Name="txtText"
+             HeightRequest="200"
+             HorizontalOptions="FillAndExpand"
+             VerticalOptions="FillAndExpand"
+             Margin="10">
+                <Editor.Keyboard>
+                    <Keyboard x:FactoryMethod="Create">
+                        <x:Arguments>
+                            <KeyboardFlags>CapitalizeCharacter</KeyboardFlags>
+                        </x:Arguments>
+                    </Keyboard>
+                </Editor.Keyboard>
+            </Editor>
+        </Border>
+
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AndroidCompound5.Pages.SemakPassPage"
+                         Title="Semak Petak Bermusim/Sementara"
+             Background="{StaticResource Primary}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="saveMenu" IconImageSource="iconsave.png" Clicked="saveMenu_Clicked"></ToolbarItem>
+        <ToolbarItem x:Name="imageMenu" IconImageSource="camera.png" Clicked="imageMenu_Clicked"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+    <ScrollView>
+        <StackLayout Margin="10">
+            <Label x:Name="lblJalan" Text="JALAN SUNGAI DANGSA" FontSize="Medium" TextColor="White"></Label>
+            <Line Stroke="Black" X2="{Binding Width, Source={RelativeSource Self}}" VerticalOptions="End" StrokeThickness="1" />
+
+            <Label Text="No. Petak" FontSize="Medium" TextColor="White" Padding="0, 10, 0, 0"></Label>
+            <Border Stroke="{StaticResource Gray100}" Background="{StaticResource White}">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                </Border.StrokeShape>
+                <Entry x:Name="txtNoPetak" 
+                       Margin="0,0" TextTransform="Uppercase" TextColor="{StaticResource Black}"></Entry>
+            </Border>
+
+            <Button x:Name="btnSemak" Text="SUBMIT" Margin="0, 10, 0, 20" CornerRadius="10" FontAttributes="Bold" TextColor="{StaticResource Black}"
+                    BackgroundColor="{StaticResource PrimaryDark}" Clicked="btnSemak_Clicked"></Button>
+
+            <Line Stroke="Black" X2="{Binding Width, Source={RelativeSource Self}}" VerticalOptions="End" StrokeThickness="1" />
+            <Label Text="Nama Pemohon" FontSize="Medium" TextColor="White" Padding="0, 10, 0, 0"></Label>
+            <Border Stroke="{StaticResource Gray100}" Background="{StaticResource Gray100}">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                </Border.StrokeShape>
+                <Entry x:Name="lblNamaPemohon"
+                    Margin="0,0" TextTransform="Uppercase" TextColor="{StaticResource Black}" IsEnabled="False"></Entry>
+            </Border>
+            <Label Text="Taraf Petak" FontSize="Medium" TextColor="White" Padding="0, 5, 0, 0"></Label>
+            <Border Stroke="{StaticResource Gray100}" Background="{StaticResource Gray100}">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                </Border.StrokeShape>
+                <Entry x:Name="lblLotStatus" Margin="0,0" TextTransform="Uppercase" TextColor="{StaticResource Black}" IsEnabled="False"></Entry>
+            </Border>
+            <Label Text="Reason" FontSize="Medium" TextColor="White" Padding="0, 5, 0, 0"></Label>
+            <Border Stroke="{StaticResource White}" BackgroundColor="{StaticResource Gray100}" HorizontalOptions="FillAndExpand">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                </Border.StrokeShape>
+                <Editor  x:Name="txtReasonDesc" HeightRequest="75" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="10" IsEnabled="False">
+                    <Editor.Keyboard>
+                        <Keyboard x:FactoryMethod="Create">
+                            <x:Arguments>
+                                <KeyboardFlags>CapitalizeCharacter</KeyboardFlags>
+                            </x:Arguments>
+                        </Keyboard>
+                    </Editor.Keyboard>
+                </Editor>
+            </Border>
+            <Label Text="Catatan" FontSize="Medium" TextColor="White" Padding="0, 5, 0, 0"></Label>
+            <Border Stroke="{StaticResource White}" BackgroundColor="{StaticResource White}" HorizontalOptions="FillAndExpand">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                </Border.StrokeShape>
+                <Editor x:Name="txtRemarks" HeightRequest="75" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="10" >
+                    <Editor.Keyboard>
+                        <Keyboard x:FactoryMethod="Create">
+                            <x:Arguments>
+                                <KeyboardFlags>CapitalizeCharacter</KeyboardFlags>
+                            </x:Arguments>
+                        </Keyboard>
+                    </Editor.Keyboard>
+                </Editor>
+            </Border>
+
+            <Label Text="File Gambar" FontSize="Medium" TextColor="White" Padding="0, 10, 0, 0"></Label>
+            <Border Stroke="{StaticResource Gray100}" Background="{StaticResource Gray100}">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                </Border.StrokeShape>
+                <Entry x:Name="txtFileGambar" Margin="0,0" TextTransform="Uppercase" TextColor="{StaticResource Black}" IsEnabled="False"></Entry>
+            </Border>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

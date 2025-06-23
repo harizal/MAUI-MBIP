@@ -1,15 +1,14 @@
-﻿namespace AndroidCompound5
+﻿using AndroidCompound5.Pages;
+
+namespace AndroidCompound5
 {
     public partial class App : Application
     {
         public App()
         {
             InitializeComponent();
-        }
-
-        protected override Window CreateWindow(IActivationState? activationState)
-        {
-            return new Window(new AppShell());
-        }
+			MainPage = new SplashScreenPage();
+			Application.Current.UserAppTheme = AppTheme.Light;
+		}
     }
 }

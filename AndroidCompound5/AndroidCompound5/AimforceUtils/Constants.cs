@@ -303,5 +303,12 @@ namespace AndroidCompound5.AimforceUtils
 		public const int LESSNUM = 11;
 
 
+		public class Message
+		{
+			public const string InfoMessage = "INFO";
+			public const string ErrorMessage = "ERROR";
+			public const string OKMessage = "OK";
+		}
+
 	}
 }

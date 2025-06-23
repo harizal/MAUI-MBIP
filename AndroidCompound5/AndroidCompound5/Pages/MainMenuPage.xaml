@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AndroidCompound5.Pages.MainMenuPage"
+             Background="{StaticResource Primary}"
+             Title="Menu Utama">
+    <VerticalStackLayout Padding="0"
+                         HorizontalOptions="CenterAndExpand"
+                         VerticalOptions="CenterAndExpand">
+
+        <Grid  VerticalOptions="Center" HorizontalOptions="CenterAndExpand" ColumnSpacing="20" RowSpacing="30">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- First Item -->
+            <VerticalStackLayout Grid.Row="0" Grid.Column="0"
+                                 HorizontalOptions="Center" VerticalOptions="Center"
+                                 Padding="10">
+                <VerticalStackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="IssueKompaun_Tapped"></TapGestureRecognizer>
+                </VerticalStackLayout.GestureRecognizers>
+                <Image Source="iconisukompaun.png"
+                       WidthRequest="100" HeightRequest="100"></Image>
+                <Label Text="Isu Kompaun"
+                       FontSize="Medium"
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center" Padding="10"/>
+            </VerticalStackLayout>
+
+            <!-- Second Item -->
+            <VerticalStackLayout Grid.Row="0" Grid.Column="1"
+                                 HorizontalOptions="Center" VerticalOptions="Center"
+                                 Padding="10">
+                <VerticalStackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="KompaunHarian_Tapped"></TapGestureRecognizer>
+                </VerticalStackLayout.GestureRecognizers>
+                <Image Source="iconkompaunharian.png"
+                       WidthRequest="100" HeightRequest="100"></Image>
+                <Label Text="Kompaun Harian"
+                       FontSize="Medium"
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center" Padding="10"/>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Grid.Row="1" Grid.Column="0"
+                     HorizontalOptions="Center" VerticalOptions="Center"
+                     Padding="10">
+                <VerticalStackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="LihatKompaun_Tapped"></TapGestureRecognizer>
+                </VerticalStackLayout.GestureRecognizers>
+                <Image Source="iconlihatkompaun.png"
+                       WidthRequest="100" HeightRequest="100"></Image>
+                <Label Text="Lihat Kompaun"
+                       FontSize="Medium"
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center" Padding="10"/>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Grid.Row="1" Grid.Column="1"
+                    HorizontalOptions="Center" VerticalOptions="Center"
+                    Padding="10">
+                <VerticalStackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Communication_Tapped"></TapGestureRecognizer>
+                </VerticalStackLayout.GestureRecognizers>
+                <Image Source="iconcomunication.png"
+                       WidthRequest="100" HeightRequest="100"></Image>
+                <Label Text="Komunikasi"
+                    FontSize="Medium"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center" Padding="10"/>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Grid.Row="2" Grid.ColumnSpan="2"
+                    HorizontalOptions="Center" VerticalOptions="Center"
+                    Padding="10">
+                <VerticalStackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"></TapGestureRecognizer>
+                </VerticalStackLayout.GestureRecognizers>
+                <Image Source="iconexit.png"
+                       WidthRequest="100" HeightRequest="100"></Image>
+                <Label Text="Keluar Sistem"
+                    FontSize="Medium"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center" Padding="10"/>
+            </VerticalStackLayout>
+
+        </Grid>
+
+    </VerticalStackLayout>
+</ContentPage>

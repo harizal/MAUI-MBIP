@@ -17,7 +17,15 @@ namespace AndroidCompound5
 {
     public static class GeneralBll
     {
-        public static bool CopyFile(string source, string destination, bool isFullPath)
+		public static string GetExternalStorageDirectory()
+		{
+#if ANDROID
+			var directory = Android.OS.Environment.ExternalStorageDirectory?.AbsolutePath + "/";
+			return directory;
+#endif
+			return string.Empty;
+		}
+		public static bool CopyFile(string source, string destination, bool isFullPath)
         {
             try
             {
@@ -75,10 +83,8 @@ namespace AndroidCompound5
             CreateFolder(strFolder);
             strFolder = GeneralAndroidClass.GetExternalStorageDirectory() + Constants.ProgramPath;
             CreateFolder(strFolder);
-            strFolder = GeneralAndroidClass.GetExternalStorageDirectory() + Constants.ProgramPath + Constants.SendOnlinePath + Constants.ImgsPath;
-            CreateFolder(strFolder);
 
-            var listFolder = new List<string>
+			var listFolder = new List<string>
                             {
                                 Constants.MasterPath,
                                 Constants.TransPath,
@@ -1903,5 +1909,17 @@ namespace AndroidCompound5
             //clean preferences
             SharedPreferences.SaveString(SharedPreferencesKeys.ListPrintData, "");
         }
-    }
+
+		public static void InitAssetFiles()
+		{
+			var listTransFile = GetListTransFiles();
+
+			var pathSource = GetTransPath();
+			foreach (var transFile in listTransFile)
+			{
+				if (!IsFileExist(pathSource + transFile, true))
+					CreateNewFile(pathSource + transFile);
+			}
+		}
+	}
 }

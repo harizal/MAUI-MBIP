@@ -18,6 +18,9 @@ namespace AndroidCompound5
                 return null;
 
             var listEnforcer = EnforcerAccess.GetEnforcerAccess(strFullFileName);
+#if DEBUG
+            return listEnforcer.FirstOrDefault();
+#endif
 
             return listEnforcer.FirstOrDefault(c => c.EnforcerId == id);
             //return result ?? enforcer;
@@ -33,7 +36,9 @@ namespace AndroidCompound5
                 return false;
 
             var listEnforcer = EnforcerAccess.GetEnforcerAccess(strFullFileName);
-
+#if DEBUG
+            return true;
+#endif
             return listEnforcer.Any(enforcerDto => enforcerDto.EnforcerId == userId && enforcerDto.Password == password);
         }
 

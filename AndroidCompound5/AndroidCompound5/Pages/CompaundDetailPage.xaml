@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AndroidCompound5.Pages.CompaundDetailPage"
+                          Title="Kompaund Detail"
+              Background="{StaticResource Primary}">
+    <StackLayout Padding="10">
+        <ListView x:Name="listView" Margin="0, 10, 0, 0" HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="140"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <Label Grid.Row="0" Grid.Column="0" Text="No. Kompaun"
+                                    Padding="5"
+                                    FontSize="Medium"
+                                    TextColor="Black"
+                                    FontAttributes="Italic, Bold" />
+                            <Label Grid.Row="0" Grid.Column="1" Text="{Binding nokompaun}" Padding="5" FontSize="Medium" TextColor="Black" />
+
+                            <Label Grid.Row="1" Grid.Column="0" Text="Tarikh Kompaun"
+                                    Padding="5"
+                                    FontSize="14"
+                                    TextColor="Black"
+                                    FontAttributes="Italic, Bold" />
+                            <Label Grid.Row="1" Grid.Column="1" Text="{Binding tarikhkmp}" Padding="5" FontSize="Medium" TextColor="Black" />
+
+                            <Label Grid.Row="2" Grid.Column="0" Text="Kenderaan"
+                                    Padding="5"
+                                    FontSize="14"
+                                    TextColor="Black"
+                                    FontAttributes="Italic, Bold" />
+                            <Label Grid.Row="2" Grid.Column="1" Text="{Binding nokenderaan}" Padding="5" FontSize="Medium" TextColor="Black" />
+
+                            <Label Grid.Row="3" Grid.Column="0" Text="No. K/P"
+                                    Padding="5"
+                                    FontSize="14"
+                                    TextColor="Black"
+                                    FontAttributes="Italic, Bold" />
+                            <Label Grid.Row="3" Grid.Column="1" Text="{Binding noic}" Padding="5" FontSize="Medium" TextColor="Black" />
+
+                            <Label Grid.Row="4" Grid.Column="0" Text="Nama"
+                                    Padding="5"
+                                    FontSize="14"
+                                    TextColor="Black"
+                                    FontAttributes="Italic, Bold" />
+                            <Label Grid.Row="4" Grid.Column="1" Text="{Binding namasyarikat}" Padding="5" FontSize="Medium" TextColor="Black" />
+
+                            <Label Grid.Row="5" Grid.Column="0" Text="Nama"
+                                    Padding="5"
+                                    FontSize="14"
+                                    TextColor="Black"
+                                    FontAttributes="Italic, Bold" />
+                            <Label Grid.Row="5" Grid.Column="1" Text="{Binding nosyarikat}" Padding="5" FontSize="Medium" TextColor="Black" />
+
+                            <Label Grid.Row="6" Grid.Column="0" Text="Nama"
+                                    Padding="5"
+                                    FontSize="14"
+                                    TextColor="Black"
+                                    FontAttributes="Italic, Bold" />
+                            <Label Grid.Row="6" Grid.Column="1" Text="{Binding namasyarikat}" Padding="5" FontSize="Medium" TextColor="Black" />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

@@ -15,7 +15,7 @@ namespace AndroidCompound5.Classes
 		public static string ReturnCodeFind { get; set; }
 		public static bool FindResult { get; set; }
 
-		public static List<Java.IO.File> FileImages = new List<Java.IO.File>();
+		public static List<string> FileImages = new List<string>();
 
 		public static BluetoothAndroid BluetoothAndroid { get; set; }
 		public static BluetoothSocket BluetoothSocket { get; set; }

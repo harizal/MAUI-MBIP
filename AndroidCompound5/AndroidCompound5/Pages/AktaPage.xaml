@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AndroidCompound5.Pages.AktaPage"
+                          Title="Pilihan"
+             Background="{StaticResource Primary}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Next" IconImageSource="iconnext.png" Order="Primary" Clicked="ToolbarItem_Clicked_1"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <StackLayout Margin="10">
+        <Label Text="Undang Undang" FontSize="Medium" TextColor="White"></Label>
+        <Line Stroke="Black" X2="{Binding Width, Source={RelativeSource Self}}" HorizontalOptions="Fill" StrokeThickness="1" />
+        <StackLayout Orientation="Horizontal" Margin="0, 3, 0, 0" Spacing="5">
+            <Border Stroke="{StaticResource Gray300}" BackgroundColor="{StaticResource Gray300}" WidthRequest="50">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                </Border.StrokeShape>
+                <Entry x:Name="akta_txtAct" Text="001" TextColor="{StaticResource Black}" Margin="0,0" TextTransform="Uppercase" IsEnabled="False"
+               ></Entry>
+            </Border>
+            <Border Stroke="{StaticResource Gray300}" BackgroundColor="{StaticResource Gray300}" HorizontalOptions="FillAndExpand">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                </Border.StrokeShape>
+                <Entry x:Name="akta_txtActDesc" Text="001" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+            </Border>
+        </StackLayout>
+
+        <Label Text="Seksyen" FontSize="Medium" TextColor="White"></Label>
+        <Line Stroke="Black" X2="{Binding Width, Source={RelativeSource Self}}" HorizontalOptions="Fill" StrokeThickness="1" />
+        <StackLayout Orientation="Horizontal" Margin="0, 3, 0, 0" Spacing="5">
+            <Border Stroke="{StaticResource White}" Background="White" WidthRequest="50">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                </Border.StrokeShape>
+                <Entry x:Name="akta_txtOffend" Text="001" Margin="0,0" TextTransform="Uppercase" ></Entry>
+            </Border>
+            <Border Stroke="{StaticResource Gray300}" BackgroundColor="{StaticResource Gray300}" HorizontalOptions="FillAndExpand" Unfocused="Border_Unfocused">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                </Border.StrokeShape>
+                <Entry x:Name="akta_txtOffendDesc" Text="001" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+            </Border>
+            <Button x:Name="akta_btnFindOffend" Text="?" TextColor="{StaticResource Black}"
+            BackgroundColor="{StaticResource PrimaryDark}" FontSize="Medium" FontAttributes="Bold" Clicked="akta_btnFindOffend_Clicked" ></Button>
+        </StackLayout>
+
+    </StackLayout>
+</ContentPage>

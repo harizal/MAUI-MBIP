@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AndroidCompound5.Pages.ViewCompaund3Page"
+             Title="Lihat Kompaun"
+             Background="{StaticResource Primary}">
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem x:Name="cameraMenu" IconImageSource="camera.png" Clicked="cameraMenu_Clicked"></ToolbarItem>
+        <ToolbarItem x:Name="printMenu" IconImageSource="print.png" Clicked="printMenu_Clicked"></ToolbarItem>
+    </TabbedPage.ToolbarItems>
+    <ContentPage Title="BUTIRAN"
+                 Background="{StaticResource Primary}">
+        <ScrollView>
+            <VerticalStackLayout
+                Padding="10, 0, 10, 0">
+                <Label Text="No. Kompaun" FontSize="Medium" TextColor="White" Padding="0, 10, 0, 0"></Label>
+                <Border Stroke="{StaticResource Gray100}" Background="{StaticResource Gray100}">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry x:Name="txtCompound" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+                </Border>
+                <Label Text="Rujukan MPKN" FontSize="Medium" TextColor="White" Padding="0, 5, 0, 0"></Label>
+                <Border Stroke="{StaticResource Gray100}" Background="{StaticResource Gray100}">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry x:Name="txtRujukan" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+                </Border>
+                <Label Text="No. Syarikat" FontSize="Medium" TextColor="White" Padding="0, 5, 0, 0"></Label>
+                <Border Stroke="{StaticResource Gray100}" Background="{StaticResource Gray100}">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry x:Name="txtCompany" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+                </Border>
+                <Label Text="Nama Syarikat" FontSize="Medium" TextColor="White" Padding="0, 5, 0, 0"></Label>
+                <Border Stroke="{StaticResource Gray100}" Background="{StaticResource Gray100}">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry x:Name="txtCompanyName" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+                </Border>
+                <Label Text="No. K/P" FontSize="Medium" TextColor="White" Padding="0, 5, 0, 0"></Label>
+                <Border Stroke="{StaticResource Gray100}" Background="{StaticResource Gray100}">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry x:Name="txtIC" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+                </Border>
+                <Label Text="Nama" FontSize="Medium" TextColor="White" Padding="0, 5, 0, 0"></Label>
+                <Border Stroke="{StaticResource Gray100}" Background="{StaticResource Gray100}">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry x:Name="txtName" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+                </Border>
+                <Label Text="Seksyen" FontSize="Medium" TextColor="White" Padding="0, 5, 0, 0"></Label>
+                <Border Stroke="{StaticResource Gray100}" Background="{StaticResource Gray100}">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry x:Name="txtOffend" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+                </Border>
+                <Label Text="Lokasi" FontSize="Medium" TextColor="White" Padding="0, 5, 0, 0"></Label>
+                <Border Stroke="{StaticResource Gray100}" Background="{StaticResource Gray100}">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry x:Name="txtLocation" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+                </Border>
+                <Label Text="Cara Serah" FontSize="Medium" TextColor="White" Padding="0, 5, 0, 0"></Label>
+                <Border Stroke="{StaticResource Gray100}" Background="{StaticResource Gray100}">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry x:Name="txtDelivery" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+                </Border>
+                <Label Text="Tempat Jadi" FontSize="Medium" TextColor="White" Padding="0, 5, 0, 0"></Label>
+                <Border Stroke="{StaticResource Gray100}" Background="{StaticResource Gray100}" Margin="0, 0, 0, 10">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry x:Name="txtTempatJadi" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+                </Border>
+            </VerticalStackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="ALAMAT"
+                 Background="{StaticResource Primary}">
+        <ScrollView>
+            <VerticalStackLayout Padding="10, 0, 10, 0">
+                <Label Text="No. Kompaun" FontSize="Medium" TextColor="White" Padding="0, 10, 0, 0"></Label>
+                <Border Stroke="{StaticResource Gray100}" Background="{StaticResource Gray100}">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry x:Name="txtCompound2" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+                </Border>
+                <Label Text="Alamat1" FontSize="Medium" TextColor="White" Padding="0, 5, 0, 0"></Label>
+                <Border Stroke="{StaticResource Gray100}" Background="{StaticResource Gray100}">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry x:Name="txtAddress1" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+                </Border>
+                <Label Text="Alamat2" FontSize="Medium" TextColor="White" Padding="0, 5, 0, 0"></Label>
+                <Border Stroke="{StaticResource Gray100}" Background="{StaticResource Gray100}">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry x:Name="txtAddress2" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+                </Border>
+                <Label Text="Alamat3" FontSize="Medium" TextColor="White" Padding="0, 5, 0, 0"></Label>
+                <Border Stroke="{StaticResource Gray100}" Background="{StaticResource Gray100}">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry x:Name="txtAddress3" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+                </Border>
+                <Label Text="ID" FontSize="Medium" TextColor="White" Padding="0, 5, 0, 0"></Label>
+                <Border Stroke="{StaticResource Gray100}" Background="{StaticResource Gray100}">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry x:Name="txtPenguatKuasa" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+                </Border>
+            </VerticalStackLayout>
+        </ScrollView>
+    </ContentPage>
+    </TabbedPage>

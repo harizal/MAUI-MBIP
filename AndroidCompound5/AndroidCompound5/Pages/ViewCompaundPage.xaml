@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AndroidCompound5.Pages.ViewCompaundPage"
+             Title="Cari Kompaun"
+             Background="{StaticResource Primary}">
+    <StackLayout Padding="10">
+        <Label Text="Cari Dengan :" FontSize="Medium"
+                   TextColor="{StaticResource White}"></Label>
+        <Border BackgroundColor="White" StrokeThickness="0" Padding="0" Background="Red" HorizontalOptions="FillAndExpand">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="10"/>
+            </Border.StrokeShape>
+            <Picker x:Name="dropdownPicker" Title="Select an option" BackgroundColor="White" TextColor="Black" HorizontalOptions="FillAndExpand">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>No. Kompaun</x:String>
+                        <x:String>No. Kenderaan</x:String>
+                        <x:String>Seksyen</x:String>
+                        <x:String>Jenis Kenderaan</x:String>
+                        <x:String>Waktu</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+        </Border>
+        <!--<Label Margin="0, 5, 0, 0" Text="Cari" FontSize="Medium" TextColor="{StaticResource White}"></Label>-->
+        <Border Stroke="{StaticResource White}" Background="White" Margin="0, 5">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="10, 10,10,10"></RoundRectangle>
+            </Border.StrokeShape>
+            <Entry x:Name="txtSearchValue" Text="" Margin="0,0" TextTransform="Uppercase"></Entry>
+        </Border>
+
+        <Button x:Name="btnLogin" Text="CARI" Margin="0, 5, 0, 0" CornerRadius="10" FontAttributes="Bold" TextColor="{StaticResource Black}"
+            BackgroundColor="{StaticResource PrimaryDark}" Clicked="btnLogin_Clicked"></Button>
+
+        <ListView x:Name="listView" Margin="0, 10, 0, 0" HasUnevenRows="True" ItemSelected="ListView_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="140"></ColumnDefinition>
+                                <ColumnDefinition Width="2*"></ColumnDefinition>
+                                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Row="0" Grid.Column="0" Text="No. Kompaun"
+                                Padding="5"
+                                FontSize="Medium"
+                                TextColor="Black"
+                                FontAttributes="Italic, Bold" />
+                            <Label Grid.Row="0" Grid.Column="1" Text="{Binding CompundNumber}" Padding="5" FontSize="Medium" TextColor="Black" />
+
+                            <Label Grid.Row="1" Grid.Column="0" Text="ID Penguatkuasa"
+                                Padding="5"
+                                FontSize="14"
+                                TextColor="Black"
+                                FontAttributes="Italic, Bold" />
+                            <Label Grid.Row="1" Grid.Column="1" Text="{Binding EnforcerId}" Padding="5" FontSize="Medium" TextColor="Black" />
+
+                            <Label Grid.Row="2" Grid.Column="0" Text="Penerangan Kesalahan"
+                                Padding="5"
+                                FontSize="14"
+                                TextColor="Black"
+                                FontAttributes="Italic, Bold" />
+                            <Label Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" LineBreakMode="WordWrap"
+                                   Text="{Binding OffendDesc}" Padding="5" FontSize="Medium" TextColor="Black" />
+
+                            <ImageButton Grid.Row="0" Grid.Column="2" Grid.RowSpan="2" Source="iconsend.png"
+                                         WidthRequest="40" HeightRequest="40" Clicked="ImageButton_Clicked" CommandParameter="{Binding}">
+                                <ImageButton.Triggers>
+                                    <DataTrigger TargetType="ImageButton" Binding="{Binding IsOnlineFileExist}" Value="False">
+                                        <Setter Property="IsVisible" Value="False" />
+                                    </DataTrigger>
+                                </ImageButton.Triggers>
+                            </ImageButton>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

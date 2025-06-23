@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AndroidCompound5.Pages.CarianPage"
+             Title="Carian Page"
+             Background="{StaticResource Primary}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="newMenu" IconImageSource="addnew.png" Clicked="newMenu_Clicked"></ToolbarItem>
+        <ToolbarItem x:Name="replaceMenu" IconImageSource="iconreplace.png" Clicked="replaceMenu_Clicked"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <VerticalStackLayout Padding="10">
+        <Border Stroke="{StaticResource White}" Background="White">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="10, 10,10,10"></RoundRectangle>
+            </Border.StrokeShape>
+            <SearchBar x:Name="MySearchBar" Placeholder="Search..." TextChanged="MySearchBar_TextChanged">
+                <SearchBar.CancelButtonColor>
+                    <OnPlatform x:TypeArguments="Color">
+                        <On Platform="Android" Value="Black"></On>
+                    </OnPlatform>
+                </SearchBar.CancelButtonColor>
+            </SearchBar>
+        </Border>
+
+        <ListView x:Name="listView" Margin="0, 3" SelectionMode="Single" ItemSelected="listView_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Label Text="{Binding}" FontSize="Medium" TextColor="White" LineBreakMode="WordWrap"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </VerticalStackLayout>
+</ContentPage>

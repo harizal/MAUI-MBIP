@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AndroidCompound5.Pages.ViewCompaund1Page"
+             Title="Lihat Kompaun"
+             Background="{StaticResource Primary}"
+             Padding="10, 0, 10, 0">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="cameraMenu" IconImageSource="camera.png" Clicked="cameraMenu_Clicked"></ToolbarItem>
+        <ToolbarItem x:Name="printMenu" IconImageSource="print.png" Clicked="printMenu_Clicked"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label Text="No. Kompaun" FontSize="Medium" TextColor="White" Padding="0, 10, 0, 0"></Label>
+            <Border Stroke="{StaticResource Gray100}" Background="{StaticResource Gray100}">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                </Border.StrokeShape>
+                <Entry x:Name="txtCompound" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+            </Border>
+            <Label Text="No. Kenderaan" FontSize="Medium" TextColor="White" Padding="0, 5, 0, 0"></Label>
+            <Border Stroke="{StaticResource Gray100}" Background="{StaticResource Gray100}">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                </Border.StrokeShape>
+                <Entry x:Name="txtCarNum" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+            </Border>
+            <Label Text="No. Cukai Jalan" FontSize="Medium" TextColor="White" Padding="0, 5, 0, 0"></Label>
+            <Border Stroke="{StaticResource Gray100}" Background="{StaticResource Gray100}">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                </Border.StrokeShape>
+                <Entry x:Name="txtRoadTax" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+            </Border>
+            <Label Text="Jenis" FontSize="Medium" TextColor="White" Padding="0, 5, 0, 0"></Label>
+            <Border Stroke="{StaticResource Gray100}" Background="{StaticResource Gray100}">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                </Border.StrokeShape>
+                <Entry x:Name="txtCategory" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+            </Border>
+            <Label Text="Model" FontSize="Medium" TextColor="White" Padding="0, 5, 0, 0"></Label>
+            <Border Stroke="{StaticResource Gray100}" Background="{StaticResource Gray100}">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                </Border.StrokeShape>
+                <Entry x:Name="txtMake" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+            </Border>
+            <Label Text="Lokasi" FontSize="Medium" TextColor="White" Padding="0, 5, 0, 0"></Label>
+            <Border Stroke="{StaticResource Gray100}" Background="{StaticResource Gray100}">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                </Border.StrokeShape>
+                <Entry x:Name="txtLocation" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+            </Border>
+            <Label Text="Petak" FontSize="Medium" TextColor="White" Padding="0, 5, 0, 0"></Label>
+            <Border Stroke="{StaticResource Gray100}" Background="{StaticResource Gray100}">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                </Border.StrokeShape>
+                <Entry x:Name="txtPetak" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+            </Border>
+            <Label Text="ID" FontSize="Medium" TextColor="White" Padding="0, 5, 0, 0"></Label>
+            <Border Stroke="{StaticResource Gray100}" Background="{StaticResource Gray100}">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                </Border.StrokeShape>
+                <Entry x:Name="txtPenguatKuasa" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+            </Border>
+            <Label Text="C.Serah" FontSize="Medium" TextColor="White" Padding="0, 5, 0, 0"></Label>
+            <Border Stroke="{StaticResource Gray100}" Background="{StaticResource Gray100}">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                </Border.StrokeShape>
+                <Entry x:Name="txtSerah" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+            </Border>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

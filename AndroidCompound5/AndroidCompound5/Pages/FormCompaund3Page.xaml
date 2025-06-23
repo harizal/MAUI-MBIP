@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AndroidCompound5.Pages.FormCompaund3Page"
+                         Title="Kompaun"
+             Background="{StaticResource Primary}">
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem x:Name="cameraMenu" IconImageSource="camera.png" Clicked="cameraMenu_Clicked"></ToolbarItem>
+        <ToolbarItem x:Name="nextMenu" IconImageSource="iconnext.png" Text="NEXT" Clicked="nextMenu_Clicked"></ToolbarItem>
+        <ToolbarItem x:Name="newMenu" Order="Secondary" Text="Baru" Clicked="newMenu_Clicked"></ToolbarItem>
+        <ToolbarItem x:Name="aktaMenu" Order="Secondary" Text="Akta" Clicked="aktaMenu_Clicked"></ToolbarItem>
+        <!--<ToolbarItem x:Name="gambarMenu" Order="Secondary" Text="Gambar" Clicked="gambarMenu_Clicked"></ToolbarItem>-->
+        <ToolbarItem x:Name="cardReaderMenu" Order="Secondary" Text="Card Reader" Clicked="cardReaderMenu_Clicked"></ToolbarItem>
+        <ToolbarItem x:Name="printMenu" Order="Secondary" Text="Print" Clicked="printMenu_Clicked"></ToolbarItem>
+    </TabbedPage.ToolbarItems>
+    <ContentPage Title="BUTIRAN"
+             Background="{StaticResource Primary}">
+        <ScrollView>
+            <VerticalStackLayout Padding="10, 0, 10, 0">
+                <Label Text="No. Kompaun" FontSize="Medium" TextColor="White" Padding="0, 10, 0, 0"></Label>
+                <Border Stroke="{StaticResource Gray100}" Background="{StaticResource Gray100}">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry x:Name="txtCompound" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+                </Border>
+                <Label x:Name="lblRujukan" Text="No. SSM / OPAS *" FontSize="Medium" TextColor="Red" Padding="0, 0, 0, 0"></Label>
+                <Border Stroke="{StaticResource White}" BackgroundColor="{StaticResource White}" x:Name="borderRujukan">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry x:Name="txtRujukan" Margin="0,0" TextTransform="Uppercase"></Entry>
+                </Border>
+                <StackLayout>
+                    <Label Text="Kategori" FontSize="Medium" TextColor="White" Padding="0, 0, 0, 0"></Label>
+                    <StackLayout Orientation="Horizontal">
+                        <RadioButton x:Name="rbSyarikat" Content="SYARIKAT" TextColor="White" IsChecked="True" CheckedChanged="RadioButton_CheckedChanged"/>
+                        <RadioButton x:Name="rbIndividu" Content="INDIVIDU" TextColor="White" CheckedChanged="RadioButton_CheckedChanged"/>
+                    </StackLayout>
+                </StackLayout>
+                <Label x:Name="llNoSyarikat" Text="No. Syarikat*" FontSize="Medium" TextColor="Red" Padding="0, 0, 0, 0"></Label>
+                <StackLayout Orientation="Horizontal" Margin="0, 3, 0, 0" Spacing="5" HeightRequest="48" x:Name="noSyarikatSection">
+                    <Border Stroke="{StaticResource White}" BackgroundColor="{StaticResource White}" HorizontalOptions="FillAndExpand">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                        </Border.StrokeShape>
+                        <Entry x:Name="txtCompany" Margin="0,0" TextTransform="Uppercase" TextChanged="enablePrint_TextChanged" ></Entry>
+                    </Border>
+                    <ImageButton x:Name="btnFindCompany" Source="iconsearchcar.png" WidthRequest="50" Clicked="btnFindCompany_Clicked"></ImageButton>
+                </StackLayout>
+                <Label x:Name="llNamaSyarikat" Text="Nama Syarikat" FontSize="Medium" TextColor="White" Padding="0, 0, 0, 0"></Label>
+                <Border Stroke="{StaticResource White}" BackgroundColor="{StaticResource White}" x:Name="borderNamaSyarikat">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry x:Name="txtCompanyName" Margin="0,0" TextTransform="Uppercase"></Entry>
+                </Border>
+                <Label Text="No Kp*" FontSize="Medium" TextColor="Red" Padding="0, 0, 0, 0"></Label>
+                <StackLayout Orientation="Horizontal" Margin="0, 3, 0, 0" Spacing="5" HeightRequest="48">
+                    <Border Stroke="{StaticResource White}" BackgroundColor="{StaticResource White}" HorizontalOptions="FillAndExpand">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                        </Border.StrokeShape>
+                        <Entry x:Name="txtIC" Margin="0,0" TextTransform="Uppercase" Unfocused="txtIC_Unfocused" ></Entry>
+                    </Border>
+                    <ImageButton x:Name="btnFindIC" Source="iconsearchcar.png" WidthRequest="50" Clicked="btnFindIC_Clicked"></ImageButton>
+                </StackLayout>
+                <Label Text="Nama" FontSize="Medium" TextColor="White" Padding="0, 0, 0, 0"></Label>
+                <Border Stroke="{StaticResource White}" BackgroundColor="{StaticResource White}">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry x:Name="txtName" Margin="0,0" TextTransform="Uppercase" TextChanged="enablePrint_TextChanged" Unfocused="txtName_Unfocused"></Entry>
+                </Border>
+                <Label Text="Cara Serah*" FontSize="Medium" TextColor="Red" Padding="0, 0, 0, 0"></Label>
+                <StackLayout Orientation="Horizontal" Margin="0, 3, 0, 0" Spacing="5" HeightRequest="48">
+                    <Border Stroke="{StaticResource White}" BackgroundColor="{StaticResource White}" HorizontalOptions="FillAndExpand">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                        </Border.StrokeShape>
+                        <Entry x:Name="txtDelivery" Margin="0,0" TextTransform="Uppercase" TextChanged="enablePrint_TextChanged" Unfocused="txtDelivery_Unfocused"></Entry>
+                    </Border>
+                    <Button x:Name="btnFindDelivery" Text="?" TextColor="{StaticResource Black}" BackgroundColor="{StaticResource PrimaryDark}" 
+                            FontSize="Medium" FontAttributes="Bold" Clicked="btnFindDelivery_Clicked"></Button>
+                </StackLayout>
+                <Label Text="Lokasi*" FontSize="Medium" TextColor="Red" Padding="0, 0, 0, 0"></Label>
+                <StackLayout Orientation="Horizontal" Margin="0, 3, 0, 0" Spacing="5" HeightRequest="48">
+                    <Border Stroke="{StaticResource White}" BackgroundColor="{StaticResource White}" HorizontalOptions="FillAndExpand">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                        </Border.StrokeShape>
+                        <Entry x:Name="txtLocation" Margin="0,0" TextTransform="Uppercase" TextChanged="enablePrint_TextChanged" Unfocused="txtLocation_Unfocused"></Entry>
+                    </Border>
+                    <Button x:Name="btnFindLocation" Text="?" TextColor="{StaticResource Black}" BackgroundColor="{StaticResource PrimaryDark}" 
+                            FontSize="Medium" FontAttributes="Bold" Clicked="btnFindLocation_Clicked"></Button>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Tempat Jadi" FontSize="Medium" TextColor="White" Padding="0, 0, 0, 0" VerticalOptions="Center"></Label>
+                    <CheckBox x:Name="chkTempatJadi" Color="{StaticResource White}" HorizontalOptions="Start" CheckedChanged="CheckBox_CheckedChanged"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Margin="0, 0, 0, 20" Spacing="5" HeightRequest="48">
+                    <Border Stroke="{StaticResource White}" BackgroundColor="{StaticResource White}" HorizontalOptions="FillAndExpand">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                        </Border.StrokeShape>
+                        <Entry x:Name="txtTempatJadi" Margin="0,0" TextTransform="Uppercase" Unfocused="txtTempatJadi_Unfocused"></Entry>
+                    </Border>
+                    <Button x:Name="btnTempatJadi" Text="?" TextColor="{StaticResource Black}" BackgroundColor="{StaticResource PrimaryDark}" 
+                            FontSize="Medium" FontAttributes="Bold" Clicked="btnTempatJadi_Clicked"></Button>
+                </StackLayout>
+            </VerticalStackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="ALAMAT"
+         Background="{StaticResource Primary}">
+        <ScrollView>
+            <VerticalStackLayout Padding="10, 0, 10, 0">
+                <Label Text="Alamat 1" FontSize="Medium" TextColor="White" Padding="0,10, 0, 0"></Label>
+                <Border Stroke="{StaticResource White}" BackgroundColor="{StaticResource White}">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Editor x:Name="txtAddress1" HeightRequest="75" Margin="10" TextChanged="enablePrint_TextChanged">
+                        <Editor.Keyboard>
+                            <Keyboard x:FactoryMethod="Create">
+                                <x:Arguments>
+                                    <KeyboardFlags>CapitalizeCharacter</KeyboardFlags>
+                                </x:Arguments>
+                            </Keyboard>
+                        </Editor.Keyboard>
+                    </Editor>
+                </Border>
+                <Label Text="Alamat 2" FontSize="Medium" TextColor="White" Padding="0,5, 0, 0"></Label>
+                <Border Stroke="{StaticResource White}" BackgroundColor="{StaticResource White}">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Editor x:Name="txtAddress2" HeightRequest="75" Margin="10">
+                        <Editor.Keyboard>
+                            <Keyboard x:FactoryMethod="Create">
+                                <x:Arguments>
+                                    <KeyboardFlags>CapitalizeCharacter</KeyboardFlags>
+                                </x:Arguments>
+                            </Keyboard>
+                        </Editor.Keyboard>
+                    </Editor>
+                </Border>
+                <Label Text="Alamat 3" FontSize="Medium" TextColor="White" Padding="0,5, 0, 0"></Label>
+                <Border Stroke="{StaticResource White}" BackgroundColor="{StaticResource White}">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Editor x:Name="txtAddress3" HeightRequest="75" Margin="10">
+                        <Editor.Keyboard>
+                            <Keyboard x:FactoryMethod="Create">
+                                <x:Arguments>
+                                    <KeyboardFlags>CapitalizeCharacter</KeyboardFlags>
+                                </x:Arguments>
+                            </Keyboard>
+                        </Editor.Keyboard>
+                    </Editor>
+                </Border>
+            </VerticalStackLayout>
+        </ScrollView>
+    </ContentPage>
+    </TabbedPage>

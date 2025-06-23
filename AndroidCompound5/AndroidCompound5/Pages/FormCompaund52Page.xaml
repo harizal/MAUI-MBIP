@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AndroidCompound5.Pages.FormCompaund52Page"
+                         Title="Kompaun"
+             Background="{StaticResource Primary}"
+             Padding="10, 0, 10, 0">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="noteMenu" IconImageSource="butir.png" Clicked="noteMenu_Clicked"></ToolbarItem>
+        <ToolbarItem x:Name="signatureMenu" IconImageSource="signature.png" Clicked="signatureMenu_Clicked"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label Text="No. Kompaun" FontSize="Medium" TextColor="White" Padding="0, 10, 0, 0"></Label>
+            <Border Stroke="{StaticResource Gray100}" Background="{StaticResource Gray100}">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                </Border.StrokeShape>
+                <Entry x:Name="txtCompound" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+            </Border>
+            <Label Text="Saksi*" FontSize="Medium" TextColor="Red" Padding="0, 0, 0, 0"></Label>
+            <StackLayout Orientation="Horizontal" Margin="0, 3, 0, 0" Spacing="5" HeightRequest="48">
+                <Border Stroke="{StaticResource White}" BackgroundColor="{StaticResource White}" HorizontalOptions="FillAndExpand">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry x:Name="txtWitness" Margin="0,0" TextTransform="Uppercase" TextChanged="txtWitness_TextChanged"></Entry>
+                </Border>
+                <Button x:Name="btnFindWitness" Text="?" TextColor="{StaticResource Black}" BackgroundColor="{StaticResource White}" FontSize="Medium" FontAttributes="Bold" Clicked="btnFindWitness_Clicked"></Button>
+            </StackLayout>
+            <Label Text="Saksi Awam" FontSize="Medium" TextColor="White" Padding="0, 0, 0, 0"></Label>
+            <StackLayout Orientation="Horizontal" Margin="0, 3, 0, 0" Spacing="5" HeightRequest="48">
+                <Border Stroke="{StaticResource White}" BackgroundColor="{StaticResource White}" HorizontalOptions="FillAndExpand">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry x:Name="txtPubWitness" Margin="0,0" TextTransform="Uppercase" ></Entry>
+                </Border>
+            </StackLayout>
+            <Label Text="Nombor Kunci" FontSize="Medium" TextColor="White" Padding="0, 0, 0, 0"></Label>
+            <StackLayout Orientation="Horizontal" Margin="0, 3, 0, 0" Spacing="5" HeightRequest="48">
+                <Border Stroke="{StaticResource White}" BackgroundColor="{StaticResource White}" HorizontalOptions="FillAndExpand">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry x:Name="txtLockKey" Margin="0,0" TextTransform="Uppercase" ></Entry>
+                </Border>
+            </StackLayout>
+            <Label Text="Caj Membuka Kunci(RM)" FontSize="Medium" TextColor="White" Padding="0, 0, 0, 0"></Label>
+            <StackLayout Orientation="Horizontal" Margin="0, 3, 0, 0" Spacing="5" HeightRequest="48">
+                <Border Stroke="{StaticResource White}" BackgroundColor="{StaticResource White}" HorizontalOptions="FillAndExpand">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry x:Name="txtUnLock" Margin="0,0" TextTransform="Uppercase" Keyboard="Numeric"></Entry>
+                </Border>
+            </StackLayout>
+            <Label Text="Caj Mengalih Kend(RM)" FontSize="Medium" TextColor="White" Padding="0, 0, 0, 0"></Label>
+            <StackLayout Orientation="Horizontal" Margin="0, 3, 0, 0" Spacing="5" HeightRequest="48">
+                <Border Stroke="{StaticResource White}" BackgroundColor="{StaticResource White}" HorizontalOptions="FillAndExpand">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry x:Name="txtTow" Margin="0,0" TextTransform="Uppercase" Keyboard="Numeric" ></Entry>
+                </Border>
+            </StackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

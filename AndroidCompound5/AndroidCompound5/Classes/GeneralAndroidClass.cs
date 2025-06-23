@@ -131,14 +131,17 @@ namespace AndroidCompound5.Classes
 			wifiManager.Reconnect();
 		}
 
-		public static void GetBackFileImage(string compoundNumber)
+		public static List<string> GetBackFileImage(string compoundNumber)
 		{
+			var result = new List<string>();
+
 			var listFilePath = GeneralBll.SetFhotoBackByCompoundNumber(compoundNumber);
 
 			foreach (var strPath in listFilePath)
 			{
-				GlobalClass.FileImages.Add(new Java.IO.File(strPath));
+				result.Add(strPath);
 			}
+			return result;
 		}
 
 		public static List<string> ListPermissions()

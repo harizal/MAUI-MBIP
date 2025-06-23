@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AndroidCompound5.Pages.ChangeKawasanPage"
+             Title="Tukar Kawasan"
+             Background="{StaticResource Primary}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save" IconImageSource="iconsave.png" Order="Primary" Clicked="ToolbarItem_Clicked"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <VerticalStackLayout>
+        <StackLayout Margin="10">
+
+            <!--ZON-->
+            <Label Text="ZON" FontSize="Medium"
+           TextColor="White"></Label>
+            <Line Stroke="Black" X2="{Binding Width, Source={RelativeSource Self}}" HorizontalOptions="Fill" StrokeThickness="1" />
+            <StackLayout Orientation="Horizontal" Margin="0, 3, 0, 0" Spacing="5">
+                <Border Stroke="{StaticResource White}" Background="White" WidthRequest="50">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry x:Name="txtMukim" Text="001" Margin="0,0" TextTransform="Uppercase"
+                   TextChanged="txtMukim_TextChanged"></Entry>
+                </Border>
+                <Border Stroke="{StaticResource Gray300}" BackgroundColor="{StaticResource Gray300}" HorizontalOptions="FillAndExpand">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry x:Name="txtDescMukim" Text="001" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+                </Border>
+                <Button x:Name="btnFindMukim" Text="?" TextColor="{StaticResource Black}"
+                BackgroundColor="{StaticResource PrimaryDark}" FontSize="Medium" FontAttributes="Bold"
+                Clicked="btnFindMukim_Clicked"></Button>
+            </StackLayout>
+
+            <!--KAWASAN-->
+            <Label Text="KAWASAN" FontSize="Medium" TextColor="White" Padding="0, 10, 0, 0"></Label>
+            <Line Stroke="Black" X2="{Binding Width, Source={RelativeSource Self}}" HorizontalOptions="Fill" StrokeThickness="1" />
+            <StackLayout Orientation="Horizontal" Margin="0, 3, 0, 0" Spacing="5">
+                <Border Stroke="{StaticResource White}" Background="White" WidthRequest="50">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry x:Name="txtZone" Text="001" Margin="0,0" TextTransform="Uppercase"
+                   TextChanged="txtZone_TextChanged"></Entry>
+                </Border>
+                <Border Stroke="{StaticResource Gray300}" BackgroundColor="{StaticResource Gray300}" HorizontalOptions="FillAndExpand">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5,5,5,5"></RoundRectangle>
+                    </Border.StrokeShape>
+                    <Entry x:Name="txtDescZone" Text="001" Margin="0,0" TextTransform="Uppercase" IsEnabled="False" TextColor="{StaticResource Black}"></Entry>
+                </Border>
+                <Button x:Name="btnFindZone" Text="?" TextColor="{StaticResource Black}"
+                BackgroundColor="{StaticResource PrimaryDark}" FontSize="Medium" FontAttributes="Bold"
+                Clicked="btnFindZone_Clicked"></Button>
+            </StackLayout>
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AndroidCompound5.Pages.RingkasanPage"
+             Title="Kompaun">
+    <Grid Background="{StaticResource Primary}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <BoxView Grid.Row="0" Grid.ColumnSpan="2" Color="{StaticResource Primary}"></BoxView>
+        <Label Grid.Row="1" Grid.Column="0" Text="Tarikh" FontSize="Medium" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center" TextColor="{StaticResource White}" ></Label>
+        <Label Grid.Row="1" Grid.Column="1" Text="Waktu" FontSize="Medium" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center" TextColor="{StaticResource White}" ></Label>
+        <Label x:Name="lblDate" Grid.Row="2" Grid.Column="0" Text="20/01/2025" FontSize="Medium" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center" TextColor="{StaticResource White}" ></Label>
+        <Label x:Name="lblTime" Grid.Row="2" Grid.Column="1" Text="10:10 PM" FontSize="Medium" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center" TextColor="{StaticResource White}" ></Label>
+        <Grid Grid.Row="3" Grid.ColumnSpan="2" Background="{StaticResource Primary}" Padding="20">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0" Text="Jumlah Kompaun" FontSize="Small"
+                   FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" 
+                   TextColor="{StaticResource White}" />
+            <Label x:Name="lblIssued" Grid.Row="0" Grid.Column="1" Margin="10,0,0,0" Text="100000000" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" TextColor="{StaticResource White}" />
+
+            <Label Grid.Row="1" Grid.Column="0" Text="Jumlah Nota" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" TextColor="{StaticResource White}" />
+            <Label x:Name="lblNote" Grid.Row="1" Grid.Column="1" Margin="10,0,0,0" Text="100000000" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" TextColor="{StaticResource White}" />
+
+            <Label Grid.Row="2" Grid.Column="0" Text="Jumlah Gambar" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" TextColor="{StaticResource White}" />
+            <Label x:Name="lblFhoto" Grid.Row="2" Grid.Column="1" Margin="10,0,0,0" Text="1000000000" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" TextColor="{StaticResource White}" />
+
+            <Label Grid.Row="3" Grid.Column="0" Text="Kompaun Mula" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" TextColor="{StaticResource White}" />
+            <Label x:Name="lblStanum" Grid.Row="3" Grid.Column="1" Margin="10,0,0,0" Text="10000000000" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" TextColor="{StaticResource White}" />
+
+            <Label Grid.Row="4" Grid.Column="0" Text="Kompaun Akhir" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" TextColor="{StaticResource White}" />
+            <Label x:Name="lblEndNum" Grid.Row="4" Grid.Column="1" Margin="10,0,0,0" Text="100000000" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" TextColor="{StaticResource White}" />
+
+            <Label Grid.Row="5" Grid.Column="0" Text="Kompaun Belum Hantar" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" TextColor="{StaticResource White}" />
+            <Label x:Name="lblUnSendCompaund" Grid.Row="5" Grid.Column="1" Margin="10,0,0,0" Text="10000000000" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" TextColor="{StaticResource White}" />
+
+            <Label Grid.Row="6" Grid.Column="0" Text="Gambar Belum Hantar" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" TextColor="{StaticResource White}" />
+            <Label x:Name="lblUnSendPhoto" Grid.Row="6" Grid.Column="1" Margin="10,0,0,0" Text="100000000" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" TextColor="{StaticResource White}" />
+
+            <Label Grid.Row="7" Grid.Column="0" Text="Latitude" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" TextColor="{StaticResource White}" />
+            <Label x:Name="lblLatitude" Grid.Row="7" Grid.Column="1" Margin="10,0,0,0" Text="10000000000" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" TextColor="{StaticResource White}" />
+
+            <Label Grid.Row="8" Grid.Column="0" Text="Longitude" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" TextColor="{StaticResource White}" />
+            <Label x:Name="lblLongitude" Grid.Row="8" Grid.Column="1" Margin="10,0,0,0" Text="100000000" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" TextColor="{StaticResource White}" />
+        </Grid>
+        <Button x:Name="btnCetak" Clicked="btnCetak_Clicked" Grid.Row="5" Grid.ColumnSpan="2"
+            Text="CETAK" Margin="10, 30, 10, 10" CornerRadius="10" FontAttributes="Bold" VerticalOptions="End"
+            TextColor="{StaticResource Black}" BackgroundColor="{StaticResource White}" />
+    </Grid>
+</ContentPage>
+    

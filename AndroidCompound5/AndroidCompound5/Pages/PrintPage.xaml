@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AndroidCompound5.Pages.PrintPage"
+             Title="Kompaun">
+    <Grid Background="{StaticResource Primary}" Padding="10">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Image Grid.Row="0" Grid.Column="0" x:Name="Logo" Source="logo.png" WidthRequest="175" HeightRequest="200">
+        </Image>
+        <Label x:Name="lblStatus" Text="Status" HorizontalOptions="Center" TextColor="{StaticResource White}"
+            Grid.Row="1" Grid.Column="0" FontAttributes="Bold" Margin="0, 80, 0, 0"></Label>
+        <Button x:Name="btnBack" VerticalOptions="End" Text="CLOSE" Margin="0, 30, 0, 0" CornerRadius="10" FontAttributes="Bold" TextColor="{StaticResource Black}"
+            Grid.Row="2" Grid.Column="0"  BackgroundColor="{StaticResource PrimaryDark}" Clicked="btnBack_Clicked"></Button>
+    </Grid>
+</ContentPage>

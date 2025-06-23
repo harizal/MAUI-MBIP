@@ -67,76 +67,33 @@ namespace AndroidCompound5
         private int _oneLineSpace = 12;            //alter when setfontsize()
         private int MAXLENGTH = 45;            //alter when setfontsize()
 
-        private Typeface GetTypeFace(int typefaceValue)
+        private string GetTypeFace(int typefaceValue)
         {
-            Typeface typeface;
-            switch (typefaceValue)
-            {
-                case RobotoThin:
-                    typeface = Typeface.CreateFromAsset(Application.Context.Assets, "fonts/Roboto-Thin.ttf");
-                    break;
-                case RobotoThinItalic:
-                    typeface = Typeface.CreateFromAsset(Application.Context.Assets, "fonts/Roboto-ThinItalic.ttf");
-                    break;
-                case RobotoLight:
-                    typeface = Typeface.CreateFromAsset(Application.Context.Assets, "fonts/Roboto-Light.ttf");
-                    break;
-                case RobotoLightItalic:
-                    typeface = Typeface.CreateFromAsset(Application.Context.Assets, "fonts/Roboto-LightItalic.ttf");
-                    break;
-                case RobotoRegular:
-                    typeface = Typeface.CreateFromAsset(Application.Context.Assets, "fonts/Roboto-Regular.ttf");
-                    break;
-                case RobotoItalic:
-                    typeface = Typeface.CreateFromAsset(Application.Context.Assets, "fonts/Roboto-Italic.ttf");
-                    break;
-                case RobotoMedium:
-                    typeface = Typeface.CreateFromAsset(Application.Context.Assets, "fonts/Roboto-Medium.ttf");
-                    break;
-                case RobotoMediumItalic:
-                    typeface = Typeface.CreateFromAsset(Application.Context.Assets, "fonts/Roboto-MediumItalic.ttf");
-                    break;
-                case RobotoBold:
-                    typeface = Typeface.CreateFromAsset(Application.Context.Assets, "fonts/Roboto-Bold.ttf");
-                    break;
-                case RobotoBoldItalic:
-                    typeface = Typeface.CreateFromAsset(Application.Context.Assets, "fonts/Roboto-BoldItalic.ttf");
-                    break;
-                case RobotoBlack:
-                    typeface = Typeface.CreateFromAsset(Application.Context.Assets, "fonts/Roboto-Black.ttf");
-                    break;
-                case RobotoBlackItalic:
-                    typeface = Typeface.CreateFromAsset(Application.Context.Assets, "fonts/Roboto-BlackItalic.ttf");
-                    break;
-                case RobotoCondensed:
-                    typeface = Typeface.CreateFromAsset(Application.Context.Assets, "fonts/Roboto-Condensed.ttf");
-                    break;
-                case RobotoCondensedItalic:
-                    typeface = Typeface.CreateFromAsset(Application.Context.Assets, "fonts/Roboto-CondensedItalic.ttf");
-                    break;
-                case RobotoCondensedBold:
-                    typeface = Typeface.CreateFromAsset(Application.Context.Assets, "fonts/Roboto-BoldCondensed.ttf");
-                    break;
-                case RobotoCondensedBoldItalic:
-                    typeface = Typeface.CreateFromAsset(Application.Context.Assets, "fonts/Roboto-BoldCondensedItalic.ttf");
-                    break;
-                case CybertoothLight:
-                    typeface = Typeface.CreateFromAsset(Application.Context.Assets, "fonts/CybertoothLight.ttf");
-                    break;
-                case datalatin:
-                    typeface = Typeface.CreateFromAsset(Application.Context.Assets, "fonts/data-latin.ttf");
-                    break;
-                case dataunifon:
-                    typeface = Typeface.CreateFromAsset(Application.Context.Assets, "fonts/data-unifon.ttf");
-                    break;
-                case TimesNewRoman:
-                    typeface = Typeface.CreateFromAsset(Application.Context.Assets, "fonts/Times-New-Roman.ttf");
-                    break;
-                default:
-                    return null;
-            }
-            return typeface;
-        }
+			return typefaceValue switch
+			{
+				RobotoThin => "Roboto-Thin",
+				RobotoThinItalic => "Roboto-ThinItalic",
+				RobotoLight => "Roboto-Light",
+				RobotoLightItalic => "Roboto-LightItalic",
+				RobotoRegular => "Roboto-Regular",
+				RobotoItalic => "Roboto-Italic",
+				RobotoMedium => "Roboto-Medium",
+				RobotoMediumItalic => "Roboto-MediumItalic",
+				RobotoBold => "Roboto-Bold",
+				RobotoBoldItalic => "Roboto-BoldItalic",
+				RobotoBlack => "Roboto-Black",
+				RobotoBlackItalic => "Roboto-BlackItalic",
+				RobotoCondensed => "Roboto-Condensed",
+				RobotoCondensedItalic => "Roboto-CondensedItalic",
+				RobotoCondensedBold => "Roboto-BoldCondensed",
+				RobotoCondensedBoldItalic => "Roboto-BoldCondensedItalic",
+				CybertoothLight => "CybertoothLight",
+				datalatin => "data-latin",
+				dataunifon => "data-unifon",
+				TimesNewRoman => "Times-New-Roman",
+				_ => string.Empty,
+			};
+		}
 
 
         public Paint SetTextPaint(Paint.Align align = null)
@@ -153,7 +110,7 @@ namespace AndroidCompound5
                 var typeFace = GetTypeFace(_typeFaceType);
                 if (typeFace != null)
                 {
-                    textPaint.SetTypeface(typeFace);
+                    textPaint.FontFeatureSettings = typeFace;
                 }
             }
             else
@@ -164,12 +121,12 @@ namespace AndroidCompound5
         }
 
 
-        private static int GetApproxXToCenterText(string text, Typeface typeface,
+        private static int GetApproxXToCenterText(string text, string typeface,
            int fontSize, int widthToFitStringInto)
         {
             Paint p = new Paint();
-            p.SetTypeface(typeface);
-            p.TextSize = fontSize;
+			p.FontFeatureSettings = typeface;
+			p.TextSize = fontSize;
             float textWidth = p.MeasureText(text);
             int xOffset = (int)((widthToFitStringInto - textWidth) / 2f) - (int)(fontSize / 2f);
             return xOffset;
@@ -179,7 +136,7 @@ namespace AndroidCompound5
         {
             SetFontSize(Text30);
 
-            Typeface typeface = GetTypeFace(RobotoItalic);
+            string typeface = GetTypeFace(RobotoItalic);
             var xOffSet = GetApproxXToCenterText(textData, typeface, Text30, DefaultWidth);
             var imageDto = CreateText(textData, xOffSet, positionY);
             SetFontNormal();
@@ -190,7 +147,7 @@ namespace AndroidCompound5
         {
             SetFontSize(fontsize);
 
-            Typeface typeface = GetTypeFace(RobotoItalic);
+            string typeface = GetTypeFace(RobotoItalic);
             var xOffSet = GetApproxXToCenterText(textData, typeface, fontsize, DefaultWidth);
             var imageDto = CreateText(textData, xOffSet, positionY);
             SetFontNormal();
