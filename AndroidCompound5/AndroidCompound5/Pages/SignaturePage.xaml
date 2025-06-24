@@ -8,7 +8,7 @@
              xmlns:local="clr-namespace:AndroidCompound5.Pages"
              x:DataType="local:SignaturePage">
     <ContentPage.ToolbarItems>
-        <ToolbarItem x:Name="saveMenu" IconImageSource="iconsave.png" Clicked="saveMenu_Clicked"></ToolbarItem>
+        <ToolbarItem x:Name="saveMenu" IconImageSource="icon_save_actionbar.png" Clicked="saveMenu_Clicked"></ToolbarItem>
         <ToolbarItem x:Name="deleteMenu" IconImageSource="sampah.png" Clicked="deleteMenu_Clicked"></ToolbarItem>
     </ContentPage.ToolbarItems>
     <Grid ColumnDefinitions="*" RowDefinitions="*">

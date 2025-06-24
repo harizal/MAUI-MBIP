@@ -5,7 +5,9 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:AndroidCompound5"
     Shell.FlyoutBehavior="Flyout"
-    Title="AndroidCompound5">
+    Title="AndroidCompound5"
+    TitleColor="Black"
+    BackgroundColor="White">
 
     <ShellContent
         Title="Home"

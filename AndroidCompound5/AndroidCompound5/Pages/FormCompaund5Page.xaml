@@ -7,7 +7,7 @@
              Padding="10, 0, 10, 0">
     <ContentPage.ToolbarItems>
         <ToolbarItem x:Name="cameraMenu" IconImageSource="camera.png" Clicked="cameraMenu_Clicked"></ToolbarItem>
-        <ToolbarItem x:Name="nextMenu" IconImageSource="iconnext.png" Text="NEXT" Clicked="nextMenu_Clicked" ></ToolbarItem>
+        <ToolbarItem x:Name="nextMenu" IconImageSource="iconnextactionbar.png" Text="NEXT" Clicked="nextMenu_Clicked" ></ToolbarItem>
         <ToolbarItem x:Name="newMenu" Order="Secondary" Text="Baru" Clicked="newMenu_Clicked"></ToolbarItem>
         <ToolbarItem x:Name="printMenu" Order="Secondary" Text="Print" Clicked="printMenu_Clicked"></ToolbarItem>
     </ContentPage.ToolbarItems>

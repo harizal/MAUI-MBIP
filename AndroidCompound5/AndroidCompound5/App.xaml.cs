@@ -8,7 +8,6 @@ namespace AndroidCompound5
         {
             InitializeComponent();
 			MainPage = new SplashScreenPage();
-			Application.Current.UserAppTheme = AppTheme.Light;
 		}
     }
 }

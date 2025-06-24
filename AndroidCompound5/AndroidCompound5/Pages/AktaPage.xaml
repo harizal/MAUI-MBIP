@@ -5,7 +5,7 @@
                           Title="Pilihan"
              Background="{StaticResource Primary}">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Next" IconImageSource="iconnext.png" Order="Primary" Clicked="ToolbarItem_Clicked_1"></ToolbarItem>
+        <ToolbarItem Text="Next" IconImageSource="iconnextactionbar.png" Order="Primary" Clicked="ToolbarItem_Clicked_1"></ToolbarItem>
     </ContentPage.ToolbarItems>
     <StackLayout Margin="10">
         <Label Text="Undang Undang" FontSize="Medium" TextColor="White"></Label>

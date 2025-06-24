@@ -7,9 +7,9 @@ namespace AndroidCompound5.AimforceUtils
 #if PM90
         public const string AppVersion = "Version: 1.0.0.57(PM90)";
 #else
-		public const string AppVersion = "Version: 1.0.0.57(HIK)";
+		public const string AppVersion = "Version-MAUI: 0.0.0.1";
 #endif
-		public const int AppVersionNumber = 1057;
+		public const int AppVersionNumber = 0001;
 		public const string AppName = "Sistem Kompaun Android";
 		public const string COMPANYNAME = "Majlis Bandaraya Iskandar Puteri";
 

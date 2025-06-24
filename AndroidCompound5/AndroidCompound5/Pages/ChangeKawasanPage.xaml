@@ -5,7 +5,7 @@
              Title="Tukar Kawasan"
              Background="{StaticResource Primary}">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Save" IconImageSource="iconsave.png" Order="Primary" Clicked="ToolbarItem_Clicked"></ToolbarItem>
+        <ToolbarItem Text="Save" IconImageSource="icon_save_actionbar.png" Order="Primary" Clicked="ToolbarItem_Clicked"></ToolbarItem>
     </ContentPage.ToolbarItems>
     <VerticalStackLayout>
         <StackLayout Margin="10">

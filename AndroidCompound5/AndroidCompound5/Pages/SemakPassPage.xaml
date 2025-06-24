@@ -5,7 +5,7 @@
                          Title="Semak Petak Bermusim/Sementara"
              Background="{StaticResource Primary}">
     <ContentPage.ToolbarItems>
-        <ToolbarItem x:Name="saveMenu" IconImageSource="iconsave.png" Clicked="saveMenu_Clicked"></ToolbarItem>
+        <ToolbarItem x:Name="saveMenu" IconImageSource="icon_save_actionbar.png" Clicked="saveMenu_Clicked"></ToolbarItem>
         <ToolbarItem x:Name="imageMenu" IconImageSource="camera.png" Clicked="imageMenu_Clicked"></ToolbarItem>
     </ContentPage.ToolbarItems>
 

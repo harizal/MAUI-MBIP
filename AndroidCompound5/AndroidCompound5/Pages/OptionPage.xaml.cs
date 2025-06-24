@@ -14,12 +14,12 @@ public partial class OptionPage : ContentPage
 	public OptionPage()
 	{
 		InitializeComponent();
+		SetInit();
 	}
 
 	protected override void OnAppearing()
 	{
-		base.OnAppearing();
-		SetInit();
+		base.OnAppearing();		
 	}
 
 	private async void SetInit()
@@ -174,6 +174,7 @@ public partial class OptionPage : ContentPage
 	{
 		try
 		{
+			_iActive = 2;
 			await StartActivityFindAsync(Constants.FindZone);
 		}
 		catch (System.Exception ex)
@@ -187,6 +188,7 @@ public partial class OptionPage : ContentPage
 	{
 		try
 		{
+			_iActive = 3;
 			await StartActivityFindAsync(Constants.FindAct);
 		}
 		catch (System.Exception ex)
@@ -206,7 +208,10 @@ public partial class OptionPage : ContentPage
 				txtAct.Focus();
 				return;
 			}
-			await StartActivityFindAsync(Constants.FindOffend);
+			_iActive = 4;
+
+			GlobalClass.FindResult = false;
+			await Navigation.PushAsync(new FindOffendPage(HandleAfterBackPage, Constants.FindOffend, "Option", txtAct.Text, ""));
 		}
 		catch (System.Exception ex)
 		{

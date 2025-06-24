@@ -529,13 +529,13 @@ public partial class FormCompaund2Page : ContentPage
 
 	private void SetPrintControl(bool blValue)
 	{
-		printMenu.IconImageSource = blValue ? ImageSource.FromFile("print.ong") : ImageSource.FromFile("printdisable.png");
+		printMenu.IconImageSource = blValue ? ImageSource.FromFile("print.png") : ImageSource.FromFile("print_disable.png");
 		printMenu.IsEnabled = blValue;
 	}
 
 	private void SetNewControl(bool blValue)
 	{
-		addNewMenu.IconImageSource = !blValue ? ImageSource.FromFile("addnewdisable.png") : ImageSource.FromFile("addnew.png");
+		addNewMenu.IconImageSource = !blValue ? ImageSource.FromFile("add_new_disable.png") : ImageSource.FromFile("add_new.png");
 		addNewMenu.IsEnabled = blValue;
 	}
 	private void EnableControl(bool enable)
