@@ -14,7 +14,7 @@ namespace AndroidCompound5
             if (!System.IO.File.Exists(strFullFileName))
                 return null;
 
-            var info = InfoAccess.GetInfoAccess(strFullFileName);
+            var info = InfoAccess.GetInfoAccess();
             if (string.IsNullOrEmpty(info.DolphinId) ||
                 info.DolphinId == "  " ||
                 info.DolphinId == "00")
@@ -27,7 +27,7 @@ namespace AndroidCompound5
             string strFullFileName = GeneralAndroidClass.GetExternalStorageDirectory();
             strFullFileName += Constants.ProgramPath + Constants.MasterPath + Constants.InfoDat;
 
-            InfoAccess.UpdateInfoAccess(strFullFileName, infoDto, formName);
+            InfoAccess.UpdateInfoAccess(infoDto, formName);
         }
 
         public static InfoDto ReInitializeCounter()

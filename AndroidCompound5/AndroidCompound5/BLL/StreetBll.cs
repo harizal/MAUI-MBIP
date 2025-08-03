@@ -17,10 +17,10 @@ namespace AndroidCompound5
             if (!System.IO.File.Exists(strFullFileName))
                 return listStreet;
 
-            return StreetAccess.GetStreetAccess(strFullFileName).Where(c => c.Zone == zone && c.Mukim == mukim).ToList();
+            return StreetAccess.GetStreetAccess().Where(c => c.Zone == zone && c.Mukim == mukim).ToList();
         }
 
-        public static StreetDto GetStreetByCodeAndZone(string code, string zone, string mukim)
+        public static StreetDto? GetStreetByCodeAndZone(string code, string zone, string mukim)
         {
             string strFullFileName = GeneralAndroidClass.GetExternalStorageDirectory();
             strFullFileName += Constants.ProgramPath + Constants.MasterPath + Constants.StreetFil;
@@ -28,7 +28,7 @@ namespace AndroidCompound5
             if (!System.IO.File.Exists(strFullFileName))
                 return null;
 
-            return StreetAccess.GetStreetAccess(strFullFileName).FirstOrDefault(c => c.Code == code && c.Zone == zone && c.Mukim == mukim);
+            return StreetAccess.GetStreetAccess().FirstOrDefault(c => c.Code == code && c.Zone == zone && c.Mukim == mukim) ?? null;
         }
 
     }

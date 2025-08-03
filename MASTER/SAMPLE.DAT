@@ -1,0 +1,96 @@
+EZ
+{PRINT,QSTOP50,STOP2100:
+@215,16:BC128,HIGH 10,WIDE 3||
+
+@215,400:BC128,HIGH 10,WIDE 3|0100000001|
+
+@215,250:FC12G|SALINAN|
+
+@290,10:MF156|KOD HASIL       :|
+
+@290,400:MF156|NO KOMPAUN:|
+
+@290,265:FC12G||
+
+@290,580:MF072|0100000001|
+
+@335,5:MF204|Tarikh: 30-06-2008                                       Waktu : 05:57 P.M.|
+@360,5:MF204|Kepada: 5555 (2222) (Ruj MPKN: 1111)|
+@385,5:MF204|        56666 (NO K/P: 8888)|
+@410,5:MF204|        66, 555|
+@435,5:MF204|        555, 88, 555|
+@460,5:MF204|        888, PAHANG|
+@485,5:MF204|Tempat: Seperti Di atas|
+@510,5:MF204|                                                                                   |
+@540,5:MF204|Peruntukan undang-undang yang berkaitan:|
+@565,5:MF204||
+@590,5:MF204||
+@620,5:MF204|Seksyen           PERUNTUKAN PERUNDANGAN|
+@645,5:MF204|-------         ------------------------|
+@670,5:MF204||
+@670,150:MF204||
+@695,150:MF204||
+@720,150:MF204||
+@745,150:MF204||
+@770,5:MF204|Butir-butir      : |
+@770,150:MF204|MENYEBABKAN JATUH ATAU MENGALIR KE DALAM ANAK SUNGAI BENDA|
+@795,5:MF204|Kesalahan|
+@795,150:MF204|KUMBAHAN SAMDA PEPEJAL ATAU CECAIR|
+@820,150:MF204|                                                                |
+@845,150:MF204|                                                                |
+@870,150:MF204|                                                |
+@1120,5:MF204|Dikeluarkan Oleh: |
+@1145,5:MF204|Saksi           : 1095|
+@1170,5:MF204|Cara Penyerahan : |
+@1200,5:MF107|TEMPOH TAMAT    : 14-7-2008|
+@1720,270:FC12G|0100000001|
+@1865,270:FC12G||
+
+}
+EZ
+{PRINT,QSTOP50,STOP2100:
+@215,16:BC128,HIGH 10,WIDE 3|705|
+
+@215,400:BC128,HIGH 10,WIDE 3|L0100001  |
+
+@290,10:MF156|KOD HASIL       :|
+
+@290,400:MF156|NO KOMPAUN:|
+
+@290,265:FC12G|705     |
+
+@290,580:MF072|L0100001  |
+
+@335,5:MF204|Tarikh: 15-07-2008                                       Waktu : 06:07 P.M.|
+@360,5:MF204|Kepada: AIMFORCE (132313-T) (Ruj MPKN: MPKN132333)|
+@385,5:MF204|        ALI (NO K/P: A13332222)|
+@410,5:MF204|        , |
+@435,5:MF204|        , , |
+@460,5:MF204|        KUANTAN, KUANTAN|
+@485,5:MF204|Tempat: Seperti Di atas|
+@510,5:MF204|                                                                                   |
+@540,5:MF204|Peruntukan undang-undang yang berkaitan:|
+@565,5:MF204|AKTA JALAN, PARIT DAN BANGUNAN 1974 [AKTA 133]                                    |
+@590,5:MF204|                                                                                  |
+@620,5:MF204|Seksyen           PERUNTUKAN PERUNDANGAN|
+@645,5:MF204|-------         ------------------------|
+@670,5:MF204|128            |
+@670,150:MF204|MENYEBABKAN KEROSAKAN HARTA MAJLIS/HARTA AWAM|
+@695,150:MF204|                                                                |
+@720,150:MF204|                                                                |
+@745,150:MF204|                                                                |
+@770,5:MF204|Butir-butir      : |
+@770,150:MF204|TESTING|
+@795,5:MF204|Kesalahan|
+@795,150:MF204|                                                                |
+@820,150:MF204|                                                                |
+@845,150:MF204|                                                                |
+@870,150:MF204|                                           |
+@1120,5:MF204|Dikeluarkan Oleh: 0770|
+@1145,5:MF204|Saksi           : 3570|
+@1170,5:MF204|Cara Penyerahan : DENGAN POS    04D|
+@1200,5:MF107|TEMPOH TAMAT    : 29-7-2008|
+@1720,270:FC12G|L0100001  |
+@1865,270:FC12G|705|
+
+}

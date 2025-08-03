@@ -1,3 +1,11 @@
 AndroidCompound5/.vs/*
 AndroidCompound5/AndroidCompound5/bin/*
 AndroidCompound5/AndroidCompound5/obj/*
+AndroidCompound5/AndroidCompound5.BusinessObject/bin/*
+AndroidCompound5/AndroidCompound5.BusinessObject/obj/*
+AndroidCompound5/AndroidCompound5.DataAccess/bin/*
+AndroidCompound5/AndroidCompound5.DataAccess/obj/*
+AndroidCompound5/AndroidCompound5.Utils/bin/*
+AndroidCompound5/AndroidCompound5.Utils/obj/*
+AndroidCompound5/DataAccess/obj/*
+APK/*

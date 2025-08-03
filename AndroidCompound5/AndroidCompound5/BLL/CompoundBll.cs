@@ -155,7 +155,7 @@ namespace AndroidCompound5
                     {
                         if (GeneralBll.IsFileExist(fileCompoundOnline, true))
                         {
-                            var compoundDto = CompoundAccess.GetCompoundAccess(fileCompoundOnline).FirstOrDefault();
+                            var compoundDto = CompoundAccess.GetCompoundAccess().FirstOrDefault();
                             if (compoundDto != null)
                             {
 
@@ -241,7 +241,7 @@ namespace AndroidCompound5
 
             string strFullFileName = strFolder + Constants.ENQUIRYLOGFIL;
 
-            var listEnquiryLog = EnquiryLogAccess.GetEnquiryLogAccess(strFullFileName).ToList();
+            var listEnquiryLog = EnquiryLogAccess.GetEnquiryLogAccess().ToList();
             if (listEnquiryLog.Count <= 0)
                 return bReturn;
 
@@ -443,7 +443,7 @@ namespace AndroidCompound5
             string strFullFileName = GeneralAndroidClass.GetExternalStorageDirectory();
             strFullFileName += Constants.ProgramPath + Constants.TransPath + Constants.CompoundFil;
 
-            var listCompound = CompoundAccess.GetCompoundAccess(strFullFileName);
+            var listCompound = CompoundAccess.GetCompoundAccess();
             return listCompound.Any(compoundDto => compoundDto.CompNum == compoundNumber);
 
         }
@@ -639,7 +639,7 @@ namespace AndroidCompound5
                 noteDto.EnforcerId = enforcerId;
                 noteDto.NoteDesc = noteValue;
 
-                NoteAccess.AddNoteAccess(strFullFileName, noteDto);
+                NoteAccess.AddNoteAccess(noteDto);
 
                 //update info note contain
                 var info = InfoBll.GetInfo();
@@ -659,7 +659,7 @@ namespace AndroidCompound5
 
         private static bool IsDuplicateCompoundNumber(string strFullFileName, string compoundNumber)
         {
-            var listCompound = CompoundAccess.GetCompoundAccess(strFullFileName);
+            var listCompound = CompoundAccess.GetCompoundAccess();
             return listCompound.Any(compoundDto => compoundDto.CompNum == compoundNumber);
         }
 
@@ -681,7 +681,7 @@ namespace AndroidCompound5
             for (int i = 1; i <= Constants.MaxRetryCompound; i++)
             {
 
-                isSaved = CompoundAccess.AddCompoundAccess(strFullFileName, sLine, compoundDto.CompNum);
+                isSaved = CompoundAccess.AddCompoundAccess(compoundDto);
                 if (isSaved)
                     break;
 
@@ -718,7 +718,7 @@ namespace AndroidCompound5
             //save for compound online
             strFullFileName = GeneralAndroidClass.GetExternalStorageDirectory();
             strFullFileName += Constants.ProgramPath + Constants.SendOnlinePath + compoundDto.CompNum + ".txt";
-            CompoundAccess.AddCompoundAccess(strFullFileName, sLine, compoundDto.CompNum);
+            CompoundAccess.AddCompoundAccess(compoundDto);
 
 
             return Constants.Success;
@@ -864,7 +864,7 @@ namespace AndroidCompound5
                 return false;
             }
 
-            var listCompound = CompoundAccess.GetCompoundAccess(strFullFileName);
+            var listCompound = CompoundAccess.GetCompoundAccess();
             var compoundDto = listCompound.FirstOrDefault(c => c.CompNum == compoundNumber);
             if (compoundDto != null)
             {
@@ -903,7 +903,7 @@ namespace AndroidCompound5
                     //then Create first
                     GeneralBll.CreateNewFile(strFullFileName);
                     //write the update
-                    CompoundAccess.AddCompoundAccess(strFullFileName, compoundLine, compoundDto.CompNum);
+                    CompoundAccess.AddCompoundAccess(compoundDto);
                     //remove the backup
                     File.Delete(strBackupName);
                     return true;
@@ -943,7 +943,7 @@ namespace AndroidCompound5
                 var svc = new WebService(configDto.ServiceUrl, configDto.ServiceUser, configDto.ServicePassword);
 
 
-                var compoundDto = CompoundAccess.GetCompoundAccess(strFullFileName).FirstOrDefault();
+                var compoundDto = CompoundAccess.GetCompoundAccess().FirstOrDefault();
                 if (compoundDto != null)
                 {
                     //send it web service
@@ -988,7 +988,7 @@ namespace AndroidCompound5
                 return null;
             }
 
-            var listCompound = CompoundAccess.GetCompoundAccess(strFullFileName);
+            var listCompound = CompoundAccess.GetCompoundAccess();
 
             return listCompound.FirstOrDefault(c => c.CompNum == compoundNumber);
 
@@ -1009,7 +1009,7 @@ namespace AndroidCompound5
             var listOffend = TableFilBll.GetAllOffend();
 
             var listCompound =
-                CompoundAccess.GetCompoundAccess(strFullFileName).Where(c => c.Deleted != Constants.RecDeleted).ToList();
+                CompoundAccess.GetCompoundAccess().Where(c => c.Deleted != Constants.RecDeleted).ToList();
 
 
             var len = string.IsNullOrEmpty(sSearchKey) ? 0 : sSearchKey.Length;
@@ -1127,7 +1127,7 @@ namespace AndroidCompound5
             logServer.Status = status;
             logServer.End = "10";
 
-            EnquiryLogAccess.AddEnquiryLogFil(logServer, info, Latitude, Longitude);
+            EnquiryLogAccess.AddEnquiryLogFil(logServer);
         }
 
 

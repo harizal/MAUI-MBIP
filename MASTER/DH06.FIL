@@ -1,0 +1,1586 @@
+0901001   0901                                                             09    
+0901002   0901      JALAN NP 1/1                                           09    
+0901003   0901      JALAN NP 1/2                                           09    
+0901004   0901      JALAN NP 1/3                                           09    
+0901005   0901      JALAN NP 1/4                                           09    
+0901006   0901      JALAN NP 2                                             09    
+0901007   0901      JALAN NP 2/1                                           09    
+0901008   0901      JALAN NP 2/2                                           09    
+0901009   0901      JALAN NP 2/3                                           09    
+0901010   0901      JALAN NP 2/4                                           09    
+0901011   0901      JALAN NP 2/5                                           09    
+0901012   0901      JALAN NP 2/6                                           09    
+0901013   0901      JALAN NP 3                                             09    
+0901014   0901      JALAN NP 3/1                                           09    
+0901015   0901      JALAN NP 3/2                                           09    
+0901016   0901      JALAN NP 3/3                                           09    
+0901017   0901      JALAN NP 3/4                                           09    
+0901018   0901      JALAN NP 4                                             09    
+0901019   0901      JALAN NP 4/1                                           09    
+0901020   0901      JALAN NP 4/2                                           09    
+0901021   0901      JALAN NP 4/3                                           09    
+0901022   0901      JALAN NP 4/4                                           09    
+0901023   0901      JALAN NP 4/5                                           09    
+0901024   0901      JALAN NP 4/6                                           09    
+0901025   0901      JALAN NP 4/7                                           09    
+0901026   0901      JALAN NP 4/8                                           09    
+0901027   0901      JALAN NP 4/9                                           09    
+0901028   0901      JALAN NP 4/10                                          09    
+0901029   0901      JALAN NP 5                                             09    
+0901030   0901      JALAN NP 5/1                                           09    
+0901031   0901      JALAN NP 5/2                                           09    
+0901032   0901      JALAN NP 6                                             09    
+0901033   0901      JALAN NP 6/2                                           09    
+0901034   0901      JALAN NP 6/3                                           09    
+0901035   0901      JALAN NP 6/4                                           09    
+0901036   0901      JALAN NP 6/6                                           09    
+0901037   0901      JALAN NP 6/7                                           09    
+0901038   0901      JALAN NP 6/8                                           09    
+0901039   0901      JALAN PERSIARAN NUSA PERDANA                           09    
+0901040   0901      MEDAN NUSA PERINTIS 1                                  09    
+0901041   0901      MEDAN NUSA PERINTIS 2                                  09    
+0901042   0901      MEDAN NUSA PERINTIS 3                                  09    
+0901043   0901      MEDAN NUSA PERINTIS 4                                  09    
+0901044   0901      PERSIARAN NUSA PERINTIS                                09    
+0901045   0901      SUSUR NUSA PERINTIS                                    09    
+0901046   0901      JALAN MEDAN NUSA PERINTIS 1                            09    
+0901047   0901      JALAN NP 1                                             09    
+0901048   0901      JALAN LIMA KEDAI - GELANG PATAH                        09    
+0901049   0901      JALAN NUSA PERINTIS 3                                  09    
+0902001   0902                                                             09    
+0902002   0902      JALAN RAFFLES                                          09    
+0903001   0903                                                             09    
+0903002   0903      MEDAN NUSA PERINTIS 7                                  09    
+0903003   0903      MEDAN NUSA PERINTIS 8                                  09    
+0903004   0903      JALAN NUSA PERINTIS 7/1                                09    
+0903005   0903      JALAN NUSA PERINTIS 7/2                                09    
+0903006   0903      JALAN NUSA PERINTIS 7/3                                09    
+0903007   0903      JALAN NUSA PERINTIS 7/4                                09    
+0903008   0903      JALAN NUSA PERINTIS 8                                  09    
+0903009   0903      JALAN NUSA PERINTIS 8/2                                09    
+0903010   0903      JALAN NUSA PERINTIS 9                                  09    
+0903011   0903      JALAN NUSA PERINTIS 9/1                                09    
+0903012   0903      JALAN NUSA PERINTIS 9/2                                09    
+0903013   0903      JALAN NUSA PERINTIS 9/3                                09    
+0903014   0903      JALAN NUSA PERINTIS 9/4                                09    
+0903015   0903      JALAN NUSA PERINTIS 9/5                                09    
+0903016   0903      JALAN NUSA PERINTIS 10                                 09    
+0903017   0903      JALAN NUSA PERINTIS 10/2                               09    
+0903018   0903      JALAN NUSA PERINTIS 10/3                               09    
+0903019   0903      JALAN NUSA PERINTIS 10/4                               09    
+0903020   0903      JALAN NUSA PERINTIS 10/5                               09    
+0903021   0903      JALAN NUSA PERINTIS 10/6                               09    
+0903022   0903      JALAN NUSA PERINTIS 10/7                               09    
+0903023   0903      MEDAN NUSA PERINTIS 5                                  09    
+0903024   0903      MEDAN NUSA PERINTIS 6                                  09    
+0903025   0903      PERSIARAN NUSA PERINTIS 2                              09    
+0904001   0904                                                             09    
+0904002   0904      JALAN GELANG PATAH - TANJUNG KUPANG                    09    
+0905001   0905                                                             09    
+0905002   0905      JALAN DELIMA 2                                         09    
+0905003   0905      JALAN DELIMA 3                                         09    
+0905004   0905      JALAN KASTURI 1                                        09    
+0905005   0905      JALAN KASTURI 3                                        09    
+0905006   0905      JALAN MELOR                                            09    
+0905007   0905      JALAN MELOR 1                                          09    
+0905008   0905      JALAN MELOR 2                                          09    
+0905009   0905      JALAN MELOR 3                                          09    
+0905010   0905      JALAN MELOR 4                                          09    
+0905011   0905      JALAN PERINDU                                          09    
+0905012   0905      JALAN PERINDU 1                                        09    
+0905013   0905      JALAN PERINDU 2                                        09    
+0905014   0905      JALAN PERINDU 3                                        09    
+0905015   0905      JALAN PERSIARAN LEDANG                                 09    
+0905016   0905      JALAN SEROJA                                           09    
+0905017   0905      JALAN SEROJA 2                                         09    
+0905018   0905      JALAN SEROJA 5                                         09    
+0905019   0905      JALAN SEROJA 6                                         09    
+0905020   0905      JALAN SEROJA 7                                         09    
+0905021   0905      JALAN SEROJA 8                                         09    
+0905022   0905      JALAN TANJUNG                                          09    
+0905023   0905      JALAN TANJUNG 1                                        09    
+0905024   0905      JALAN TANJUNG 2                                        09    
+0905025   0905      JALAN TANJUNG 3                                        09    
+0905026   0905      JALAN SEROJA 3                                         09    
+0905027   0905      JALAN DELIMA                                           09    
+0905028   0905      JALAN SEROJA 1                                         09    
+0906001   0906                                                             09    
+0906002   0906      JALAN INDAH 1                                          09    
+0906003   0906      JALAN INDAH 1/1                                        09    
+0906004   0906      JALAN INDAH 1/2                                        09    
+0906005   0906      JALAN INDAH 1/3                                        09    
+0906006   0906      JALAN INDAH 1/4                                        09    
+0906007   0906      JALAN INDAH 1/5                                        09    
+0906008   0906      JALAN INDAH 1/6                                        09    
+0906009   0906      JALAN INDAH 1/7                                        09    
+0906010   0906      JALAN INDAH 1/8                                        09    
+0906011   0906      JALAN INDAH 1/9                                        09    
+0906012   0906      JALAN INDAH 1/12                                       09    
+0906013   0906      JALAN INDAH 1/13                                       09    
+0906014   0906      JALAN INDAH 1/14                                       09    
+0906015   0906      JALAN INDAH 1/15                                       09    
+0906016   0906      JALAN INDAH 1/16                                       09    
+0906017   0906      JALAN INDAH 1/17                                       09    
+0906018   0906      JALAN INDAH 1/18                                       09    
+0906019   0906      JALAN INDAH 1/21                                       09    
+0906020   0906      JALAN INDAH 1/22                                       09    
+0906021   0906      JALAN INDAH 1/23                                       09    
+0906022   0906      JALAN INDAH 1/24                                       09    
+0906023   0906      JALAN INDAH 1/25                                       09    
+0906024   0906      JALAN INDAH 1/26                                       09    
+0906025   0906      JALAN INDAH 1/27                                       09    
+0906026   0906      JALAN INDAH 1/28                                       09    
+0906027   0906      JALAN INDAH 2/1                                        09    
+0906028   0906      JALAN INDAH 2/2                                        09    
+0906029   0906      JALAN INDAH 2/3                                        09    
+0906030   0906      JALAN INDAH 2/4                                        09    
+0906031   0906      JALAN INDAH 2/5                                        09    
+0906032   0906      JALAN INDAH 2/6                                        09    
+0906033   0906      JALAN INDAH 2/7                                        09    
+0906034   0906      JALAN INDAH 2/8                                        09    
+0906035   0906      JALAN INDAH 2/9                                        09    
+0906036   0906      JALAN INDAH 2/10                                       09    
+0906037   0906      JALAN INDAH 2/11                                       09    
+0906038   0906      JALAN INDAH 3/2                                        09    
+0906039   0906      JALAN INDAH 3/3                                        09    
+0906040   0906      JALAN INDAH 3/4                                        09    
+0906041   0906      JALAN INDAH 3/5                                        09    
+0906042   0906      JALAN INDAH 3/6                                        09    
+0906043   0906      JALAN INDAH 3/7                                        09    
+0906044   0906      JALAN INDAH 3/8                                        09    
+0906045   0906      JALAN INDAH 4/1                                        09    
+0906046   0906      JALAN INDAH 4/2                                        09    
+0906047   0906      JALAN INDAH 4/3                                        09    
+0906048   0906      JALAN INDAH 4/4                                        09    
+0906049   0906      JALAN INDAH 4/5                                        09    
+0906050   0906      JALAN INDAH 4/6                                        09    
+0906051   0906      JALAN INDAH 4/7                                        09    
+0906052   0906      JALAN INDAH 4/8                                        09    
+0906053   0906      JALAN INDAH 4/9                                        09    
+0906054   0906      JALAN INDAH 4/10                                       09    
+0906055   0906      JALAN INDAH 4/11                                       09    
+0906056   0906      JALAN INDAH 4/12                                       09    
+0906057   0906      JALAN INDAH 4/13                                       09    
+0906058   0906      JALAN INDAH 5/1                                        09    
+0906059   0906      JALAN INDAH 5/2                                        09    
+0906060   0906      JALAN INDAH 5/3                                        09    
+0906061   0906      JALAN INDAH 5/4                                        09    
+0906062   0906      JALAN INDAH 5/6                                        09    
+0906063   0906      JALAN INDAH 5/7                                        09    
+0906064   0906      JALAN INDAH 5/9                                        09    
+0906065   0906      JALAN INDAH 5/10                                       09    
+0906066   0906      JALAN INDAH 5/11                                       09    
+0906067   0906      JALAN INDAH 5/12                                       09    
+0906068   0906      JALAN INDAH 5/13                                       09    
+0906069   0906      JALAN INDAH 5/14                                       09    
+0906070   0906      JALAN INDAH 5/15                                       09    
+0906071   0906      JALAN INDAH 5/16                                       09    
+0906072   0906      JALAN INDAH 5/17                                       09    
+0906073   0906      JALAN INDAH 5/18                                       09    
+0906074   0906      JALAN INDAH 5/19                                       09    
+0906075   0906      JALAN INDAH 5/20                                       09    
+0906076   0906      JALAN INDAH 5/21                                       09    
+0906077   0906      JALAN INDAH 5/22                                       09    
+0906078   0906      JALAN INDAH 5/23                                       09    
+0906079   0906      JALAN INDAH 5/24                                       09    
+0906080   0906      JALAN INDAH 5/25                                       09    
+0906081   0906      JALAN INDAH 5/26                                       09    
+0906082   0906      JALAN INDAH 5/27                                       09    
+0906083   0906      JALAN INDAH 6/1                                        09    
+0906084   0906      JALAN INDAH 6/2                                        09    
+0906085   0906      JALAN INDAH 6/3                                        09    
+0906086   0906      JALAN INDAH 6/5                                        09    
+0906087   0906      JALAN INDAH 6/6                                        09    
+0906088   0906      JALAN INDAH 6/7                                        09    
+0906089   0906      JALAN INDAH 7/1                                        09    
+0906090   0906      JALAN INDAH 7/5                                        09    
+0906091   0906      JALAN INDAH 7/6                                        09    
+0906092   0906      JALAN INDAH 7/7                                        09    
+0906093   0906      JALAN INDAH 7/8                                        09    
+0906094   0906      JALAN INDAH 7/9                                        09    
+0906095   0906      JALAN INDAH 7/10                                       09    
+0906096   0906      JALAN INDAH 7/11                                       09    
+0906097   0906      JALAN INDAH 7/12                                       09    
+0906098   0906      JALAN INDAH 7/13                                       09    
+0906099   0906      JALAN INDAH 7/14                                       09    
+0906100   0906      JALAN INDAH 7/15                                       09    
+0906101   0906      JALAN INDAH 7/16                                       09    
+0906102   0906      JALAN INDAH 7/17                                       09    
+0906103   0906      JALAN INDAH 8/1                                        09    
+0906104   0906      JALAN INDAH 8/4                                        09    
+0906105   0906      JALAN INDAH 8/5                                        09    
+0906106   0906      JALAN INDAH 8/6                                        09    
+0906107   0906      JALAN INDAH 8/7                                        09    
+0906108   0906      JALAN INDAH 8/8                                        09    
+0906109   0906      JALAN INDAH 8/9                                        09    
+0906110   0906      JALAN INDAH 8/10                                       09    
+0906111   0906      JALAN INDAH 8/13                                       09    
+0906112   0906      JALAN INDAH 8/15                                       09    
+0906113   0906      JALAN INDAH 9/1                                        09    
+0906114   0906      JALAN INDAH 9/2                                        09    
+0906115   0906      JALAN INDAH 9/3                                        09    
+0906116   0906      JALAN INDAH 9/4                                        09    
+0906117   0906      JALAN INDAH 9/5                                        09    
+0906118   0906      JALAN INDAH 9/6                                        09    
+0906119   0906      JALAN INDAH 10/1                                       09    
+0906120   0906      JALAN INDAH 10/2                                       09    
+0906121   0906      JALAN INDAH 10/3                                       09    
+0906122   0906      JALAN INDAH 10/5                                       09    
+0906123   0906      JALAN INDAH 10/6                                       09    
+0906124   0906      JALAN INDAH 10/7                                       09    
+0906125   0906      JALAN INDAH 10/8                                       09    
+0906126   0906      JALAN INDAH 10/9                                       09    
+0906127   0906      JALAN INDAH 10/10                                      09    
+0906128   0906      JALAN INDAH 10/11                                      09    
+0906129   0906      JALAN INDAH 10/12                                      09    
+0906130   0906      JALAN INDAH 10/13                                      09    
+0906131   0906      JALAN INDAH 10/14                                      09    
+0906132   0906      JALAN INDAH 10/15                                      09    
+0906133   0906      JALAN INDAH 11/2                                       09    
+0906134   0906      JALAN INDAH 11/3                                       09    
+0906135   0906      JALAN INDAH 11/4                                       09    
+0906136   0906      JALAN INDAH 11/5                                       09    
+0906137   0906      JALAN INDAH 11/6                                       09    
+0906138   0906      JALAN INDAH 11/7                                       09    
+0906139   0906      JALAN INDAH 11/8                                       09    
+0906140   0906      JALAN INDAH 11/9                                       09    
+0906141   0906      JALAN INDAH 11/10                                      09    
+0906142   0906      JALAN INDAH 12/1                                       09    
+0906143   0906      JALAN INDAH 12/2                                       09    
+0906144   0906      JALAN INDAH 12/3                                       09    
+0906145   0906      JALAN INDAH 12/4                                       09    
+0906146   0906      JALAN INDAH 12/5                                       09    
+0906147   0906      JALAN INDAH 12/6                                       09    
+0906148   0906      JALAN INDAH 12/7                                       09    
+0906149   0906      JALAN INDAH 12/8                                       09    
+0906150   0906      JALAN INDAH 12/9                                       09    
+0906151   0906      JALAN INDAH 12/10                                      09    
+0906152   0906      JALAN INDAH 12/11                                      09    
+0906153   0906      JALAN INDAH 12/12                                      09    
+0906154   0906      JALAN INDAH 13/2                                       09    
+0906155   0906      JALAN INDAH 13/7                                       09    
+0906156   0906      JALAN INDAH 14/2                                       09    
+0906157   0906      JALAN INDAH 14/3                                       09    
+0906158   0906      JALAN INDAH 14/5                                       09    
+0906159   0906      JALAN INDAH 14/6                                       09    
+0906160   0906      JALAN INDAH 14/7                                       09    
+0906161   0906      JALAN INDAH 14/9                                       09    
+0906162   0906      JALAN INDAH 14/10                                      09    
+0906163   0906      JALAN INDAH 14/11                                      09    
+0906164   0906      JALAN INDAH 14/12                                      09    
+0906165   0906      JALAN INDAH 14/13                                      09    
+0906166   0906      JALAN INDAH 15                                         09    
+0906167   0906      JALAN INDAH 15/1                                       09    
+0906168   0906      JALAN INDAH 15/2                                       09    
+0906169   0906      JALAN INDAH 15/3                                       09    
+0906170   0906      JALAN INDAH 16/4                                       09    
+0906171   0906      JALAN INDAH 16/5                                       09    
+0906172   0906      JALAN INDAH 16/6                                       09    
+0906173   0906      JALAN INDAH 16/7                                       09    
+0906174   0906      JALAN INDAH 16/8                                       09    
+0906175   0906      JALAN INDAH 16/10                                      09    
+0906176   0906      JALAN INDAH 16/11                                      09    
+0906177   0906      JALAN INDAH 16/12                                      09    
+0906178   0906      JALAN INDAH 17/1                                       09    
+0906179   0906      JALAN INDAH 17/2                                       09    
+0906180   0906      JALAN INDAH 17/3                                       09    
+0906181   0906      JALAN INDAH 17/4                                       09    
+0906182   0906      JALAN INDAH 17/6                                       09    
+0906183   0906      JALAN INDAH 17/7                                       09    
+0906184   0906      JALAN INDAH 17/8                                       09    
+0906185   0906      JALAN INDAH 17/9                                       09    
+0906186   0906      JALAN INDAH 17/10                                      09    
+0906187   0906      JALAN INDAH 18/1                                       09    
+0906188   0906      JALAN INDAH 18/2                                       09    
+0906189   0906      JALAN INDAH 18/3                                       09    
+0906190   0906      JALAN INDAH 18/4                                       09    
+0906191   0906      JALAN INDAH 19/1                                       09    
+0906192   0906      JALAN INDAH 19/2                                       09    
+0906193   0906      JALAN INDAH 19/3                                       09    
+0906194   0906      JALAN INDAH 19/4                                       09    
+0906195   0906      JALAN INDAH 19/5                                       09    
+0906196   0906      JALAN INDAH 19/6                                       09    
+0906197   0906      JALAN INDAH 19/7                                       09    
+0906198   0906      JALAN INDAH 19/8                                       09    
+0906199   0906      JALAN INDAH 19/9                                       09    
+0906200   0906      JALAN INDAH 19/10                                      09    
+0906201   0906      JALAN PERSISIRAN SUNGAI DANGA                          09    
+0906202   0906      PERSIARAN SUNGAI DANGA                                 09    
+0906203   0906      JALAN CHANGKAT INDAH                                   09    
+0906204   0906      JALAN INDAH                                            09    
+0906205   0906      JALAN INDAH 10/4                                       09    
+0906206   0906      JALAN INDAH 16/9                                       09    
+0906207   0906      JALAN INDAH 7/3                                        09    
+0906208   0906      JALAN INDAH 8/3                                        09    
+0906209   0906      JALAN PERSIARAN INDAH                                  09    
+0906210   0906      JALAN INDAH 19/1A                                      09    
+0906211   0906      JALAN INDAH 19/2A                                      09    
+0906212   0906      JALAN INDAH 19/3A                                      09    
+0906213   0906      JALAN INDAH 19/4A                                      09    
+0906214   0906      JALAN INDAH 19/4B                                      09    
+0906215   0906      JALAN INDAH 19/6A                                      09    
+0906216   0906      JALAN INDAH 19/7A                                      09    
+0906217   0906      JALAN INDAH UTAMA                                      09    
+0906218   0906      JALAN INDAH 25/1                                       09    
+0906219   0906      JALAN INDAH 25/3                                       09    
+0906220   0906      JALAN INDAH 25/4                                       09    
+0906221   0906      JALAN INDAH 25/7                                       09    
+0906222   0906      JALAN INDAH 25/9                                       09    
+0907001   0907                                                             09    
+0907002   0907      JALAN MEDAN NUSA PERINTIS 12                           09    
+0907003   0907      JALAN NUSA PERINTIS 11                                 09    
+0907004   0907      JALAN NUSA PERINTIS 11/1                               09    
+0907005   0907      JALAN NUSA PERINTIS 11/2                               09    
+0907006   0907      JALAN NUSA PERINTIS 11/3                               09    
+0907007   0907      JALAN NUSA PERINTIS 13                                 09    
+0907008   0907      JALAN NUSA PERINTIS 13/1                               09    
+0907009   0907      JALAN NUSA PERINTIS 13/2                               09    
+0908001   0908                                                             09    
+0908002   0908      JALAN DANGA                                            09    
+0908003   0908      JALAN NB 10/2                                          09    
+0908004   0908      JALAN NB2 1/1                                          09    
+0908005   0908      JALAN NB2 1/3                                          09    
+0908006   0908      JALAN NB2 1/4                                          09    
+0908007   0908      JALAN NB2 1/5                                          09    
+0908008   0908      JALAN NB2 1/6                                          09    
+0908009   0908      JALAN NB2 1/7                                          09    
+0908010   0908      JALAN NB2 1/8                                          09    
+0908011   0908      JALAN NB2 2/1                                          09    
+0908012   0908      JALAN NB2 2/2                                          09    
+0908013   0908      JALAN NB2 2/3                                          09    
+0908014   0908      JALAN NB2 2/4                                          09    
+0908015   0908      JALAN NB2 2/5                                          09    
+0908016   0908      JALAN NB2 2/6                                          09    
+0908017   0908      JALAN NB2 2/7                                          09    
+0908018   0908      JALAN NB2 2/8                                          09    
+0908019   0908      JALAN NB2 3/1                                          09    
+0908020   0908      JALAN NB2 3/2                                          09    
+0908021   0908      JALAN NB2 3/3                                          09    
+0908022   0908      JALAN NB2 3/4                                          09    
+0908023   0908      JALAN NB2 3/5                                          09    
+0908024   0908      JALAN NB2 3/6                                          09    
+0908025   0908      JALAN NB2 3/7                                          09    
+0908026   0908      JALAN NB2 3/8                                          09    
+0908027   0908      JALAN NB2 4/2                                          09    
+0908028   0908      JALAN NB2 4/3                                          09    
+0908029   0908      JALAN NB2 4/4                                          09    
+0908030   0908      JALAN NB2 4/5                                          09    
+0908031   0908      JALAN NB2 4/6                                          09    
+0908032   0908      JALAN NB2 4/7                                          09    
+0908033   0908      JALAN NB2 4/8                                          09    
+0908034   0908      JALAN NB2 5/1                                          09    
+0908035   0908      JALAN NB2 5/2                                          09    
+0908036   0908      JALAN NB2 5/3                                          09    
+0908037   0908      JALAN NB2 5/4                                          09    
+0908038   0908      JALAN NB2 5/5                                          09    
+0908039   0908      JALAN NB2 5/6                                          09    
+0908040   0908      JALAN NB2 5/7                                          09    
+0908041   0908      JALAN NB2 5/8                                          09    
+0908042   0908      JALAN NB2 6/1                                          09    
+0908043   0908      JALAN NB2 6/2                                          09    
+0908044   0908      JALAN NB2 6/3                                          09    
+0908045   0908      JALAN NB2 6/4                                          09    
+0908046   0908      JALAN NB2 6/5                                          09    
+0908047   0908      JALAN NB2 6/6                                          09    
+0908048   0908      JALAN NB2 6/7                                          09    
+0908049   0908      JALAN NB2 7/1                                          09    
+0908050   0908      JALAN NB2 7/2                                          09    
+0908051   0908      JALAN NB2 7/3                                          09    
+0908052   0908      JALAN NB2 7/4                                          09    
+0908053   0908      JALAN NB2 7/5                                          09    
+0908054   0908      JALAN NB2 7/6                                          09    
+0908055   0908      JALAN NB2 7/7                                          09    
+0908056   0908      JALAN NB2 7/8                                          09    
+0908057   0908      JALAN NB2 8/1                                          09    
+0908058   0908      JALAN NB2 8/2                                          09    
+0908059   0908      JALAN NB2 8/4                                          09    
+0908060   0908      JALAN NB2 8/5                                          09    
+0908061   0908      JALAN NB2 8/6                                          09    
+0908062   0908      JALAN NB2 8/7                                          09    
+0908063   0908      JALAN NB2 8/8                                          09    
+0908064   0908      JALAN NB2 9/2                                          09    
+0908065   0908      JALAN NB2 9/4                                          09    
+0908066   0908      JALAN NB2 9/7                                          09    
+0908067   0908      JALAN NB2 9/8                                          09    
+0908068   0908      JALAN NB2 10/1                                         09    
+0908069   0908      JALAN NB2 10/2                                         09    
+0908070   0908      JALAN NB2 10/4                                         09    
+0908071   0908      JALAN NB2 10/7                                         09    
+0908072   0908      JALAN NB2 10/8                                         09    
+0908073   0908      JALAN NB2 11/1                                         09    
+0908074   0908      JALAN NB2 11/4                                         09    
+0908075   0908      JALAN NB2 11/7                                         09    
+0908076   0908      JALAN NB2 11/8                                         09    
+0908077   0908      JALAN NB2 12/1                                         09    
+0908078   0908      JALAN NB2 12/7                                         09    
+0908079   0908      JALAN NB2 13/1                                         09    
+0908080   0908      JALAN NB2 13/7                                         09    
+0908081   0908      JALAN NB2 14/1                                         09    
+0908082   0908      JALAN NB2 14/7                                         09    
+0908083   0908      JALAN NB2 15/1                                         09    
+0908084   0908      JALAN NB2 15/7                                         09    
+0908085   0908      JALAN NB2 16/1                                         09    
+0908086   0908      JALAN NB2 16/7                                         09    
+0908087   0908      JALAN NB2 17/1                                         09    
+0908088   0908      JALAN NB2 18/1                                         09    
+0908089   0908      JALAN NB2 19/1                                         09    
+0908090   0908      JALAN NB2 21/1                                         09    
+0908091   0908      JALAN NB2 6/8                                          09    
+0908092   0908      JALAN NB2 20/1                                         09    
+0909001   0909                                                             09    
+0909002   0909      JALAN JAYA MAS 4                                       09    
+0909003   0909      JALAN JAYA MAS 6                                       09    
+0909004   0909      JALAN NB2 1/4                                          09    
+0909005   0909      JALAN NB2 2/4                                          09    
+0909006   0909      JALAN NB2 5/7                                          09    
+0909007   0909      JALAN NB2 6/7                                          09    
+0909008   0909      JALAN NJM 1/1                                          09    
+0909009   0909      JALAN NJM 1/2                                          09    
+0909010   0909      JALAN NJM 1/3                                          09    
+0909011   0909      JALAN NJM 1/4                                          09    
+0909012   0909      JALAN NJM 1/5                                          09    
+0909013   0909      JALAN NJM 2/1                                          09    
+0909014   0909      JALAN NJM 2/2                                          09    
+0909015   0909      JALAN NJM 2/3                                          09    
+0909016   0909      JALAN NJM 2/4                                          09    
+0909017   0909      JALAN NJM 2/5                                          09    
+0909018   0909      JALAN NJM 3/1                                          09    
+0909019   0909      JALAN NJM 3/2                                          09    
+0909020   0909      JALAN NJM 3/3                                          09    
+0909021   0909      JALAN NJM 3/4                                          09    
+0909022   0909      JALAN NJM 3/5                                          09    
+0909023   0909      JALAN NJM 4/2                                          09    
+0909024   0909      JALAN NJM 4/3                                          09    
+0909025   0909      JALAN NJM 4/4                                          09    
+0909026   0909      JALAN NJM 4/5                                          09    
+0909027   0909      JALAN NJM 5/2                                          09    
+0909028   0909      JALAN NJM 6/2                                          09    
+0909029   0909      JALAN NJM 7/2                                          09    
+0910001   0910                                                             09    
+0910002   0910      JALAN JATI                                             09    
+0910003   0910      JALAN JATI 1                                           09    
+0910004   0910      JALAN JATI 2                                           09    
+0910005   0910      JALAN JATI 4                                           09    
+0910006   0910      JALAN JATI 5                                           09    
+0910007   0910      JALAN JATI 6                                           09    
+0910008   0910      JALAN JATI 7                                           09    
+0910009   0910      JALAN JATI 8                                           09    
+0910010   0910      JALAN JATI 9                                           09    
+0910011   0910      JALAN JATI 10                                          09    
+0910012   0910      JALAN JATI 11                                          09    
+0911001   0911                                                             09    
+0911002   0911      JALAN INDAH 19/6                                       09    
+0911003   0911      JALAN INDAH 19/7                                       09    
+0911004   0911      JALAN INDAH 19/9                                       09    
+0911005   0911      JALAN INDAH 20/1                                       09    
+0911006   0911      JALAN INDAH 20/3                                       09    
+0911007   0911      JALAN INDAH 20/4                                       09    
+0911008   0911      JALAN INDAH 20/5                                       09    
+0911009   0911      JALAN INDAH 22/1                                       09    
+0911010   0911      JALAN INDAH 22/2                                       09    
+0911011   0911      JALAN INDAH 22/5                                       09    
+0911012   0911      JALAN INDAH 22/6                                       09    
+0911013   0911      JALAN INDAH 22/8                                       09    
+0911014   0911      JALAN INDAH 22/10                                      09    
+0911015   0911      JALAN INDAH 22/11                                      09    
+0911016   0911      JALAN INDAH 22/13                                      09    
+0911017   0911      JALAN INDAH 22/14                                      09    
+0911018   0911      JALAN INDAH 22/16                                      09    
+0911019   0911      JALAN INDAH 22/19                                      09    
+0911020   0911      JALAN INDAH 22/20                                      09    
+0911021   0911      JALAN INDAH 22/22                                      09    
+0911022   0911      JALAN INDAH 22/23                                      09    
+0911023   0911      JALAN INDAH 23/1                                       09    
+0911024   0911      JALAN INDAH 23/2                                       09    
+0911025   0911      JALAN INDAH 23/3                                       09    
+0911026   0911      JALAN INDAH 23/4                                       09    
+0911027   0911      JALAN INDAH 24/1                                       09    
+0911028   0911      JALAN INDAH 24/6                                       09    
+0911029   0911      JALAN INDAH 24/8                                       09    
+0911030   0911      JALAN INDAH 24/9                                       09    
+0911031   0911      JALAN INDAH 24/10                                      09    
+0911032   0911      JALAN INDAH 25/1                                       09    
+0911033   0911      JALAN INDAH 25/3                                       09    
+0911034   0911      JALAN INDAH 25/4                                       09    
+0911035   0911      JALAN INDAH 25/5                                       09    
+0911036   0911      JALAN INDAH 25/6                                       09    
+0911037   0911      JALAN INDAH 25/7                                       09    
+0911038   0911      JALAN INDAH 25/8                                       09    
+0911039   0911      JALAN INDAH 25/9                                       09    
+0911040   0911      JALAN INDAH 25/10                                      09    
+0911041   0911      JALAN INDAH 25/12                                      09    
+0911042   0911      JALAN INDAH 25/13                                      09    
+0911043   0911      JALAN INDAH 25/14                                      09    
+0911044   0911      JALAN INDAH 25/16                                      09    
+0911045   0911      JALAN INDAH 27/1                                       09    
+0911046   0911      JALAN INDAH 27/3                                       09    
+0911047   0911      JALAN INDAH 27/4                                       09    
+0911048   0911      JALAN INDAH 27/6                                       09    
+0911049   0911      JALAN INDAH 27/7                                       09    
+0911050   0911      JALAN INDAH 27/9                                       09    
+0911051   0911      JALAN INDAH 28/1                                       09    
+0911052   0911      JALAN INDAH 28/3                                       09    
+0911053   0911      JALAN INDAH 28/5                                       09    
+0911054   0911      JALAN INDAH 28/6                                       09    
+0911055   0911      JALAN INDAH 28/7                                       09    
+0911056   0911      JALAN INDAH 28/8                                       09    
+0911057   0911      JALAN INDAH 28/9                                       09    
+0911058   0911      JALAN INDAH 28/11                                      09    
+0911059   0911      JALAN INDAH 28/12                                      09    
+0911060   0911      JALAN INDAH 28/13                                      09    
+0911061   0911      JALAN INDAH 28/14                                      09    
+0911062   0911      JALAN INDAH 28/15                                      09    
+0911063   0911      JALAN INDAH 28/16                                      09    
+0911064   0911      JALAN INDAH 29/1                                       09    
+0911065   0911      JALAN INDAH 29/3                                       09    
+0911066   0911      JALAN INDAH 29/4                                       09    
+0911067   0911      JALAN INDAH 29/5                                       09    
+0911068   0911      JALAN INDAH 29/6                                       09    
+0911069   0911      JALAN INDAH 29/7                                       09    
+0911070   0911      JALAN INDAH 29/8                                       09    
+0911071   0911      JALAN INDAH 29/10                                      09    
+0911072   0911      JALAN INDAH 29/11                                      09    
+0911073   0911      JALAN INDAH 29/12                                      09    
+0911074   0911      JALAN INDAH 29/13                                      09    
+0911075   0911      JALAN INDAH 30/1                                       09    
+0911076   0911      JALAN INDAH 30/2                                       09    
+0911077   0911      JALAN INDAH 30/3                                       09    
+0911078   0911      JALAN INDAH 30/5                                       09    
+0911079   0911      JALAN INDAH 30/6                                       09    
+0911080   0911      JALAN INDAH 30/7                                       09    
+0911081   0911      JALAN INDAH 30/8                                       09    
+0911082   0911      LINGKUNGAN INDAH UTAMA                                 09    
+0911083   0911      PERSIARAN INDAH UTAMA                                  09    
+0911084   0911      JALAN INDAH 22/7                                       09    
+0911085   0911      JALAN INDAH 26/1                                       09    
+0911086   0911      JALAN INDAH 26/5                                       09    
+0911087   0911      JALAN INDAH 26/6                                       09    
+0911088   0911      JALAN INDAH 26/7                                       09    
+0911089   0911      JALAN INDAH 26/8                                       09    
+0911090   0911      JALAN INDAH 26/4                                       09    
+0911091   0911      JALAN INDAH 26/2                                       09    
+0911092   0911      JALAN INDAH 26/3                                       09    
+0911093   0911      JALAN INDAH 22/3                                       09    
+0912001   0912                                                             09    
+0912002   0912      JALAN LENGKOK NIP 1/1                                  09    
+0912003   0912      JALAN NIP 1/1                                          09    
+0912004   0912      JALAN NIP 2/1                                          09    
+0912005   0912      JALAN NIP 2/2                                          09    
+0912006   0912      JALAN NIP 2/4                                          09    
+0912007   0912      JALAN NIP 2/5                                          09    
+0912008   0912      JALAN NIP 2/6                                          09    
+0912009   0912      JALAN NIP 2/7                                          09    
+0912010   0912      JALAN NIP 2/8                                          09    
+0912011   0912      JALAN NIP 2/9                                          09    
+0912012   0912      JALAN NIP 1/1A                                         09    
+0913001   0913                                                             09    
+0913002   0913      JALAN BESTARI 1/1                                      09    
+0913003   0913      JALAN BESTARI 1/2                                      09    
+0913004   0913      JALAN BESTARI 1/3                                      09    
+0913005   0913      JALAN BESTARI 1/4                                      09    
+0913006   0913      JALAN BESTARI 1/5                                      09    
+0913007   0913      JALAN BESTARI 2/1                                      09    
+0913008   0913      JALAN BESTARI 2/2                                      09    
+0913009   0913      JALAN BESTARI 2/4                                      09    
+0913010   0913      JALAN BESTARI 3/1                                      09    
+0913011   0913      JALAN BESTARI 3/2                                      09    
+0913012   0913      JALAN BESTARI 3/3                                      09    
+0913013   0913      JALAN BESTARI 3/4                                      09    
+0913014   0913      JALAN BESTARI 3/5                                      09    
+0913015   0913      JALAN BESTARI 4/1                                      09    
+0913016   0913      JALAN BESTARI 4/2                                      09    
+0913017   0913      JALAN BESTARI 4/3                                      09    
+0913018   0913      JALAN BESTARI 4/4                                      09    
+0913019   0913      JALAN BESTARI 4/5                                      09    
+0913020   0913      JALAN BESTARI 5/1                                      09    
+0913021   0913      JALAN BESTARI 5/2                                      09    
+0913022   0913      JALAN BESTARI 5/3                                      09    
+0913023   0913      JALAN BESTARI 5/4                                      09    
+0913024   0913      JALAN BESTARI 5/5                                      09    
+0913025   0913      JALAN BESTARI 6/1                                      09    
+0913026   0913      JALAN BESTARI 6/2                                      09    
+0913027   0913      JALAN BESTARI 6/3                                      09    
+0913028   0913      JALAN BESTARI 6/4                                      09    
+0913029   0913      JALAN BESTARI 6/5                                      09    
+0913030   0913      JALAN BESTARI 7/1                                      09    
+0913031   0913      JALAN BESTARI 7/2                                      09    
+0913032   0913      JALAN BESTARI 7/3                                      09    
+0913033   0913      JALAN BESTARI 7/4                                      09    
+0913034   0913      JALAN BESTARI 7/5                                      09    
+0913035   0913      JALAN BESTARI 8/1                                      09    
+0913036   0913      JALAN BESTARI 8/2                                      09    
+0913037   0913      JALAN BESTARI 8/3                                      09    
+0913038   0913      JALAN BESTARI 8/4                                      09    
+0913039   0913      JALAN BESTARI 8/5                                      09    
+0913040   0913      JALAN BESTARI 9/1                                      09    
+0913041   0913      JALAN BESTARI 9/3                                      09    
+0913042   0913      JALAN BESTARI 9/4                                      09    
+0913043   0913      JALAN BESTARI 10/1                                     09    
+0913044   0913      JALAN BESTARI 10/3                                     09    
+0913045   0913      JALAN BESTARI 10/4                                     09    
+0913046   0913      JALAN BESTARI 11/3                                     09    
+0913047   0913      JALAN BESTARI 11/4                                     09    
+0913048   0913      JALAN BESTARI 12/2                                     09    
+0913049   0913      JALAN BESTARI 12/3                                     09    
+0913050   0913      JALAN BESTARI 12/4                                     09    
+0913051   0913      JALAN BESTARI 13/3                                     09    
+0913052   0913      JALAN BESTARI 13/4                                     09    
+0913053   0913      JALAN BESTARI 14/4                                     09    
+0913054   0913      JALAN BESTARI 15/2                                     09    
+0913055   0913      JALAN BESTARI 15/4                                     09    
+0913056   0913      JALAN BESTARI 16/4                                     09    
+0913057   0913      JALAN BESTARI 17/4                                     09    
+0913058   0913      JALAN BESTARI 18/4                                     09    
+0913059   0913      JALAN BESTARI 19/4                                     09    
+0913060   0913      JALAN BESTARI 20/4                                     09    
+0913061   0913      JALAN BESTARI 21/4                                     09    
+0913062   0913      JALAN BESTARI 2/5                                      09    
+0913063   0913      JALAN SUNGAI DANGA                                     09    
+0914001   0914                                                             09    
+0914002   0914      JALAN CERIA 2                                          09    
+0914003   0914      JALAN CERIA 3                                          09    
+0914004   0914      JALAN CERIA 4                                          09    
+0914005   0914      JALAN CERIA 5                                          09    
+0914006   0914      JALAN CERIA 6                                          09    
+0914007   0914      JALAN CERIA 7                                          09    
+0914008   0914      JALAN CERIA 8                                          09    
+0914009   0914      JALAN CERIA 9                                          09    
+0914010   0914      JALAN CERIA 10                                         09    
+0914011   0914      JALAN CERIA 11                                         09    
+0914012   0914      JALAN CERIA 13                                         09    
+0914013   0914      JALAN CERIA 14                                         09    
+0914014   0914      JALAN CERIA 15                                         09    
+0914015   0914      JALAN CERIA 16                                         09    
+0914016   0914      JALAN CERIA 17                                         09    
+0914017   0914      JALAN CERIA 18                                         09    
+0914018   0914      JALAN CERIA 19                                         09    
+0914019   0914      JALAN CERIA 21                                         09    
+0914020   0914      JALAN CERIA 23                                         09    
+0914021   0914      JALAN CERIA 24                                         09    
+0914022   0914      JALAN CERIA 25                                         09    
+0914023   0914      JALAN CERIA 26                                         09    
+0914024   0914      JALAN CERIA 27                                         09    
+0914025   0914      JALAN CERIA 28                                         09    
+0914026   0914      JALAN CERIA 29                                         09    
+0914027   0914      JALAN CERIA 30                                         09    
+0914028   0914      JALAN CERIA 31                                         09    
+0914029   0914      JALAN CERIA 32                                         09    
+0914030   0914      JALAN CERIA 33                                         09    
+0914031   0914      JALAN CERIA 34                                         09    
+0914032   0914      JALAN CERIA 35                                         09    
+0914033   0914      JALAN CERIA 36                                         09    
+0914034   0914      JALAN CERIA 37                                         09    
+0914035   0914      JALAN CERIA 1A                                         09    
+0914036   0914      JALAN CERIA 20                                         09    
+0915001   0915                                                             09    
+0915002   0915      JALAN NUSARIA 4/6                                      09    
+0915003   0915      JALAN NUSARIA 5/5                                      09    
+0915004   0915      JALAN NUSARIA 1/1                                      09    
+0915005   0915      JALAN NUSARIA 1/2                                      09    
+0915006   0915      JALAN NUSARIA 1/3                                      09    
+0915007   0915      JALAN NUSARIA 1/4                                      09    
+0915008   0915      JALAN NUSARIA 1/5                                      09    
+0915009   0915      JALAN NUSARIA 1/6                                      09    
+0915010   0915      JALAN NUSARIA 1/7                                      09    
+0915011   0915      JALAN NUSARIA 1/8                                      09    
+0915012   0915      JALAN NUSARIA 1/9                                      09    
+0915013   0915      JALAN NUSARIA 2                                        09    
+0915014   0915      JALAN NUSARIA 2/1                                      09    
+0915015   0915      JALAN NUSARIA 2/2                                      09    
+0915016   0915      JALAN NUSARIA 2/3                                      09    
+0915017   0915      JALAN NUSARIA 2/4                                      09    
+0915018   0915      JALAN NUSARIA 2/5                                      09    
+0915019   0915      JALAN NUSARIA 2/6                                      09    
+0915020   0915      JALAN NUSARIA 2/7                                      09    
+0915021   0915      JALAN NUSARIA 2/8                                      09    
+0915022   0915      JALAN NUSARIA 2/9                                      09    
+0915023   0915      JALAN NUSARIA 2/10                                     09    
+0915024   0915      JALAN NUSARIA 2/11                                     09    
+0915025   0915      JALAN NUSARIA 2/12                                     09    
+0915026   0915      JALAN NUSARIA 2/13                                     09    
+0915027   0915      JALAN NUSARIA 2/14                                     09    
+0915028   0915      JALAN NUSARIA 2/15                                     09    
+0915029   0915      JALAN NUSARIA 2/16                                     09    
+0915030   0915      JALAN NUSARIA 2/17                                     09    
+0915031   0915      JALAN NUSARIA 3                                        09    
+0915032   0915      JALAN NUSARIA 3/2                                      09    
+0915033   0915      JALAN NUSARIA 3/3                                      09    
+0915034   0915      JALAN NUSARIA 3/4                                      09    
+0915035   0915      JALAN NUSARIA 4/3                                      09    
+0915036   0915      JALAN NUSARIA 4/6                                      09    
+0915037   0915      JALAN NUSARIA 4/7                                      09    
+0915038   0915      JALAN NUSARIA 4/9                                      09    
+0915039   0915      JALAN NUSARIA 4/9E                                     09    
+0915040   0915      JALAN NUSARIA 4/10                                     09    
+0915041   0915      JALAN NUSARIA 4/11                                     09    
+0915042   0915      JALAN NUSARIA 4/12                                     09    
+0915043   0915      JALAN NUSARIA 4/13                                     09    
+0915044   0915      JALAN NUSARIA 4/14                                     09    
+0915045   0915      JALAN NUSARIA 4/15                                     09    
+0915046   0915      JALAN NUSARIA 4/16                                     09    
+0915047   0915      JALAN NUSARIA 4/17                                     09    
+0915048   0915      JALAN NUSARIA 4/18                                     09    
+0915049   0915      JALAN NUSARIA 4/19                                     09    
+0915050   0915      JALAN NUSARIA 5/1                                      09    
+0915051   0915      JALAN NUSARIA 5/2                                      09    
+0915052   0915      JALAN NUSARIA 5/3                                      09    
+0915053   0915      JALAN NUSARIA 5/4                                      09    
+0915054   0915      JALAN NUSARIA 5/5                                      09    
+0915055   0915      JALAN NUSARIA 5/6                                      09    
+0915056   0915      JALAN NUSARIA 5/7                                      09    
+0915057   0915      JALAN NUSARIA 5/8                                      09    
+0915058   0915      JALAN NUSARIA 5/9                                      09    
+0915059   0915      JALAN NUSARIA 5/10                                     09    
+0915060   0915      JALAN NUSARIA 5/11                                     09    
+0915061   0915      JALAN NUSARIA 5/12                                     09    
+0915062   0915      JALAN NUSARIA 5/13                                     09    
+0915063   0915      JALAN NUSARIA 5/14                                     09    
+0915064   0915      JALAN NUSARIA 5/15                                     09    
+0915065   0915      JALAN NUSARIA 5/16                                     09    
+0915066   0915      JALAN NUSARIA 5/17                                     09    
+0915067   0915      JALAN NUSARIA 6/2                                      09    
+0915068   0915      JALAN NUSARIA 6/3                                      09    
+0915069   0915      JALAN NUSARIA 6/4                                      09    
+0915070   0915      JALAN NUSARIA 6/5                                      09    
+0915071   0915      JALAN NUSARIA 6/6                                      09    
+0915072   0915      JALAN NUSARIA 6/7                                      09    
+0915073   0915      JALAN NUSARIA 6/8                                      09    
+0915074   0915      JALAN NUSARIA 6/9                                      09    
+0915075   0915      JALAN NUSARIA 6/10                                     09    
+0915076   0915      JALAN NUSARIA 6/11                                     09    
+0915077   0915      JALAN NUSARIA 6/12                                     09    
+0915078   0915      JALAN NUSARIA 6/13                                     09    
+0915079   0915      JALAN NUSARIA 6/14                                     09    
+0915080   0915      JALAN NUSARIA 6/15                                     09    
+0915081   0915      JALAN NUSARIA 6/16                                     09    
+0915082   0915      JALAN NUSARIA 6/17                                     09    
+0915083   0915      JALAN NUSARIA 6/18                                     09    
+0915084   0915      JALAN NUSARIA 6/19                                     09    
+0915085   0915      JALAN NUSARIA 6/20                                     09    
+0915086   0915      JALAN NUSARIA 6/21                                     09    
+0915087   0915      JALAN NUSARIA 7/1                                      09    
+0915088   0915      JALAN NUSARIA 7/2                                      09    
+0915089   0915      JALAN NUSARIA 7/3                                      09    
+0915090   0915      JALAN NUSARIA 7/4                                      09    
+0915091   0915      JALAN NUSARIA 7/5                                      09    
+0915092   0915      JALAN NUSARIA 8                                        09    
+0915093   0915      JALAN NUSARIA 8/1                                      09    
+0915094   0915      JALAN NUSARIA 8/2                                      09    
+0915095   0915      JALAN NUSARIA 8/3                                      09    
+0915096   0915      JALAN NUSARIA 8/4                                      09    
+0915097   0915      JALAN NUSARIA 8/5                                      09    
+0915098   0915      JALAN NUSARIA 8/6                                      09    
+0915099   0915      JALAN NUSARIA 8/7                                      09    
+0915100   0915      JALAN NUSARIA 8/8                                      09    
+0915101   0915      JALAN NUSARIA 9/1                                      09    
+0915102   0915      JALAN NUSARIA 9/2                                      09    
+0915103   0915      JALAN NUSARIA 9/3                                      09    
+0915104   0915      JALAN NUSARIA 9/4                                      09    
+0915105   0915      JALAN NUSARIA 9/5                                      09    
+0915106   0915      JALAN NUSARIA 10/7                                     09    
+0915107   0915      JALAN NUSARIA 10/9                                     09    
+0915108   0915      JALAN NUSARIA 10/10                                    09    
+0915109   0915      JALAN NUSARIA 10/11                                    09    
+0915110   0915      JALAN NUSARIA 10/12                                    09    
+0915111   0915      JALAN NUSARIA 10/13                                    09    
+0915112   0915      JALAN NUSARIA 10/14                                    09    
+0915113   0915      JALAN NUSARIA 10/15                                    09    
+0915114   0915      JALAN NUSARIA 10/16                                    09    
+0915115   0915      JALAN NUSARIA 10/18                                    09    
+0915116   0915      JALAN NUSARIA 10/19                                    09    
+0915117   0915      JALAN NUSARIA 10/20                                    09    
+0915118   0915      JALAN NUSARIA 10/21                                    09    
+0915119   0915      JALAN NUSARIA 11                                       09    
+0915120   0915      JALAN NUSARIA 11/1                                     09    
+0915121   0915      JALAN NUSARIA 11/2                                     09    
+0915122   0915      JALAN NUSARIA 11/3                                     09    
+0915123   0915      JALAN NUSARIA 11/4                                     09    
+0915124   0915      JALAN NUSARIA 11/5                                     09    
+0915125   0915      JALAN NUSARIA 11/6                                     09    
+0915126   0915      JALAN NUSARIA 11/7                                     09    
+0915127   0915      LINGKARAN NUSANTARA                                    09    
+0915128   0915      LINGKARAN NUSARIA                                      09    
+0915129   0915      JALAN NUSARIA 4/9A                                     09    
+0915130   0915      JALAN NUSARIA 6                                        09    
+0915131   0915      JALAN NUSARIA 1 J/1                                    09    
+0915132   0915      JALAN NUSARIA 1 J/2                                    09    
+0915133   0915      JALAN NUSARIA 1 J/3                                    09    
+0915134   0915      JALAN NUSARIA 1 J/4                                    09    
+0915135   0915      JALAN NUSARIA 1 J/5                                    09    
+0915136   0915      JALAN NUSARIA 1/1A                                     09    
+0915137   0915      JALAN NUSARIA 1/1B                                     09    
+0915138   0915      JALAN NUSARIA 4/9B                                     09    
+0915139   0915      JALAN NUSARIA 4/9C                                     09    
+0915140   0915      JALAN NUSARIA 4/9D                                     09    
+0915141   0915      JALAN NUSARIA 4/9F                                     09    
+0915142   0915      JALAN NUSARIA 4/9G                                     09    
+0915143   0915      JALAN NUSARIA 9                                        09    
+0916001   0916                                                             09    
+0917001   0917                                                             09    
+0917002   0917      JALAN IDAMAN 2/1                                       09    
+0917003   0917      JALAN IDAMAN 2/2                                       09    
+0917004   0917      JALAN IDAMAN 2/3                                       09    
+0917005   0917      JALAN IDAMAN 2/4                                       09    
+0917006   0917      JALAN IDAMAN 2/5                                       09    
+0917007   0917      JALAN IDAMAN 2/6                                       09    
+0917008   0917      JALAN IDAMAN 2/7                                       09    
+0917009   0917      JALAN IDAMAN 3/1                                       09    
+0917010   0917      JALAN IDAMAN 3/2                                       09    
+0917011   0917      JALAN IDAMAN 3/3                                       09    
+0917012   0917      JALAN IDAMAN 3/4                                       09    
+0917013   0917      JALAN IDAMAN 3/5                                       09    
+0917014   0917      JALAN IDAMAN 3/6                                       09    
+0917015   0917      JALAN IDAMAN 3/7                                       09    
+0917016   0917      JALAN IDAMAN 3/8                                       09    
+0917017   0917      JALAN IDAMAN 3/9                                       09    
+0917018   0917      JALAN IDAMAN 4/1                                       09    
+0917019   0917      JALAN IDAMAN 4/2                                       09    
+0917020   0917      JALAN IDAMAN 4/3                                       09    
+0917021   0917      JALAN IDAMAN 4/4                                       09    
+0917022   0917      JALAN IDAMAN 4/5                                       09    
+0917023   0917      JALAN IDAMAN 4/6                                       09    
+0917024   0917      JALAN IDAMAN 4/7                                       09    
+0917025   0917      JALAN IDAMAN 5/1                                       09    
+0917026   0917      JALAN IDAMAN 5/2                                       09    
+0917027   0917      JALAN IDAMAN 5/3                                       09    
+0917028   0917      JALAN IDAMAN 5/4                                       09    
+0917029   0917      JALAN IDAMAN 5/5                                       09    
+0917030   0917      JALAN IDAMAN 5/6                                       09    
+0917031   0917      JALAN IDAMAN 5/7                                       09    
+0917032   0917      JALAN IDAMAN 5/8                                       09    
+0917033   0917      JALAN IDAMAN 5/9                                       09    
+0917034   0917      JALAN IDAMAN 5/10                                      09    
+0917035   0917      JALAN IDAMAN 6/1                                       09    
+0917036   0917      JALAN IDAMAN 6/2                                       09    
+0917037   0917      JALAN IDAMAN 6/3                                       09    
+0917038   0917      JALAN IDAMAN 6/4                                       09    
+0917039   0917      JALAN IDAMAN 6/5                                       09    
+0917040   0917      JALAN IDAMAN 7/1                                       09    
+0917041   0917      JALAN IDAMAN 7/3                                       09    
+0917042   0917      JALAN IDAMAN 7/4                                       09    
+0917043   0917      JALAN IDAMAN 7/5                                       09    
+0917044   0917      JALAN IDAMAN 7/6                                       09    
+0917045   0917      JALAN IDAMAN 7/7                                       09    
+0917046   0917      JALAN IDAMAN 8/2                                       09    
+0917047   0917      JALAN IDAMAN 8/3                                       09    
+0917048   0917      JALAN IDAMAN 8/4                                       09    
+0917049   0917      JALAN IDAMAN 8/5                                       09    
+0917050   0917      JALAN IDAMAN 8/7                                       09    
+0917051   0917      JALAN IDAMAN 8/8                                       09    
+0917052   0917      JALAN IDAMAN 8/9                                       09    
+0917053   0917      JALAN IDAMAN 8/10                                      09    
+0917054   0917      JALAN IDAMAN 8/11                                      09    
+0917055   0917      JALAN IDAMAN 8/12                                      09    
+0917056   0917      JALAN IDAMAN 8/13                                      09    
+0917057   0917      JALAN IDAMAN 8/14                                      09    
+0917058   0917      JALAN IDAMAN 8/15                                      09    
+0917059   0917      JALAN IDAMAN 8/16                                      09    
+0917060   0917      JALAN IDAMAN 8/17                                      09    
+0917061   0917      JALAN IDAMAN 9                                         09    
+0917062   0917      JALAN IDAMAN 9/1                                       09    
+0917063   0917      JALAN IDAMAN 9/2                                       09    
+0917064   0917      JALAN IDAMAN 9/3                                       09    
+0917065   0917      JALAN SUSUR IDAMAN                                     09    
+0917066   0917      JALAN PERSIARAN IDAMAN                                 09    
+0918001   0918                                                             09    
+0918002   0918      JALAN PERSIARAN NUSA PERDANA                           09    
+0919001   0919                                                             09    
+0919002   0919      JALAN BIOTEKNOLOGI 1                                   09    
+0919003   0919      JALAN BIOTEKNOLOGI 2                                   09    
+0919004   0919      JALAN BIOTEKNOLOGI 3                                   09    
+0919005   0919      JALAN KEMAHIRAN SILC                                   09    
+0919006   0919      JALAN SILC 1                                           09    
+0919007   0919      JALAN SILC 1/2                                         09    
+0919008   0919      JALAN SILC 1/3                                         09    
+0919009   0919      JALAN SILC 1/4                                         09    
+0919010   0919      JALAN SILC 1/5                                         09    
+0919011   0919      JALAN SILC 1/6                                         09    
+0919012   0919      JALAN SILC 1/7                                         09    
+0919013   0919      JALAN SILC 1/8                                         09    
+0919014   0919      JALAN SILC 1/10                                        09    
+0919015   0919      JALAN SILC 1/11                                        09    
+0919016   0919      JALAN SILC 1/12                                        09    
+0919017   0919      JALAN SILC 1/13                                        09    
+0919018   0919      JALAN SILC 1/14                                        09    
+0919019   0919      JALAN SILC 2                                           09    
+0919020   0919      JALAN SILC 2/1                                         09    
+0919021   0919      JALAN SILC 2/2                                         09    
+0919022   0919      JALAN SILC 2/3                                         09    
+0919023   0919      JALAN SILC 2/4                                         09    
+0919024   0919      JALAN SILC 2/7                                         09    
+0919025   0919      JALAN SILC 2/8                                         09    
+0919026   0919      JALAN SILC 2/9                                         09    
+0919027   0919      JALAN SILC 2/10                                        09    
+0919028   0919      JALAN SILC 2/11                                        09    
+0919029   0919      JALAN SILC 2/12                                        09    
+0919030   0919      JALAN SILC 2/13                                        09    
+0919031   0919      JALAN SILC 2/14                                        09    
+0919032   0919      JALAN SILC 2/15                                        09    
+0919033   0919      JALAN SILC 2/16                                        09    
+0919034   0919      JALAN SILC 2/17                                        09    
+0919035   0919      JALAN SILC 2/18                                        09    
+0919036   0919      JALAN SILC 2/19                                        09    
+0919037   0919      JALAN SILC 3                                           09    
+0919038   0919      JALAN SILC 2/5                                         09    
+0919039   0919      JALAN PERSIARAN SILC                                   09    
+0919040   0919      JALAN SILC 4/1                                         09    
+0920001   0920                                                             09    
+0920002   0920      JALAN MEGA 1                                           09    
+0920003   0920      JALAN MEGA 1/1                                         09    
+0920004   0920      JALAN MEGA 1/3                                         09    
+0920005   0920      JALAN MEGA 1/4                                         09    
+0920006   0920      JALAN MEGA 1/5                                         09    
+0920007   0920      JALAN MEGA 1/6                                         09    
+0920008   0920      JALAN MEGA 1/7                                         09    
+0920009   0920      JALAN MEGA 1/8                                         09    
+0920010   0920      JALAN MEGA 1/9                                         09    
+0920011   0920      JALAN MEGA 1/10                                        09    
+0920012   0920      JALAN MEGA 1/2                                         09    
+0921001   0921                                                             09    
+0921002   0921      NO. 1, JALAN BENDAHARA                                 09    
+0921003   0921      JALAN HANG JEBAT 1                                     09    
+0921004   0921      JALAN HANG JEBAT 2                                     09    
+0921005   0921      JALAN HANG JEBAT 3                                     09    
+0921006   0921      JALAN HANG JEBAT 4                                     09    
+0921007   0921      JALAN HANG JEBAT 5                                     09    
+0921008   0921      JALAN HANG JEBAT 6                                     09    
+0921009   0921      JALAN HANG JEBAT 7                                     09    
+0921010   0921      JALAN HANG JEBAT 8                                     09    
+0921011   0921      JALAN HANG JEBAT 9                                     09    
+0921012   0921      JALAN HANG JEBAT 10                                    09    
+0921013   0921      JALAN HANG KASTURI 1/1                                 09    
+0921014   0921      JALAN HANG KASTURI 1/2                                 09    
+0921015   0921      JALAN HANG KASTURI 1/3                                 09    
+0921016   0921      JALAN HANG KASTURI 1/4                                 09    
+0921017   0921      JALAN HANG KASTURI 1/6                                 09    
+0921018   0921      JALAN HANG KASTURI 1/7                                 09    
+0921019   0921      JALAN HANG KASTURI 1/9                                 09    
+0921020   0921      JALAN HANG KASTURI 1/10                                09    
+0921021   0921      JALAN HANG KASTURI 1/11                                09    
+0921022   0921      JALAN HANG KASTURI 1/12                                09    
+0921023   0921      JALAN HANG LEKIR 1/1                                   09    
+0921024   0921      JALAN HANG LEKIR 1/2                                   09    
+0921025   0921      JALAN HANG LEKIR 1/4                                   09    
+0921026   0921      JALAN HANG LEKIR 1/5                                   09    
+0921027   0921      JALAN HANG LEKIR 1/6                                   09    
+0921028   0921      JALAN HANG LEKIR 1/7                                   09    
+0921029   0921      JALAN HANG LEKIR 1/8                                   09    
+0921030   0921      JALAN HANG LEKIU                                       09    
+0921031   0921      JALAN HANG LEKIU 1                                     09    
+0921032   0921      JALAN HANG LEKIU 2                                     09    
+0921033   0921      JALAN HANG LEKIU 3                                     09    
+0921034   0921      JALAN HANG TUAH 1                                      09    
+0921035   0921      JALAN HANG TUAH 1/1                                    09    
+0921036   0921      JALAN HANG TUAH 1/2                                    09    
+0921037   0921      JALAN HANG TUAH 1/3                                    09    
+0921038   0921      JALAN HANG TUAH 1/4                                    09    
+0921039   0921      JALAN HANG TUAH 1/5                                    09    
+0921040   0921      JALAN HANG TUAH 1/6                                    09    
+0921041   0921      JALAN HANG TUAH 1/7                                    09    
+0921042   0921      JALAN HANG TUAH 1/8                                    09    
+0921043   0921      JALAN HANG TUAH 2                                      09    
+0921044   0921      JALAN HANG TUAH 2/1                                    09    
+0921045   0921      JALAN HANG TUAH 2/2                                    09    
+0921046   0921      JALAN HANG TUAH 2/3                                    09    
+0921047   0921      JALAN PERSIARAN PUTERI LEDANG                          09    
+0921048   0921      PERSIARAN LEDANG                                       09    
+0921049   0921      PERSIARAN LEDANG HEIGHTS                               09    
+0921050   0921      NO. 9, PERSIARAN LEDANG HEIGHTS                        09    
+0921051   0921      JALAN HANG JEBAT                                       09    
+0921052   0921      JALAN HANG KASTURI 1/8                                 09    
+0921053   0921      JALAN PANGLIMA                                         09    
+0921054   0921      JALAN HANG TUAH                                        09    
+0922001   0922                                                             09    
+0922002   0922      JALAN AMBANG 1                                         09    
+0922003   0922      JALAN AMBANG 1/1                                       09    
+0922004   0922      JALAN AMBANG 2                                         09    
+0922005   0922      JALAN AMBANG 2/1                                       09    
+0922006   0922      JALAN AMBANG 2/2                                       09    
+0922007   0922      JALAN AMBANG 2/3                                       09    
+0922008   0922      JALAN AMBANG 3/1                                       09    
+0922009   0922      JALAN AMBANG 3/2                                       09    
+0922010   0922      JALAN AMBANG 3/3                                       09    
+0922011   0922      JALAN AMBANG 3/4                                       09    
+0922012   0922      JALAN AMBANG 3/5                                       09    
+0922013   0922      JALAN AMBANG 3/6                                       09    
+0922014   0922      JALAN AMBANG 4                                         09    
+0922015   0922      JALAN AMBANG 4/1                                       09    
+0922016   0922      JALAN AMBANG 4/2                                       09    
+0922017   0922      JALAN AMBANG 4/3                                       09    
+0922018   0922      JALAN ANJUNG 1                                         09    
+0922019   0922      JALAN ANJUNG 2                                         09    
+0922020   0922      JALAN ANJUNG 2/1                                       09    
+0922021   0922      JALAN ANJUNG 2/2                                       09    
+0922022   0922      JALAN ANJUNG 2/3                                       09    
+0922023   0922      JALAN ANJUNG 3/1                                       09    
+0922024   0922      JALAN ANJUNG 3/2                                       09    
+0922025   0922      JALAN ANJUNG 3/3                                       09    
+0922026   0922      JALAN ANJUNG 3/4                                       09    
+0922027   0922      JALAN ANJUNG 3/5                                       09    
+0922028   0922      JALAN ANJUNG 4                                         09    
+0922029   0922      JALAN ANJUNG 5                                         09    
+0922030   0922      JALAN ANJUNG 6                                         09    
+0922031   0922      JALAN ANJUNG 7/1                                       09    
+0922032   0922      JALAN ANJUNG 7/2                                       09    
+0922033   0922      JALAN ANJUNG 7/3                                       09    
+0922034   0922      JALAN ANJUNG 7/4                                       09    
+0922035   0922      JALAN ANJUNG 7/5                                       09    
+0922036   0922      JALAN ANJUNG 7/6                                       09    
+0922037   0922      JALAN ANJUNG 7/7                                       09    
+0922038   0922      JALAN ANJUNG 7/8                                       09    
+0922039   0922      JALAN ANJUNG 8/1                                       09    
+0922040   0922      JALAN ANJUNG 8/2                                       09    
+0922041   0922      JALAN ANJUNG 8/3                                       09    
+0922042   0922      JALAN ANJUNG 8/4                                       09    
+0922043   0922      JALAN ANJUNG 8/5                                       09    
+0922044   0922      JALAN ANJUNG 9/1                                       09    
+0922045   0922      JALAN ANJUNG 9/2                                       09    
+0922046   0922      JALAN ANJUNG 9/3                                       09    
+0922047   0922      JALAN ANJUNG 9/4                                       09    
+0922048   0922      JALAN ANJUNG 10                                        09    
+0922049   0922      JALAN ANJUNG 11                                        09    
+0922050   0922      JALAN EKA                                              09    
+0922051   0922      JALAN GITA 1/1                                         09    
+0922052   0922      JALAN GITA 1/2                                         09    
+0922053   0922      JALAN GITA 1/3                                         09    
+0922054   0922      JALAN GITA 1/4                                         09    
+0922055   0922      JALAN GITA 1/5                                         09    
+0922056   0922      JALAN GITA 1/6                                         09    
+0922057   0922      JALAN GITA 1/7                                         09    
+0922058   0922      JALAN GITA 1/8                                         09    
+0922059   0922      JALAN GITA 2/1                                         09    
+0922060   0922      JALAN GITA 2/2                                         09    
+0922061   0922      JALAN GITA 2/3                                         09    
+0922062   0922      JALAN GITA 2/4                                         09    
+0922063   0922      JALAN GITA 2/5                                         09    
+0922064   0922      JALAN GITA 2/6                                         09    
+0922065   0922      JALAN HIJAUAN 2                                        09    
+0922066   0922      JALAN HIJAUAN 3                                        09    
+0922067   0922      JALAN HIJAUAN 4                                        09    
+0922068   0922      JALAN HIJAUAN 5/1                                      09    
+0922069   0922      JALAN HIJAUAN 5/2                                      09    
+0922070   0922      JALAN HIJAUAN 5/3                                      09    
+0922071   0922      JALAN HIJAUAN 5/4                                      09    
+0922072   0922      JALAN HIJAUAN 5/5                                      09    
+0922073   0922      JALAN HIJAUAN 5/6                                      09    
+0922074   0922      JALAN HIJAUAN 5/7                                      09    
+0922075   0922      JALAN HIJAUAN 5/8                                      09    
+0922076   0922      JALAN HIJAUAN 5/9                                      09    
+0922077   0922      JALAN HIJAUAN 6/1                                      09    
+0922078   0922      JALAN HIJAUAN 6/2                                      09    
+0922079   0922      JALAN HIJAUAN 6/3                                      09    
+0922080   0922      JALAN HIJAUAN 6/4                                      09    
+0922081   0922      JALAN HIJAUAN 6/5                                      09    
+0922082   0922      JALAN HIJAUAN 7/2                                      09    
+0922083   0922      JALAN HIJAUAN 7/3                                      09    
+0922084   0922      JALAN HIJAUAN 7/4                                      09    
+0922085   0922      JALAN HORIZON PERDANA 1                                09    
+0922086   0922      JALAN HORIZON PERDANA 3                                09    
+0922087   0922      JALAN HORIZON PERDANA 4                                09    
+0922088   0922      JALAN HORIZON PERDANA 5                                09    
+0922089   0922      JALAN HORIZON PERDANA 6                                09    
+0922090   0922      JALAN MAYA 1                                           09    
+0922091   0922      JALAN MAYA 1/1                                         09    
+0922092   0922      JALAN MAYA 1/2                                         09    
+0922093   0922      JALAN MAYA 1/3                                         09    
+0922094   0922      JALAN MAYA 1/4                                         09    
+0922095   0922      JALAN MAYA 1/5                                         09    
+0922096   0922      JALAN MAYA 1/6                                         09    
+0922097   0922      JALAN MAYA 1/7                                         09    
+0922098   0922      JALAN MAYA 1/8                                         09    
+0922099   0922      JALAN MAYA 2                                           09    
+0922100   0922      JALAN MAYA 2/1                                         09    
+0922101   0922      JALAN MAYA 2/2                                         09    
+0922102   0922      JALAN MAYA 2/3                                         09    
+0922103   0922      JALAN MAYA 2/4                                         09    
+0922104   0922      JALAN MAYA 2/5                                         09    
+0922105   0922      JALAN MAYA 2/6                                         09    
+0922106   0922      JALAN MAYA 3/1                                         09    
+0922107   0922      JALAN MAYA 3/2                                         09    
+0922108   0922      JALAN MAYA 3/3                                         09    
+0922109   0922      JALAN MAYA 3/4                                         09    
+0922110   0922      JALAN MAYA 3/5                                         09    
+0922111   0922      JALAN MAYA 3/6                                         09    
+0922112   0922      JALAN MAYA 3/7                                         09    
+0922113   0922      JALAN MAYA 3/8                                         09    
+0922114   0922      JALAN PERSIARAN SELATAN                                09    
+0922115   0922      JALAN PINGGIRAN 2                                      09    
+0922116   0922      JALAN PINGGIRAN 2/1                                    09    
+0922117   0922      JALAN PINGGIRAN 2/2                                    09    
+0922118   0922      JALAN PINGGIRAN 2/4                                    09    
+0922119   0922      JALAN PINGGIRAN 2/5                                    09    
+0922120   0922      JALAN PINGGIRAN 2/6                                    09    
+0922121   0922      JALAN PINGGIRAN 2/7                                    09    
+0922122   0922      JALAN PINGGIRAN 3/1                                    09    
+0922123   0922      JALAN PINGGIRAN 3/2                                    09    
+0922124   0922      JALAN PINGGIRAN 3/3                                    09    
+0922125   0922      JALAN PINGGIRAN 3/4                                    09    
+0922126   0922      JALAN PINGGIRAN 3/5                                    09    
+0922127   0922      JALAN PINGGIRAN 4                                      09    
+0922128   0922      JALAN PINGGIRAN 4/1                                    09    
+0922129   0922      JALAN PINGGIRAN 4/2                                    09    
+0922130   0922      JALAN PINGGIRAN 4/3                                    09    
+0922131   0922      JALAN PINGGIRAN 5/1                                    09    
+0922132   0922      JALAN PINGGIRAN 5/2                                    09    
+0922133   0922      JALAN PINGGIRAN 5/3                                    09    
+0922134   0922      JALAN PINGGIRAN 5/4                                    09    
+0922135   0922      JALAN PINGGIRAN 5/5                                    09    
+0922136   0922      JALAN PINGGIRAN 5/6                                    09    
+0922137   0922      JALAN PINGGIRAN 5/7                                    09    
+0922138   0922      JALAN PINGGIRAN 5/8                                    09    
+0922139   0922      JALAN PINGGIRAN 6                                      09    
+0922140   0922      JALAN PINGGIRAN 6/1                                    09    
+0922141   0922      JALAN PINGGIRAN 6/2                                    09    
+0922142   0922      JALAN PINGGIRAN 6/3                                    09    
+0922143   0922      JALAN SAUJANA 1                                        09    
+0922144   0922      JALAN SAUJANA 2                                        09    
+0922145   0922      JALAN SAUJANA 3                                        09    
+0922146   0922      JALAN SAUJANA 4                                        09    
+0922147   0922      JALAN SERAMBI 3/1                                      09    
+0922148   0922      JALAN SERAMBI 5                                        09    
+0922149   0922      JALAN SERAMBI 5/1                                      09    
+0922150   0922      JALAN SERAMBI 6/1                                      09    
+0922151   0922      JALAN SERAMBI 6/2                                      09    
+0922152   0922      JALAN SERAMBI 7                                        09    
+0922153   0922      JALAN SERAMBI 8                                        09    
+0922154   0922      JALAN SERAMBI 8/1                                      09    
+0922155   0922      JALAN SERAMBI 8/2                                      09    
+0922156   0922      JALAN SERAMBI UTAMA                                    09    
+0922157   0922      JALAN ANJUNG 3                                         09    
+0922158   0922      JALAN ANJUNG 8                                         09    
+0922159   0922      JALAN ANJUNG UTAMA                                     09    
+0922160   0922      JALAN GITA UTAMA 2                                     09    
+0922161   0922      JALAN HIJAUAN 5                                        09    
+0922162   0922      JALAN MAYA 3                                           09    
+0922163   0922      JALAN PINGGIRAN 3                                      09    
+0922164   0922      JALAN GITA 4/1                                         09    
+0922165   0922      JALAN GITA 4/2                                         09    
+0922166   0922      JALAN GITA 4/3                                         09    
+0922167   0922      JALAN GITA 4/4                                         09    
+0922168   0922      JALAN GITA 4/5                                         09    
+0922169   0922      JALAN GITA 4/6                                         09    
+0922170   0922      JALAN GITA 4/8                                         09    
+0922171   0922      JALAN SERAMBI 3/4                                      09    
+0922172   0922      JALAN BARAT 1                                          09    
+0922173   0922      JALAN PERSIARAN BARAT                                  09    
+0922174   0922      JALAN SERAMBI 2                                        09    
+0922175   0922      JALAN SERAMBI 4/1                                      09    
+0922176   0922      JALAN SERAMBI 4/2                                      09    
+0922177   0922      JALAN HIJAUAN 5/12                                     09    
+0922178   0922      JALAN HIJAUAN 5/10                                     09    
+0922179   0922      JALAN HIJAUAN 5/13                                     09    
+0922180   0922      JALAN HIJAUAN 5/15                                     09    
+0922181   0922      JALAN HIJAUAN 5/14                                     09    
+0922182   0922      JALAN HIJAUAN 5/16                                     09    
+0922183   0922      JALAN HIJAUAN 7/1                                      09    
+0922184   0922      JALAN RIMBA 2/1                                        09    
+0922185   0922      JALAN RIMBA 2/2                                        09    
+0922186   0922      JALAN PERSIARAN UTARA                                  09    
+0922187   0922      JALAN RIMBA 1                                          09    
+0922188   0922      JALAN RIMBA 1/1                                        09    
+0922189   0922      JALAN RIMBA 1/2                                        09    
+0922190   0922      JALAN RIMBA 1/3                                        09    
+0922191   0922      JALAN RIMBA 1/4                                        09    
+0922192   0922      JALAN RIMBA 5                                          09    
+0922193   0922      JALAN RIMBA 6/1                                        09    
+0922194   0922      JALAN RIMBA 6/2                                        09    
+0922195   0922      JALAN RIMBA 6/3                                        09    
+0922196   0922      JALAN RIMBA 6/4                                        09    
+0922197   0922      JALAN RIMBA 6/5                                        09    
+0922198   0922      JALAN RIMBA 6/6                                        09    
+0922199   0922      JALAN RIMBA 7                                          09    
+0922200   0922      JALAN RIMBA 7/1                                        09    
+0922201   0922      JALAN RIMBA 7/2                                        09    
+0922202   0922      JALAN RIMBA 6                                          09    
+0922203   0922      JALAN RIMBA 6/6                                        09    
+0922204   0922      JALAN RIMBA 6/7                                        09    
+0922205   0922      JALAN RIMBA 6/8                                        09    
+0922206   0922      JALAN RIMBA 2                                          09    
+0922207   0922      JALAN RIMBA 2/3                                        09    
+0922208   0922      JALAN RIMBA 2/4                                        09    
+0922209   0922      JALAN RIMBA 3                                          09    
+0922210   0922      JALAN RIMBA 3/1                                        09    
+0923001   0923                                                             09    
+0924001   0924                                                             09    
+0925001   0925                                                             09    
+0926001   0926                                                             09    
+0927001   0927                                                             09    
+0927002   0927      JALAN GELANG EMAS 6                                    09    
+0929001   0929                                                             09    
+0929002   0929      PERSIARAN AFIAT                                        09    
+0929003   0929      JALAN INDAH UTAMA                                      09    
+0930001   0930                                                             09    
+0930002   0930      JALAN LEGOLAND                                         09    
+0930003   0930      JALAN MEDINI TIMUR 6                                   09    
+0930004   0930      JALAN MEDINI TIMUR 7                                   09    
+0930005   0930      JALAN MEDINI TIMUR 8                                   09    
+0930006   0930      JALAN MEDINI TIMUR 10                                  09    
+0930007   0930      JALAN MEDINI TIMUR 12                                  09    
+0930008   0930      JALAN MEDINI TIMUR 14                                  09    
+0930009   0930      JALAN MEDINI UTARA 4                                   09    
+0930010   0930      JALAN TAR                                              09    
+0930011   0930      LEBUH MEDINI UTARA                                     09    
+0930012   0930      PERSIARAN MEDINI 3                                     09    
+0930013   0930      PERSIARAN MEDINI SENTRAL 5                             09    
+0930014   0930      PERSIARAN MEDINI SENTRAL 6                             09    
+0930015   0930      PERSIARAN MEDINI UTARA 3                               09    
+0930016   0930      JALAN MEDINI SELATAN 9                                 09    
+0930017   0930      JALAN MEDINI UTARA 8                                   09    
+0930018   0930      PERSIARAN MEDINI UTARA 8                               09    
+0930019   0930      JALAN MEDINI SELATAN 7                                 09    
+0930020   0930      JALAN MEDINI SELATAN 1                                 09    
+0930021   0930      PERSIARAN MEDINI SENTRAL 1                             09    
+0930022   0930      PERSIARAN MEDINI 6                                     09    
+0930023   0930      JALAN MEDINI SELATAN 11                                09    
+0930024   0930      PERSIARAN MEDINI 2                                     09    
+0930025   0930      JALAN MEDINI TIMUR 5/5                                 09    
+0930026   0930      JALAN MEDINI TIMUR 5/3                                 09    
+0930027   0930      JALAN MEDINI TIMUR 5/1                                 09    
+0930028   0930      JALAN MEDINI TIMUR                                     09    
+0930029   0930      JALAN MEDINI TIMUR 5                                   09    
+0930030   0930      JALAN MEDINI TIMUR 5/2                                 09    
+0930031   0930      JALAN MEDINI TIMUR 5/4                                 09    
+0930032   0930      JALAN MEDINI TIMUR 5/6                                 09    
+0930033   0930      JALAN MEDINI SENTRAL 3                                 09    
+0930034   0930      PERSIARAN MEDINI SENTRAL 7                             09    
+0930178   0930      JALAN HIJAUAN 5/10                                     09    
+0931001   0931                                                             09    
+0931002   0931      JALAN BAYU 1/1                                         09    
+0931003   0931      JALAN BAYU 1/2                                         09    
+0931004   0931      JALAN BAYU 3/1                                         09    
+0931005   0931      JALAN BAYU 3/2                                         09    
+0931006   0931      JALAN BAYU 3/3                                         09    
+0931007   0931      JALAN BAYU 3/4                                         09    
+0931008   0931      JALAN BAYU 3/5                                         09    
+0931009   0931      JALAN BAYU 3/6                                         09    
+0931010   0931      JALAN BAYU 3/7                                         09    
+0931011   0931      JALAN BAYU 3/8                                         09    
+0931012   0931      JALAN BAYU 3/9                                         09    
+0931013   0931      JALAN BAYU 3/10                                        09    
+0931014   0931      JALAN BAYU 3/11                                        09    
+0931015   0931      JALAN BAYU 3/12                                        09    
+0931016   0931      JALAN BAYU 3/13                                        09    
+0931017   0931      JALAN BAYU 3/14                                        09    
+0931018   0931      JALAN BAYU 6/1                                         09    
+0931019   0931      JALAN BAYU 6/2                                         09    
+0931020   0931      JALAN BAYU 6/3                                         09    
+0931021   0931      JALAN BAYU 6/4                                         09    
+0931022   0931      JALAN BAYU 6/5                                         09    
+0931023   0931      JALAN BAYU 7/1                                         09    
+0931024   0931      JALAN BAYU 7/2                                         09    
+0931025   0931      JALAN BAYU 7/3                                         09    
+0931026   0931      JALAN BAYU 7/4                                         09    
+0931027   0931      JALAN BAYU 7/5                                         09    
+0931028   0931      JALAN BAYU 7/6                                         09    
+0931029   0931      JALAN BAYU 7/7                                         09    
+0931030   0931      JALAN BAYU 7/8                                         09    
+0931031   0931      JALAN BAYU 7/9                                         09    
+0931032   0931      JALAN BAYU 7/10                                        09    
+0931033   0931      JALAN BAYU 7/11                                        09    
+0931034   0931      JALAN BAYU 7/12                                        09    
+0931035   0931      JALAN BAYU 7/13                                        09    
+0931036   0931      JALAN BAYU 7/14                                        09    
+0931037   0931      JALAN BAYU 7/15                                        09    
+0931038   0931      JALAN BAYU 7/16                                        09    
+0931039   0931      JALAN BAYU 8/1                                         09    
+0931040   0931      JALAN BAYU 8/2                                         09    
+0931041   0931      JALAN BAYU 8/3                                         09    
+0931042   0931      JALAN BAYU 8/4                                         09    
+0931043   0931      JALAN BAYU 8/5                                         09    
+0931044   0931      JALAN BAYU 8/6                                         09    
+0931045   0931      JALAN PERSIARAN BAYU                                   09    
+0931046   0931      JALAN LINGKARAN BAYU                                   09    
+0932001   0932                                                             09    
+0932002   0932      JALAN SENTRAL 1                                        09    
+0932003   0932      JALAN SENTRAL 2                                        09    
+0932004   0932      JALAN SENTRAL 5                                        09    
+0932005   0932      JALAN SENTRAL 6                                        09    
+0932006   0932      JALAN SENTRAL 8                                        09    
+0932007   0932      JALAN SENTRAL 9                                        09    
+0932008   0932      JALAN SENTRAL 11                                       09    
+0932009   0932      JALAN SENTRAL 13                                       09    
+0932010   0932      JALAN SENTRAL 14                                       09    
+0932011   0932      JALAN SENTRAL 15                                       09    
+0932012   0932      JALAN SENTRAL 16                                       09    
+0932013   0932      JALAN SENTRAL 17                                       09    
+0932014   0932      JALAN SENTRAL 18                                       09    
+0932015   0932      JALAN SENTRAL 19                                       09    
+0932016   0932      JALAN SENTRAL 20                                       09    
+0932017   0932      JALAN SENTRAL 21                                       09    
+0932018   0932      JALAN SENTRAL 22                                       09    
+0932019   0932      JALAN SENTRAL 23/1                                     09    
+0932020   0932      JALAN SENTRAL 23/2                                     09    
+0932021   0932      JALAN SENTRAL 23/3                                     09    
+0932022   0932      JALAN SENTRAL 23/4                                     09    
+0932023   0932      JALAN SENTRAL 23/5                                     09    
+0932024   0932      JALAN SENTRAL 23/6                                     09    
+0932025   0932      JALAN SENTRAL 24                                       09    
+0932026   0932      JALAN SENTRAL 25                                       09    
+0932027   0932      JALAN SENTRAL 28                                       09    
+0932028   0932      JALAN SENTRAL 12                                       09    
+0932029   0932      JALAN SENTRAL 26                                       09    
+0932030   0932      JALAN SENTRAL 3                                        09    
+0932031   0932      JALAN SENTRAL 23/10                                    09    
+0932032   0932      JALAN SENTRAL 23/11                                    09    
+0932033   0932      JALAN SENTRAL 23/12                                    09    
+0932034   0932      JALAN SENTRAL 23/13                                    09    
+0932035   0932      JALAN SENTRAL 23/7                                     09    
+0932036   0932      JALAN SENTRAL 23/8                                     09    
+0932037   0932      JALAN SENTRAL 23/9                                     09    
+0932038   0932      JALAN SENTRAL 23                                       09    
+0932039   0932      JALAN SENTRAL 25/1                                     09    
+0932040   0932      JALAN SENTRAL 27/2                                     09    
+0932041   0932      JALAN SENTRAL 27/3                                     09    
+0932042   0932      JALAN SENTRAL 27/4                                     09    
+0932043   0932      JALAN SENTRAL 27/5                                     09    
+0932044   0932      JALAN SENTRAL 27/6                                     09    
+0932045   0932      JALAN SENTRAL 27/7                                     09    
+0932046   0932      JALAN SENTRAL 27/8                                     09    
+0932047   0932      JALAN SENTRAL 27/9                                     09    
+0932048   0932      JALAN SENTRAL 27/10                                    09    
+0932049   0932      JALAN SENTRAL 27/11                                    09    
+0932050   0932      JALAN SENTRAL 27/12                                    09    
+0932051   0932      JALAN SENTRAL 27/13                                    09    
+0932052   0932      JALAN SENTRAL 27/14                                    09    
+0932053   0932      JALAN SENTRAL 27/15                                    09    
+0932054   0932      JALAN SENTRAL 27/16                                    09    
+0932055   0932      JALAN SENTRAL 27/17                                    09    
+0932056   0932      JALAN SENTRAL 27/18                                    09    
+0932057   0932      JALAN SENTRAL 27/19                                    09    
+0932058   0932      JALAN SENTRAL 27/20                                    09    
+0932059   0932      JALAN SENTRAL 26/3                                     09    
+0932060   0932      JALAN SENTRAL 26/4                                     09    
+0932061   0932      JALAN SENTRAL 26/5                                     09    
+0932062   0932      JALAN SENTRAL 26/6                                     09    
+0932063   0932      JALAN SENTRAL 26/7                                     09    
+0932064   0932      JALAN SENTRAL 26/8                                     09    
+0932065   0932      JALAN SENTRAL 26/9                                     09    
+0932066   0932      JALAN SENTRAL 26/10                                    09    
+0932067   0932      JALAN SENTRAL 26/1                                     09    
+0932068   0932      JALAN SENTRAL 26/2                                     09    
+0933001   0933                                                             09    
+0933002   0933      PERSIARAN CANSELOR                                     09    
+0933003   0933      PERSIARAN GRADUAN                                      09    
+0933004   0933      PERSIARAN KAMPUS                                       09    
+0933005   0933      JALAN KAMPUNG LALANG                                   09    
+0935001   0935      JALAN PRISMA 1                                         09    
+0935002   0935      JALAN PRISMA UTAMA                                     09    
+0936001   0936                                                             09    
+0936002   0936      JALAN ISKANDAR PUTRI 1/2                               09    
+0936003   0936      JALAN ISKANDAR PUTRI 1/3                               09    
+0936004   0936      JALAN ISKANDAR PUTRI 1/4                               09    
+0936005   0936      JALAN ISKANDAR PUTRI 1/5                               09    
+0936006   0936      JALAN PRIMA 1/1                                        09    
+0936007   0936      JALAN PRIMA 1/2                                        09    
+0936008   0936      JALAN PRIMA 1/3                                        09    
+0936009   0936      JALAN PRIMA 1/4                                        09    
+0936010   0936      JALAN PRIMA 5/1                                        09    
+0936011   0936      JALAN PRIMA 5/2                                        09    
+0936012   0936      JALAN PRIMA 5/3                                        09    
+0936013   0936      JALAN PRIMA 6/1                                        09    
+0936014   0936      JALAN PRIMA 6/2                                        09    
+0936015   0936      JALAN PRIMA 6/3                                        09    
+0936016   0936      JALAN PRIMA 6/4                                        09    
+0936017   0936      JALAN PRIMA 6/5                                        09    
+0936018   0936      JALAN PRIMA 6/6                                        09    
+0936019   0936      JALAN PRIMA 6/7                                        09    
+0936020   0936      JALAN ISKANDAR PUTRI 1/6                               09    
+0936021   0936      JALAN PRIMA 2/1                                        09    
+0936022   0936      JALAN PRIMA 2/2                                        09    
+0936023   0936      JALAN PRIMA 2/3                                        09    
+0936024   0936      JALAN PRIMA 2/4                                        09    
+0936025   0936      JALAN PRIMA 2/5                                        09    
+0936026   0936      JALAN PRIMA 2/6                                        09    
+0936027   0936      JALAN PRIMA 3/1                                        09    
+0936028   0936      JALAN PRIMA 3/2                                        09    
+0936029   0936      JALAN PRIMA 3/3                                        09    
+0936030   0936      JALAN PRIMA 3/4                                        09    
+0936031   0936      JALAN PRIMA 3/5                                        09    
+0936032   0936      JALAN PRIMA 3/6                                        09    
+0936033   0936      JALAN PRIMA 3/7                                        09    
+0936034   0936      JALAN PRIMA 4/1                                        09    
+0936035   0936      JALAN PRIMA 4/3                                        09    
+0936036   0936      JALAN PRIMA 4/5                                        09    
+0936037   0936      JALAN PERSIARAN PRIMA                                  09    
+0936038   0936      JALAN PRIMA 4/2                                        09    
+0936039   0936      JALAN PRIMA 4/4                                        09    
+0936040   0936      JALAN PRIMA 4/6                                        09    
+0936041   0936      JALAN PRIMA 5/7                                        09    
+0936042   0936      JALAN PRIMA 5/8                                        09    
+0936043   0936      JALAN PRIMA 5/9                                        09    
+0936044   0936      JALAN PRIMA 5/10                                       09    
+0936045   0936      JALAN PRIMA 5/11                                       09    
+0936046   0936      JALAN PRIMA 5/12                                       09    
+0936047   0936      JALAN PRIMA 5/13                                       09    
+0936048   0936      JALAN PRIMA 5/14                                       09    
+0936049   0936      JALAN PRIMA 5/6                                        09    
+0936050   0936      JALAN PRIMA 5/5                                        09    
+0936051   0936      JALAN PRIMA 5/4                                        09    
+0936052   0936      JALAN PRIMA 5                                          09    
+0937001   0937                                                             09    
+0937002   0937      JALAN LAKSAMANA 1                                      09    
+0937003   0937      JALAN PINGGIRAN BAYU                                   09    
+0937004   0937      LEBUH LAKSAMANA                                        09    
+0937005   0937      PERSIARAN PUTERI SELATAN                               09    
+0937006   0937      JALAN BAYU SINARAN                                     09    
+0937007   0937      JALAN BAYU WARISAN                                     09    
+0937008   0937      JALAN CANGKAT BAYU HARUMAN                             09    
+0937009   0937      JALAN TANJUNG                                          09    
+0937010   0937      PERSIARAN DATO' SERI AMAR DIRAJA                       09    
+0937011   0937      PERSIARAN TANJUNG                                      09    
+0937012   0937      LEBUH BAHTERA                                          09    
+0937013   0937      PERSIARAN LAKSAMANA                                    09    
+0937014   0937      JALAN BAYU RINDUAN                                     09    
+0938001   0938                                                             09    
+0938002   0938      JALAN EKO BOTANI 2/1                                   09    
+0938003   0938      JALAN EKO BOTANI 2/3                                   09    
+0938004   0938      JALAN EKO BOTANI 2/4                                   09    
+0938005   0938      JALAN EKO BOTANI 2/5                                   09    
+0938006   0938      JALAN EKO BOTANI 2/6                                   09    
+0938007   0938      JALAN EKO BOTANI 2/7                                   09    
+0938008   0938      JALAN EKO BOTANI 2/8                                   09    
+0938009   0938      JALAN EKO BOTANI 2/9                                   09    
+0938010   0938      JALAN EKO BOTANI 2/10                                  09    
+0938011   0938      JALAN EKO BOTANI 2/11                                  09    
+0938012   0938      JALAN EKO BOTANI 2/12                                  09    
+0938013   0938      JALAN EKO BOTANI 2/13                                  09    
+0938014   0938      JALAN EKO BOTANI 2/14                                  09    
+0938015   0938      JALAN EKO BOTANI 2/15                                  09    
+0938016   0938      JALAN EKO BOTANI 2/16                                  09    
+0938017   0938      JALAN EKO BOTANI 2/17                                  09    
+0938018   0938      JALAN EKO BOTANI 2/19                                  09    
+0938019   0938      JALAN EKO BOTANI 2/20                                  09    
+0938020   0938      JALAN EKO BOTANI 2/21                                  09    
+0938021   0938      JALAN EKO BOTANI 2/22                                  09    
+0938022   0938      JALAN EKO BOTANI 2/23                                  09    
+0938023   0938      JALAN EKO BOTANI 2/24                                  09    
+0938024   0938      JALAN EKO BOTANI 2/25                                  09    
+0938025   0938      JALAN EKO BOTANI 2/26                                  09    
+0938026   0938      JALAN EKO BOTANI 2/27                                  09    
+0938027   0938      JALAN EKO BOTANI 2/28                                  09    
+0938028   0938      JALAN EKO BOTANI 2/29                                  09    
+0938029   0938      JALAN EKO BOTANI 2/30                                  09    
+0938030   0938      JALAN EKO BOTANI 2/31                                  09    
+0938031   0938      JALAN EKO BOTANI 2/32                                  09    
+0938032   0938      JALAN EKO BOTANI 3/2                                   09    
+0938033   0938      JALAN EKO BOTANI 3/3                                   09    
+0938034   0938      JALAN EKO BOTANI 3/4                                   09    
+0938035   0938      JALAN EKO BOTANI 3/5                                   09    
+0938036   0938      JALAN EKO BOTANI 3/6                                   09    
+0938037   0938      JALAN EKO BOTANI 3/7                                   09    
+0938038   0938      JALAN PERSIARAN EKO BOTANI                             09    
+0938039   0938      JALAN EKO BOTANI 3/1                                   09    
+0938040   0938      JALAN EKO BOTANI 1/10                                  09    
+0938041   0938      JALAN EKO BOTANI 1/4                                   09    
+0938042   0938      JALAN EKO BOTANI 1/5                                   09    
+0938043   0938      JALAN EKO BOTANI 1/6                                   09    
+0938044   0938      JALAN EKO BOTANI 1/7                                   09    
+0938045   0938      JALAN EKO BOTANI 1/8                                   09    
+0938046   0938      JALAN EKO BOTANI 1/9                                   09    
+0938047   0938      JALAN EKO BOTANI 3/8                                   09    
+0938048   0938      JALAN EKO BOTANI 1/2                                   09    
+0938049   0938      JALAN EKO BOTANI 3                                     09    
+0939001   0939                                                             09    
+0939002   0939      JALAN NIAGA ASPIRA 1/1                                 09    
+0939003   0939      JALAN NIAGA ASPIRA 1/2                                 09    
+0939004   0939      JALAN NIAGA ASPIRA 1/3                                 09    
+0939005   0939      JALAN NIAGA ASPIRA 1/4                                 09    
+0939006   0939      JALAN NIAGA ASPIRA 1/5                                 09    
+0939007   0939      JALAN ANGGUN                                           09    
+0940001   0940                                                             09    
+0940002   0940      JALAN GELANG PATAH                                     09    
+0940003   0940      JALAN NUSA PUNCAK 1                                    09    
+0940004   0940      JALAN NUSA PUNCAK 2                                    09    
+0941001   0941                                                             09    
+0941002   0941      JALAN LAMAN ESTUARI 1/10                               09    
+0941003   0941      JALAN LAMAN ESTUARI 1/11                               09    
+0941004   0941      JALAN LAMAN ESTUARI 1/12                               09    
+0941005   0941      JALAN LAMAN ESTUARI 1/13                               09    
+0941006   0941      JALAN LAMAN ESTUARI 1/14                               09    
+0941007   0941      JALAN LAMAN ESTUARI 1/15                               09    
+0941008   0941      JALAN LAMAN ESTUARI 1/16                               09    
+0941009   0941      JALAN LAMAN ESTUARI 1/2                                09    
+0941010   0941      JALAN LAMAN ESTUARI 1/3                                09    
+0941011   0941      JALAN LAMAN ESTUARI 1/4                                09    
+0941012   0941      JALAN LAMAN ESTUARI 1/5                                09    
+0941013   0941      JALAN LAMAN ESTUARI 1/6                                09    
+0941014   0941      JALAN LAMAN ESTUARI 1/7                                09    
+0941015   0941      JALAN LAMAN ESTUARI 1/8                                09    
+0941016   0941      JALAN LAMAN ESTUARI 1/9                                09    
+0941017   0941      PERSIARAN LAMAN ESTUARI 1                              09    
+0942001   0942                                                             09    
+0942002   0942      JALAN LINGKARAN TEKNOLOGI PERINTIS 1                   09    
+0942003   0942      JALAN TEKNOLOGI PERINTIS 1                             09    
+0942004   0942      JALAN TEKNOLOGI PERINTIS 1/1                           09    
+0942005   0942      JALAN TEKNOLOGI PERINTIS 1/2                           09    
+0942006   0942      JALAN TEKNOLOGI PERINTIS 1/3                           09    
+0942007   0942      JALAN PERSIARAN TEKNOLOGI PERINTIS                     09    
+0942008   0942      JALAN TEKNOLOGI PERINTIS 2                             09    
+0943001   0943                                                             09    
+0943002   0943      PERSIARAN LAYAR PERAK                                  09    
+0943003   0943      JALAN LAYAR PERAK                                      09    
+0944001   0944                                                             09    
+0944002   0944      JALAN BUNGA MAWAR                                      09    
+0944003   0944      JALAN BUNGA MELATI                                     09    
+0944004   0944      JALAN BUNGA ROS                                        09    
+0944005   0944      JALAN MASJID                                           09    
+0944006   0944      JALAN MELUR                                            09    
+0944007   0944      JALAN PERSISIRAN PANTAI                                09    
+0944008   0944      JALAN SEKOLAH                                          09    
+0944009   0944      JALAN TERATAI                                          09    
+0944010   0944      LORONG IKAN BELANAK                                    09    
+0944011   0944      LORONG IKAN CERMIN                                     09    
+0944012   0944      LORONG IKAN JENAHAK                                    09    
+0944013   0944      LORONG IKAN KERAPU                                     09    
+0944014   0944      LORONG IKAN KITANG                                     09    
+0944015   0944      LORONG IKAN KURAU                                      09    
+0944016   0944      LORONG IKAN SEMBILANG                                  09    
+0944017   0944      LORONG IKAN SIAKAP                                     09    
+0944018   0944      LORONG TODAK                                           09    
+0945001   0945                                                             09    
+0945002   0945      JALAN RIMBUN 1                                         09    
+0945003   0945      JALAN RIMBUN 2                                         09    
+0945004   0945      JALAN RIMBUN 3                                         09    
+0945005   0945      JALAN RIMBUN 4                                         09    
+0945006   0945      JALAN RIMBUN 5                                         09    
+0945007   0945      JALAN RIMBUN 6                                         09    
+0946003   0946      -                                                      09    
+0947001   0947      JALAN MEDINI SELATAN 3                                 09    
+0947002   0947      JALAN MEDINI SELATAN 11                                09    
+0947003   0947      JALAN MEDINI SELATAN 1                                 09    
+0948001   0948      -                                                      09    
+0948002   0948      JALAN SURIA 1                                          09    
+0948003   0948      JALAN SURIA 2                                          09    
+0948004   0948      JALAN SURIA 3                                          09    
+0948005   0948      JALAN SURIA  4                                         09    
+0949001   0949      JALAN PERSIARAN NADI UTAMA                             09    
+0949002   0949      JALAN PERSIARAN NADI 1                                 09    
+0949003   0949      JALAN PERSIARAN NADI 2                                 09    
+0949004   0949      JALAN NADI 3                                           09    
+0949005   0949      JALAN NADI 4                                           09    
+0949006   0949      JALAN NADI 5                                           09    
+0949007   0949      JALAN NADI 6                                           09    
+0949008   0949      JALAN NADI 7                                           09    
+0949009   0949      JALAN NADI 1/1                                         09    
+0949010   0949      JALAN NADI 1/2                                         09    
+0949011   0949      JALAN NADI 1/3                                         09    
+0949012   0949      JALAN NADI 1/4                                         09    
+0949013   0949      JALAN NADI 1/5                                         09    
+0949014   0949      JALAN NADI 1/6                                         09    
+0949015   0949      JALAN NADI 1/7                                         09    
+0949016   0949      JALAN NADI 2/1                                         09    
+0949017   0949      JALAN NADI 2/2                                         09    
+0949018   0949      JALAN NADI 2/3                                         09    
+0949019   0949      JALAN NADI 2/4                                         09    
+0949020   0949      JALAN NADI 2/5                                         09    
+0949021   0949      JALAN NADI 2/6                                         09    
+0949022   0949      JALAN NADI 2/7                                         09    
+0949023   0949      JALAN NADI 2/8                                         09    
+0949024   0949      JALAN NADI 2/9                                         09    
+0949025   0949      JALAN NADI 2/10                                        09    
+0949026   0949      -                                                      09    
+0951001   0951      TIDAK DIKETAHUI                                        09    
+0951002   0951      JALAN                                                  09    
+0952001   0952      -                                                      09    
+0952002   0952      JALAN PERSIARAN SERASA HIJAUAN                         09    
+**********

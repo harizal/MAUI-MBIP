@@ -17,7 +17,7 @@ namespace AndroidCompound5
             if (!System.IO.File.Exists(strFullFileName))
                 return null;
 
-            var listEnforcer = EnforcerAccess.GetEnforcerAccess(strFullFileName);
+            var listEnforcer = EnforcerAccess.GetEnforcerAccess();
 #if DEBUG
             return listEnforcer.FirstOrDefault();
 #endif
@@ -35,7 +35,7 @@ namespace AndroidCompound5
             if (!System.IO.File.Exists(strFullFileName))
                 return false;
 
-            var listEnforcer = EnforcerAccess.GetEnforcerAccess(strFullFileName);
+            var listEnforcer = EnforcerAccess.GetEnforcerAccess();
 #if DEBUG
             return true;
 #endif
@@ -51,7 +51,7 @@ namespace AndroidCompound5
             if (!System.IO.File.Exists(strFullFileName))
                 return listEnforcer;
 
-            return EnforcerAccess.GetEnforcerAccess(strFullFileName);
+            return EnforcerAccess.GetEnforcerAccess();
         }
     }
 }

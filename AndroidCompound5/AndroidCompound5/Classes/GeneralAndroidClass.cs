@@ -157,7 +157,7 @@ namespace AndroidCompound5.Classes
 
 			if (androidVersion < Constants.AndroidVersion.Android11)
 			{
-				foreach (var permission in Constants.Permissions)
+				foreach (var permission in AndroidConstants.Permissions)
 				{
 					////20230222 hsyip : exclude Manifest.Permission.ManageExternalStorage checking below Android OS 11
 					//if (!permission.Contains(Manifest.Permission.ManageExternalStorage))
@@ -174,7 +174,7 @@ namespace AndroidCompound5.Classes
 			{
 				if (androidVersion == Constants.AndroidVersion.Android11) //Android11
 				{
-					foreach (var permission in Constants.PermissionsAndroid11)
+					foreach (var permission in AndroidConstants.PermissionsAndroid11)
 					{
 						var result = ContextCompat.CheckSelfPermission(Android.App.Application.Context, permission);
 						if (result != Permission.Granted)
@@ -185,7 +185,7 @@ namespace AndroidCompound5.Classes
 				}
 				else//Android12 and above
 				{
-					foreach (var permission in Constants.PermissionsAndroid12)
+					foreach (var permission in AndroidConstants.PermissionsAndroid12)
 					{
 						var result = ContextCompat.CheckSelfPermission(Android.App.Application.Context, permission);
 						if (result != Permission.Granted)

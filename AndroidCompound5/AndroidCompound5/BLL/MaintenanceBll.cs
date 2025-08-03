@@ -22,7 +22,7 @@ namespace AndroidCompound5
 
             semakPassInfo.SemakNo = GetSemakPassNumber(info.DolphinId);
 
-            SemakPassAccess.UpdateSemakPassAccess(strFullFileName,  semakPassInfo);
+            SemakPassAccess.UpdateSemakPassAccess(semakPassInfo);
 
         }
 
@@ -31,7 +31,7 @@ namespace AndroidCompound5
             string strFullFileName = GeneralAndroidClass.GetExternalStorageDirectory();
             strFullFileName += Constants.ProgramPath + Constants.TransPath + Constants.SEMAKPASSFIL;
             string todaydate = GeneralBll.GetLocalDateTime().ToString("yyMMdd"); ;
-            var listSemakPass = SemakPassAccess.GetSemakPassAccess(strFullFileName);
+            var listSemakPass = SemakPassAccess.GetSemakPassAccess();
 
             int rec = listSemakPass.Count;
 
@@ -48,7 +48,7 @@ namespace AndroidCompound5
             string strFullFileName = GeneralAndroidClass.GetExternalStorageDirectory();
             strFullFileName += Constants.ProgramPath + Constants.TransPath + Constants.SEMAKPASSFIL;
 
-            var listSemakPass = SemakPassAccess.GetSemakPassAccess(strFullFileName);
+            var listSemakPass = SemakPassAccess.GetSemakPassAccess();
             return listSemakPass.Any(SemakPassDto => SemakPassDto.SemakNo == passnumber);
 
         }

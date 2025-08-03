@@ -16,7 +16,7 @@ namespace AndroidCompound5
             if (!System.IO.File.Exists(strFullFileName))
                 return null;
 
-            var listPassBulan = PassBulanAccess.GetPassBulanAccess(strFullFileName);
+            var listPassBulan = PassBulanAccess.GetPassBulanAccess();
 
             return listPassBulan.FirstOrDefault(c => c.CarNum == carnum);
 

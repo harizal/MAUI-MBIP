@@ -1,8 +1,4 @@
 ﻿using AndroidCompound5.BusinessObject.DTOs;
-using System.Collections.Generic;
-using AndroidCompound5.Classes;
-using System.Linq;
-using AndroidCompound5.AimforceUtils;
 
 namespace AndroidCompound5
 {
@@ -23,219 +19,98 @@ namespace AndroidCompound5
 
         public static CarCategoryDto GetCarCategory(string code)
         {
-            string strFullFileName = GeneralAndroidClass.GetExternalStorageDirectory();
-            strFullFileName += Constants.ProgramPath + Constants.MasterPath + Constants.TableFil;
-
-            if (!System.IO.File.Exists(strFullFileName))
-                return null;
-
-            return TableFilAccess.GetCarCategoryAccess(strFullFileName).FirstOrDefault(c => c.Carcategory == code);
+             return TableFilAccess.GetCarCategoryAccess().FirstOrDefault(c => c.Carcategory == code);
         }
 
         public static List<CarCategoryDto> GetAllCarCategory()
         {
-            string strFullFileName = GeneralAndroidClass.GetExternalStorageDirectory();
-            strFullFileName += Constants.ProgramPath + Constants.MasterPath + Constants.TableFil;
-
-            if (!System.IO.File.Exists(strFullFileName))
-                return null;
-
-            return TableFilAccess.GetCarCategoryAccess(strFullFileName);
+            return TableFilAccess.GetCarCategoryAccess();
         }
 
         public static List<DeliveryDto> GetAllDelivery()
         {
-            string strFullFileName = GeneralAndroidClass.GetExternalStorageDirectory();
-            strFullFileName += Constants.ProgramPath + Constants.MasterPath + Constants.TableFil;
-
-            var listDelivery = new List<DeliveryDto>();
-            if (!System.IO.File.Exists(strFullFileName))
-                return listDelivery;
-
-            return TableFilAccess.GetDeliveryAccess(strFullFileName);
+            return TableFilAccess.GetDeliveryAccess();
         }
 
         public static DeliveryDto GetDeliveryByCode(string code)
         {
-            string strFullFileName = GeneralAndroidClass.GetExternalStorageDirectory();
-            strFullFileName += Constants.ProgramPath + Constants.MasterPath + Constants.TableFil;
-
-            if (!System.IO.File.Exists(strFullFileName))
-                return null;
-
-            return TableFilAccess.GetDeliveryAccess(strFullFileName).FirstOrDefault(c => c.Code == code);
+           return TableFilAccess.GetDeliveryAccess().FirstOrDefault(c => c.Code == code);
         }
 
         public static List<CarTypeDto> GetAllCarType()
         {
-            string strFullFileName = GeneralAndroidClass.GetExternalStorageDirectory();
-            strFullFileName += Constants.ProgramPath + Constants.MasterPath + Constants.TableFil;
-
-            var listCarType = new List<CarTypeDto>();
-            if (!System.IO.File.Exists(strFullFileName))
-                return listCarType;
-
-            return TableFilAccess.GetCarTypeAccess(strFullFileName);
+            return TableFilAccess.GetCarTypeAccess();
         }
 
         public static CarTypeDto GetCarTypeByCode(string code, string category)
         {
-            string strFullFileName = GeneralAndroidClass.GetExternalStorageDirectory();
-            strFullFileName += Constants.ProgramPath + Constants.MasterPath + Constants.TableFil;
-
-            if (!System.IO.File.Exists(strFullFileName))
-                return null;
-
-            return TableFilAccess.GetCarTypeAccess(strFullFileName).FirstOrDefault(c => c.Code == code && c.CarcategoryCode == category);
+            return TableFilAccess.GetCarTypeAccess().FirstOrDefault(c => c.Code == code && c.CarcategoryCode == category);
         }
 
         public static List<CarColorDto> GetAllCarColor()
         {
-            string strFullFileName = GeneralAndroidClass.GetExternalStorageDirectory();
-            strFullFileName += Constants.ProgramPath + Constants.MasterPath + Constants.TableFil;
-
-            var listCarColor = new List<CarColorDto>();
-            if (!System.IO.File.Exists(strFullFileName))
-                return listCarColor;
-
-            return TableFilAccess.GetCarColorAccess(strFullFileName);
+            return TableFilAccess.GetCarColorAccess();
         }
 
         public static CarColorDto GetCarColorById(string id)
         {
-            string strFullFileName = GeneralAndroidClass.GetExternalStorageDirectory();
-            strFullFileName += Constants.ProgramPath + Constants.MasterPath + Constants.TableFil;
-
-            if (!System.IO.File.Exists(strFullFileName))
-                return null;
-
-            return TableFilAccess.GetCarColorAccess(strFullFileName).FirstOrDefault(c => c.Code == id);
+            return TableFilAccess.GetCarColorAccess().FirstOrDefault(c => c.Code == id);
         }
 
         public static List<MukimDto> GetAllMukim()
         {
-            string strFullFileName = GeneralAndroidClass.GetExternalStorageDirectory();
-            strFullFileName += Constants.ProgramPath + Constants.MasterPath + Constants.TableFil;
-
-            var listMukim = new List<MukimDto>();
-            if (!System.IO.File.Exists(strFullFileName))
-                return listMukim;
-
-            return TableFilAccess.GetMukimAccess(strFullFileName);
+            return TableFilAccess.GetMukimAccess();
         }
 
         public static MukimDto GetMukimByCode(string mukim)
         {
-            string strFullFileName = GeneralAndroidClass.GetExternalStorageDirectory();
-            strFullFileName += Constants.ProgramPath + Constants.MasterPath + Constants.TableFil;
-
-
-            if (!System.IO.File.Exists(strFullFileName))
-                return null;
-
-            var listMukim = TableFilAccess.GetMukimAccess(strFullFileName);
+          var listMukim = TableFilAccess.GetMukimAccess();
             return listMukim.FirstOrDefault(c => c.Code == mukim);
         }
 
         public static List<ZoneDto> GetZoneByMukim(string mukim)
         {
-            string strFullFileName = GeneralAndroidClass.GetExternalStorageDirectory();
-            strFullFileName += Constants.ProgramPath + Constants.MasterPath + Constants.TableFil;
-
-            var listZone = new List<ZoneDto>();
-            if (!System.IO.File.Exists(strFullFileName))
-                return listZone;
-
-            return TableFilAccess.GetZoneAccess(strFullFileName).Where(c => c.Mukim == mukim).ToList();
+           return TableFilAccess.GetZoneAccess().Where(c => c.Mukim == mukim).ToList();
         }
 
         public static ZoneDto GetZoneByCodeAndMukim(string code, string mukim)
         {
-            string strFullFileName = GeneralAndroidClass.GetExternalStorageDirectory();
-            strFullFileName += Constants.ProgramPath + Constants.MasterPath + Constants.TableFil;
-
-
-            if (!System.IO.File.Exists(strFullFileName))
-                return null;
-
-            return TableFilAccess.GetZoneAccess(strFullFileName).FirstOrDefault(c => c.Code == code && c.Mukim == mukim);
+            return TableFilAccess.GetZoneAccess().FirstOrDefault(c => c.Code == code && c.Mukim == mukim);
         }
 
         public static List<ActDto> GetAllAct()
         {
-            string strFullFileName = GeneralAndroidClass.GetExternalStorageDirectory();
-            strFullFileName += Constants.ProgramPath + Constants.MasterPath + Constants.TableFil;
-
-            var listAct = new List<ActDto>();
-            if (!System.IO.File.Exists(strFullFileName))
-                return listAct;
-
-            return TableFilAccess.GetActAccess(strFullFileName);
+            return TableFilAccess.GetActAccess();
         }
 
         public static ActDto GetActByCode(string code)
         {
-            string strFullFileName = GeneralAndroidClass.GetExternalStorageDirectory();
-            strFullFileName += Constants.ProgramPath + Constants.MasterPath + Constants.TableFil;
-
-            if (!System.IO.File.Exists(strFullFileName))
-                return null;
-
-            return TableFilAccess.GetActAccess(strFullFileName).FirstOrDefault(c => c.Code == code);
+            return TableFilAccess.GetActAccess().FirstOrDefault(c => c.Code == code);
         }
 
         public static List<OffendDto> GetOffendByActCode(string actCode)
         {
-            string strFullFileName = GeneralAndroidClass.GetExternalStorageDirectory();
-            strFullFileName += Constants.ProgramPath + Constants.MasterPath + Constants.TableFil;
-
-            var listOffend = new List<OffendDto>();
-            if (!System.IO.File.Exists(strFullFileName))
-                return listOffend;
-
-            return TableFilAccess.GetOffendAccess(strFullFileName).Where(c => c.ActCode == actCode).ToList();
+            return TableFilAccess.GetOffendAccess().Where(c => c.ActCode == actCode).ToList();
         }
 
         public static List<OffendDto> GetOffendByOffCodeActCode(string offCode, string actCode)
         {
-            string strFullFileName = GeneralAndroidClass.GetExternalStorageDirectory();
-            strFullFileName += Constants.ProgramPath + Constants.MasterPath + Constants.TableFil;
-
-            var listOffend = new List<OffendDto>();
-            if (!System.IO.File.Exists(strFullFileName))
-                return listOffend;
-
-            return TableFilAccess.GetOffendAccess(strFullFileName).Where(c => c.ActCode == actCode && c.OfdCode == offCode).ToList();
+            return TableFilAccess.GetOffendAccess().Where(c => c.ActCode == actCode && c.OfdCode == offCode).ToList();
         }
 
         public static OffendDto GetOffendByCodeAndAct(string code, string actCode)
         {
-            string strFullFileName = GeneralAndroidClass.GetExternalStorageDirectory();
-            strFullFileName += Constants.ProgramPath + Constants.MasterPath + Constants.TableFil;
-
-
-            if (!System.IO.File.Exists(strFullFileName))
-                return null;
-
-            return TableFilAccess.GetOffendAccess(strFullFileName).FirstOrDefault(c => c.OfdCode == code && c.ActCode == actCode);
+            return TableFilAccess.GetOffendAccess().FirstOrDefault(c => c.OfdCode == code && c.ActCode == actCode);
         }
 
 
         public static List<OffendDto> GetAllOffend()
         {
-            string strFullFileName = GeneralAndroidClass.GetExternalStorageDirectory();
-            strFullFileName += Constants.ProgramPath + Constants.MasterPath + Constants.TableFil;
-
-            var listOffend = new List<OffendDto>();
-            if (!System.IO.File.Exists(strFullFileName))
-                return listOffend;
-
-            return TableFilAccess.GetOffendAccess(strFullFileName);
+            return TableFilAccess.GetOffendAccess();
         }
 
         public static string GetOffendDesc(string offendCode, string actCode, List<OffendDto> listOffend)
         {
-
             var offend = listOffend.FirstOrDefault(c => c.OfdCode == offendCode && c.ActCode == actCode);
             if (offend == null) return string.Empty;
             return offend.PrnDesc;
@@ -244,57 +119,26 @@ namespace AndroidCompound5
 
         public static List<TempatJadiDto> GetAllTempatJadi()
         {
-            string strFullFileName = GeneralAndroidClass.GetExternalStorageDirectory();
-            strFullFileName += Constants.ProgramPath + Constants.MasterPath + Constants.TableFil;
-
-            var listTempatJadi = new List<TempatJadiDto>();
-            if (!System.IO.File.Exists(strFullFileName))
-                return listTempatJadi;
-
-            return TableFilAccess.GetTempatJadiAccess(strFullFileName);
+                        return TableFilAccess.GetTempatJadiAccess();
         }
 
         public static TempatJadiDto GetTempatJadi(string code)
         {
-            string strFullFileName = GeneralAndroidClass.GetExternalStorageDirectory();
-            strFullFileName += Constants.ProgramPath + Constants.MasterPath + Constants.TableFil;
-
-            if (!System.IO.File.Exists(strFullFileName))
-                return null;
-
-            return TableFilAccess.GetTempatJadiAccess(strFullFileName).FirstOrDefault(c=>c.Code == code);
+                        return TableFilAccess.GetTempatJadiAccess().FirstOrDefault(c=>c.Code == code);
         }
 
         public static HandheldDto GetHandheldByCode(string enfid, string handheldid)
         {
-            string strFullFileName = GeneralAndroidClass.GetExternalStorageDirectory();
-            strFullFileName += Constants.ProgramPath + Constants.MasterPath + Constants.HandheldFil;
-
-            if (!System.IO.File.Exists(strFullFileName))
-                return null;
-
-            return HandheldAccess.GetHandheldAccess(strFullFileName).FirstOrDefault(c => c.HandheldID == handheldid && c.EnfID == enfid);
+            return HandheldAccess.GetHandheldAccess().FirstOrDefault(c => c.HandheldID == handheldid && c.EnfID == enfid);
         }
         public static OffrateDto GetOffrateByCode(string ofdcode, string actcode, string catcategory)
         {
-            string strFullFileName = GeneralAndroidClass.GetExternalStorageDirectory();
-            strFullFileName += Constants.ProgramPath + Constants.MasterPath + Constants.OffRateFil ;
-
-            if (!System.IO.File.Exists(strFullFileName))
-                return null;
-
-            return OffrateAccess.GetOffRateAccess(strFullFileName).FirstOrDefault(c => c.ActCode == actcode && c.OfdCode == ofdcode && c.CarCategory == catcategory);
+            return OffrateAccess.GetOffRateAccess().FirstOrDefault(c => c.ActCode == actcode && c.OfdCode == ofdcode && c.CarCategory == catcategory);
         }
 
         public static MessageDto GetMessage()
         {
-            string strFullFileName = GeneralAndroidClass.GetExternalStorageDirectory();
-            strFullFileName += Constants.ProgramPath + Constants.MasterPath + Constants.MessageFil;
-
-            if (!System.IO.File.Exists(strFullFileName))
-                return null;
-
-            return MessageAccess.GetMessageAccess(strFullFileName);
+            return MessageAccess.GetMessageAccess();
         }
     }
 }

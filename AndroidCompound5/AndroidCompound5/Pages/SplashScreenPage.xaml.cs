@@ -1,6 +1,7 @@
 using Android.Health.Connect.DataTypes;
 using AndroidCompound5.AimforceUtils;
 using AndroidCompound5.Classes;
+using AndroidCompound5.DataAccess;
 using static Android.Media.MediaDrm;
 
 namespace AndroidCompound5.Pages;
@@ -15,7 +16,10 @@ public partial class SplashScreenPage : ContentPage
 	protected override void OnAppearing()
 	{
 		base.OnAppearing();
-		InitializationApplication();
+		Dispatcher.Dispatch(async () =>
+		{
+			await InitializationApplication();
+		});
 	}
 
 	private void InitConfig()
@@ -56,7 +60,7 @@ public partial class SplashScreenPage : ContentPage
 		return GeneralBll.CheckMasterFile();
 	}
 
-	public async void InitializationApplication()
+	public async Task InitializationApplication()
 	{
 		var permissionResult = await CheckPermissions();
 		var message = string.Empty;
@@ -76,6 +80,24 @@ public partial class SplashScreenPage : ContentPage
 			return;
 		}
 
+		//Initialize database
+		string databasePath = GeneralBll.GetDatabasePath();
+		if (!File.Exists(databasePath))
+		{
+			message = "Database missing. Please close the Application.";
+			await DisplayAlert("Warning", message, "OK");
+			return;
+		}
+		DbContextProvider.Init(databasePath);
+		try
+		{
+			GeneralBll.InitDatabase();
+		}
+		catch (Exception ex)
+		{
+			await DisplayAlert("Error", ex.Message, "OK");
+		}		
+
 		//var wifiReesult = await SetWifi();
 		//if (!wifiReesult)
 		//{
@@ -83,6 +105,10 @@ public partial class SplashScreenPage : ContentPage
 		//}
 
 		InitConfig();
+
+		
+
+		
 
 		var loginpage = new LoginPage();
 		var navigationPage = new NavigationPage(loginpage);

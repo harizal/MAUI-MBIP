@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ConfigApp>
+  <ServiceUrl>https://1.9.46.172:38080/mbipwebservice/servicecompound.asmx</ServiceUrl>
+  <ServiceUPSBUrl>http://175.138.109.52:9911/cmbparking/calc</ServiceUPSBUrl>
+  <ServiceAppletUrl>https://smartparking.southmax.com.my/southmaxws/module-servlet</ServiceAppletUrl>
+  <UrlPhoto>http://1.9.46.172:38081/mdppwsparkingphoto/ws-servlet/WSModule/uploadPhoto?</UrlPhoto>
+  <UrlImage>http://1.9.46.172:38082/home/search?</UrlImage>
+  <ServiceKey>YWltZm9yY2Vzb2Z0d2FyZXNkbmJoZHdlYnNlcnZpY2VzY3JlZGVudGlhbHNAOTAwMDAzODM5MDI4</ServiceKey>
+  <FtpHost>192.168.8.1</FtpHost>
+  <FtpUser>AIMFORCE</FtpUser>
+  <FtpPassword>78742833</FtpPassword>
+  <FtpUnload>\UNLOAD</FtpUnload>
+  <FtpDownload>\DOWNLOAD</FtpDownload>
+  <ftpControl>\CONTROL</ftpControl>
+  <GpsLog>0</GpsLog>
+  <ImgsWidth>300</ImgsWidth>
+  <ImgsHeight>300</ImgsHeight>
+  <GpsInterval>1</GpsInterval>
+  <SendCompoundInterval>1</SendCompoundInterval>
+  <ServiceUser>aimforce</ServiceUser>
+  <ServicePassword>1234</ServicePassword> 
+  <ApkFileName>MBIPAndroid.MBIPAndroid.apk</ApkFileName>
+  <CompanyID>1234</CompanyID> 
+  <ParkCode>PK002</ParkCode> 
+  <AppID>ny35fmkt</AppID> 
+  
+</ConfigApp>
