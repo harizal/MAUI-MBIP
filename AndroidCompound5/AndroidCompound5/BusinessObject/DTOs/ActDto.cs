@@ -1,8 +1,10 @@
 ﻿
+using AndroidCompound5.BusinessObject.BusinessObject.DTOs;
+
 namespace AndroidCompound5.BusinessObject.DTOs
 {
-    public class ActDto
-    {
+    public class ActDto : BaseDto
+	{
         public string Code { get; set; }//[10] ;			// Act Code
         public string ShortDesc { get; set; }//[40] ;		// Short Description
         public string LongDesc { get; set; }//[255] ;		// Long Description

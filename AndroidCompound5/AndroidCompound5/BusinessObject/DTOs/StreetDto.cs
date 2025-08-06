@@ -1,7 +1,9 @@
-﻿namespace AndroidCompound5.BusinessObject.DTOs
+﻿using AndroidCompound5.BusinessObject.BusinessObject.DTOs;
+
+namespace AndroidCompound5.BusinessObject.DTOs
 {
-    public class StreetDto
-    {
+    public class StreetDto : BaseDto
+	{
         public string Code { get; set; }//[4] ;			// Street Code
         public string Zone { get; set; }//[4] ;			// Zone Code
         public string LongDesc { get; set; }//[40] ;	// Long description

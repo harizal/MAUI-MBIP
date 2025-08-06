@@ -1,9 +1,11 @@
 ﻿
 
+using AndroidCompound5.BusinessObject.BusinessObject.DTOs;
+
 namespace AndroidCompound5.BusinessObject.DTOs
 {
-    public class Compound5Dto
-    {
+    public class Compound5Dto : BaseDto
+	{
         public string CarNum { get; set; } //[15] ;		    // Car number
         public string Category { get; set; }	            // Jenis Kenderaan
         public string CarType { get; set; } //[3] ;		    // Car type

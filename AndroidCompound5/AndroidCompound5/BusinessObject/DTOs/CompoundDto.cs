@@ -1,7 +1,9 @@
-﻿namespace AndroidCompound5.BusinessObject.DTOs
+﻿using AndroidCompound5.BusinessObject.BusinessObject.DTOs;
+
+namespace AndroidCompound5.BusinessObject.DTOs
 {
-    public class CompoundDto
-    {
+    public class CompoundDto : BaseDto
+	{
         public CompoundDto()
         {
             Compound1Type = new Compound1Dto();

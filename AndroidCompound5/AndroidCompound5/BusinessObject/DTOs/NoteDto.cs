@@ -1,8 +1,10 @@
 ﻿
+using AndroidCompound5.BusinessObject.BusinessObject.DTOs;
+
 namespace AndroidCompound5.BusinessObject.DTOs
 {
-    public class NoteDto
-    {
+    public class NoteDto : BaseDto
+	{
         public string Deleted { get; set; } //;			// Deletion mark (space/*)
         public string NoteCode { get; set; } //[2] ;		// Note sequence
         public string CompNum { get; set; } //[20] ;		// Dolphin ID + compound number

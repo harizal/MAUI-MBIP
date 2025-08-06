@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AndroidCompound5.BusinessObject.BusinessObject.DTOs;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace AndroidCompound5.BusinessObject.DTOs
 {
-    public class Compound2Dto
-    {
+    public class Compound2Dto : BaseDto
+	{
         public string CarNum { get; set; } //[15] ;		    // Car number
         public string Category { get; set; }	            // Jenis Kenderaan
         public string CarType { get; set; } //[3] ;		    // Car type

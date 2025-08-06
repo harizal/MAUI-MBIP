@@ -1,8 +1,10 @@
 ﻿
+using AndroidCompound5.BusinessObject.BusinessObject.DTOs;
+
 namespace AndroidCompound5.BusinessObject.DTOs
 {
-    public class ConfigAppDto
-    {
+    public class ConfigAppDto : BaseDto
+	{
         public string ServiceUrl { get; set; }
         public string ServiceAppletUrl { get; set; }
         public string ServiceKey { get; set; }

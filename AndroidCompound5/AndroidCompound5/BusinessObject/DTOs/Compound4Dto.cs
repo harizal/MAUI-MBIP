@@ -1,8 +1,10 @@
 ﻿
+using AndroidCompound5.BusinessObject.BusinessObject.DTOs;
+
 namespace AndroidCompound5.BusinessObject.DTOs
 {
-    public class Compound4Dto
-    {
+    public class Compound4Dto : BaseDto
+	{
        
         public string Rujukan { get; set; } //[15] ;		// Rujukan MPS
         public string OffenderIc { get; set; } //[16] ;	    // Offender IC

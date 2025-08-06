@@ -1,11 +1,13 @@
-﻿namespace AndroidCompound5.BusinessObject.DTOs
+﻿using AndroidCompound5.BusinessObject.BusinessObject.DTOs;
+
+namespace AndroidCompound5.BusinessObject.DTOs
 {
     /****************************************************************
     Name of Data Structure : ENFORCER (DH05.FIL)	Date: 06/05/2001
     *****************************************************************/
 
-    public class EnforcerDto
-    {
+    public class EnforcerDto : BaseDto
+	{
         public string EnforcerId { get; set; } //[7] ;		// Enforcer ID
         public string EnforcerName { get; set; } //[60] ;	// Enforcer name
         public string EnforcerIc { get; set; } //[14] ;	    // Enforcer IC

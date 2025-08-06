@@ -5,12 +5,6 @@ VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidCompound5", "AndroidCompound5\AndroidCompound5.csproj", "{AB0D43A9-6BB0-4C07-942B-2E9A5B15D79E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidCompound5.DataAccess", "AndroidCompound5.DataAccess\AndroidCompound5.DataAccess.csproj", "{69F62018-CB31-4803-B98B-A779E14F626C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidCompound5.BusinessObject", "AndroidCompound5.BusinessObject\AndroidCompound5.BusinessObject.csproj", "{7592380B-552F-4D43-8F34-94C98362719B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidCompound5.Utils", "AndroidCompound5.Utils\AndroidCompound5.Utils.csproj", "{5105FC31-352C-4144-827F-41095FAE7852}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,18 +16,6 @@ Global
 		{AB0D43A9-6BB0-4C07-942B-2E9A5B15D79E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{AB0D43A9-6BB0-4C07-942B-2E9A5B15D79E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB0D43A9-6BB0-4C07-942B-2E9A5B15D79E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{69F62018-CB31-4803-B98B-A779E14F626C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{69F62018-CB31-4803-B98B-A779E14F626C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{69F62018-CB31-4803-B98B-A779E14F626C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{69F62018-CB31-4803-B98B-A779E14F626C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7592380B-552F-4D43-8F34-94C98362719B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7592380B-552F-4D43-8F34-94C98362719B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7592380B-552F-4D43-8F34-94C98362719B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7592380B-552F-4D43-8F34-94C98362719B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5105FC31-352C-4144-827F-41095FAE7852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5105FC31-352C-4144-827F-41095FAE7852}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5105FC31-352C-4144-827F-41095FAE7852}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5105FC31-352C-4144-827F-41095FAE7852}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

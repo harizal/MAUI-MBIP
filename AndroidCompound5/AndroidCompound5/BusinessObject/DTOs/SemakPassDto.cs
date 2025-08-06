@@ -1,7 +1,9 @@
+using AndroidCompound5.BusinessObject.BusinessObject.DTOs;
+
 namespace AndroidCompound5.BusinessObject.DTOs
 {
-    public class SemakPassDto
-    {
+    public class SemakPassDto : BaseDto
+	{
         public string SemakNo { get; set; } //[12] ;
         public string Zone { get; set; } //[6] ;
         public string Street { get; set; } //[10] ;

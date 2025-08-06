@@ -1,7 +1,9 @@
-﻿namespace AndroidCompound5.BusinessObject.DTOs
+﻿using AndroidCompound5.BusinessObject.BusinessObject.DTOs;
+
+namespace AndroidCompound5.BusinessObject.DTOs
 {
-    public class CarTypeDto
-    {
+    public class CarTypeDto : BaseDto
+	{
         public string Code { get; set; }//[3] ;			// Car code
         public string CarcategoryCode { get; set; }			// Car type
         public string LongDescCode { get; set; }//[40] ;		// Long description

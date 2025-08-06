@@ -1,8 +1,10 @@
 
+using AndroidCompound5.BusinessObject.BusinessObject.DTOs;
+
 namespace AndroidCompound5.BusinessObject.DTOs
 {
-    public class LogServerDto
-    {
+    public class LogServerDto : BaseDto
+	{
         public string CarNo { get; set; } //[15] ;
         public string Date { get; set; } //[8] ;
         public string Time { get; set; } //[6] ;

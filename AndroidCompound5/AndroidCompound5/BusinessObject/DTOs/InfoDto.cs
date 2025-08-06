@@ -1,7 +1,9 @@
-﻿namespace AndroidCompound5.BusinessObject.DTOs
+﻿using AndroidCompound5.BusinessObject.BusinessObject.DTOs;
+
+namespace AndroidCompound5.BusinessObject.DTOs
 {
-    public class InfoDto
-    {
+    public class InfoDto : BaseDto
+	{
         public string DolphinId { get; set; }//;//[2] ;		// Dolphin ID number
         public string Council { get; set; }//;//[10] ;		// Council name
         public string AssignZone { get; set; }//;//[20] ;	// Zone assigned(max 5)

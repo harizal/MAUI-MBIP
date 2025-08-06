@@ -1,7 +1,9 @@
-﻿namespace AndroidCompound5.BusinessObject.DTOs
+﻿using AndroidCompound5.BusinessObject.BusinessObject.DTOs;
+
+namespace AndroidCompound5.BusinessObject.DTOs
 {
-    public class GpsDto
-    {
+    public class GpsDto : BaseDto
+	{
         public string Issend { get; set; } // 'N' or 'S'
         public string ActivityDate { get; set; } //[8] ;	// Activity Date - yyyymmdd
         public string ActivityTime { get; set; } //[4] ;	// Activity Time -HHMM

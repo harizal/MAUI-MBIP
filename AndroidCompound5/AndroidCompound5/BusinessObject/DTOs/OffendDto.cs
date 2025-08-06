@@ -1,7 +1,9 @@
-﻿namespace AndroidCompound5.BusinessObject.DTOs
+﻿using AndroidCompound5.BusinessObject.BusinessObject.DTOs;
+
+namespace AndroidCompound5.BusinessObject.DTOs
 {
-    public class OffendDto
-    {
+    public class OffendDto : BaseDto
+	{
         public string ActCode { get; set; } //[10] ;		// Act Code
         public string OfdCode { get; set; } //[10] ;		// Offend code
         public string IncomeCode { get; set; } //[8] ;		// Revenue Code

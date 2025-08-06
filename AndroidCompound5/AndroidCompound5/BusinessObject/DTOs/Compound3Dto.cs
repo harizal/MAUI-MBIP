@@ -1,8 +1,10 @@
 ﻿
+using AndroidCompound5.BusinessObject.BusinessObject.DTOs;
+
 namespace AndroidCompound5.BusinessObject.DTOs
 {
-    public class Compound3Dto
-    {
+    public class Compound3Dto : BaseDto
+	{
         public string Rujukan { get; set; } //[15] ;		// Rujukan MPS
         public string Company { get; set; } //[20] ;		// Company number
         public string CompanyName { get; set; } //[60] ;	// Company name
